@@ -2,10 +2,6 @@ import React from 'react';
 import RecipeSummary from './recipe-summary';
 
 class RecipeList extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="list">

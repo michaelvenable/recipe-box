@@ -1,20 +1,29 @@
 import React from 'react';
-import Axios from 'axios';
+import SubmitButton from '../dom/submit-button'
+import TextAreaField from '../dom/text-area-field'
 
 export default class EditRecipeForm extends React.Component {
     constructor(props) {
         super(props);
 
+        if (props.onSubmit === undefined) {
+            throw new Error("onSubmit is required.");
+        }
+
         this.state = {
             name: props.recipe.name,
             ingredients: props.recipe.ingredients,
-            steps: props.recipe.steps
+            steps: props.recipe.steps,
+            onSubmit: props.onSubmit
         };
     }
 
     handleSubmit(e) {
-        // Send this back to the parent component.
-        console.log("Done edit. Recipe is", this.state);
+        this.state.onSubmit({
+            name: this.state.name,
+            ingredients: this.state.ingredients,
+            steps: this.state.steps
+        });
 
         e.preventDefault();
     }
@@ -34,32 +43,28 @@ export default class EditRecipeForm extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit.bind(this)}>
-                <div className="form-group">
-                    <label htmlFor="ingredients">Ingredients:</label>
-                    <textarea id="ingredients"
-                                className="form-control"
-                                value={this.state.ingredients.join('\n')}
-                                onChange={this.handleIngredientsChange.bind(this)}
-                                rows="4"
-                                required="required"></textarea>
-                </div>
+                <TextAreaField
+                    id="ingredients"
+                    label="Ingredients"
+                    onChange={this.handleIngredientsChange.bind(this)}
+                    required="required"
+                    rows="4"
+                    value={this.state.ingredients.join('\n')} />
 
-                <div className="form-group">
-                    <label htmlFor="directions">Directions:</label>
-                    <textarea id="directions"
-                                value={this.state.steps.join('\n')}
-                                onChange={this.handleStepsChange.bind(this)}
-                                className="form-control"
-                                rows="4"
-                                required="required"></textarea>
-                </div>
+                <TextAreaField
+                    id="directions"
+                    label="Directions"
+                    onChange={this.handleStepsChange.bind(this)}
+                    required="required"
+                    rows="4"
+                    value={this.state.steps.join('\n')} />
 
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-2">
                         </div>
                         <div className="col-lg-4 col-md-8">
-                            <button type="submit" className="btn btn-primary btn-submit">Save Changes</button>
+                            <SubmitButton label="Save Changes" />
                         </div>
                         <div className="col-lg-4 col-md-2">
                         </div>

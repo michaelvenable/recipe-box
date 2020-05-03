@@ -1,7 +1,9 @@
 import React from 'react';
 import Axios from 'axios';
 
+import DeleteRecipeForm from '../components/delete-recipe-form';
 import EditRecipeForm from '../components/edit-recipe-form';
+import LoadingIndicator from '../dom/loading-indicator';
 
 export default class EditRecipePage extends React.Component {
     constructor(props) {
@@ -17,14 +19,19 @@ export default class EditRecipePage extends React.Component {
         .then(response => this.setState({ recipe: response.data }))
         .catch(error => console.error(error));
     }
-    handleSubmit(e) {
-        // Axios.put(
-        //     `https://a2j4q04p5g.execute-api.us-east-2.amazonaws.com/prod/recipes/${this.state.name}`,
-        //     this.state
-        // )
-        // .then(response => this.props.history.push('/recipes'))
-        // .catch(error => console.error(error));
+    handleSubmit(recipe) {
+        console.log("Submitted.");
+        Axios.put(
+            `https://a2j4q04p5g.execute-api.us-east-2.amazonaws.com/prod/recipes/${recipe.name}`,
+            recipe
+        )
+        .then(response => this.props.history.push('/recipes'))
+        .catch(error => console.error(error));
+    }
 
+    handleDelete(e) {
+        console.log('The user chose to delete.');
+        // TODO: Write the server logic to delete a recipe.
         e.preventDefault();
     }
 
@@ -37,7 +44,7 @@ export default class EditRecipePage extends React.Component {
                             <div className="col-lg-12">
                                 {
                                     this.state.recipe == null
-                                        ? <p>Loading</p>
+                                        ? <LoadingIndicator />
                                         : <h2>Edit {this.state.recipe.name}</h2>
                                 }
                             </div>
@@ -50,23 +57,11 @@ export default class EditRecipePage extends React.Component {
                             <div className="col-lg-12">
                                 {
                                     this.state.recipe === null
-                                        ? <p>Loading</p>
-                                        : <EditRecipeForm recipe={this.state.recipe} />
+                                        ? <LoadingIndicator />
+                                        : <EditRecipeForm recipe={this.state.recipe} onSubmit={this.handleSubmit.bind(this)} />
                                 }
 
-                                <form style={{ marginTop: "30px" }}>
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-lg-4 col-md-2">
-                                            </div>
-                                            <div className="col-lg-4 col-md-8">
-                                                <button type="submit" className="btn btn-warning btn-submit">Delete Recipe</button>
-                                            </div>
-                                            <div className="col-lg-4 col-md-2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+                                <DeleteRecipeForm onSubmit={this.handleDelete.bind(this)} />
                             </div>
                         </div>
                     </div>

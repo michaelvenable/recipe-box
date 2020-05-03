@@ -5,6 +5,7 @@
 
 # Build files
 /build
+/dist
 server/RecipeBox/obj
 
 # Terraform
