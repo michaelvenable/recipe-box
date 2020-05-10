@@ -68,6 +68,15 @@ module "recipes_put" {
     execution_arn = module.api_gateway.execution_arn
 }
 
+module "recipes_delete" {
+    source = "./modules/recipes-delete"
+
+    role          = aws_iam_role.lambda.arn
+    rest_api_id   = module.api_gateway.rest_api_id
+    resource_id   = module.api_gateway.recipe_resource_id
+    execution_arn = module.api_gateway.execution_arn
+}
+
 module "recipes-cors" {
   source      = "./modules/cors"
   rest_api_id = module.api_gateway.rest_api_id

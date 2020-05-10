@@ -27,7 +27,7 @@ resource "aws_iam_policy_attachment" "this" {
 
 resource "aws_iam_role_policy" "cloudwatch" {
   name = "default"
-  role = "${aws_iam_role.api_gateway_role.id}"
+  role = aws_iam_role.api_gateway_role.id
 
   policy = <<EOF
 {
@@ -52,7 +52,7 @@ EOF
 }
 
 resource "aws_api_gateway_account" "this" {
-  cloudwatch_role_arn = "${aws_iam_role.api_gateway_role.arn}"
+  cloudwatch_role_arn = aws_iam_role.api_gateway_role.arn
 }
 
 resource "aws_api_gateway_rest_api" "this" {
