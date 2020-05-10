@@ -19,6 +19,7 @@ export default class EditRecipePage extends React.Component {
         .then(response => this.setState({ recipe: response.data }))
         .catch(error => console.error(error));
     }
+
     handleSubmit(recipe) {
         console.log("Submitted.");
         Axios.put(
@@ -29,13 +30,28 @@ export default class EditRecipePage extends React.Component {
         .catch(error => console.error(error));
     }
 
-    handleDelete(e) {
+    handleDelete(recipe) {
         console.log('The user chose to delete.');
-        // TODO: Write the server logic to delete a recipe.
-        e.preventDefault();
+
+        Axios.delete(
+            `https://a2j4q04p5g.execute-api.us-east-2.amazonaws.com/prod/recipes/${recipe.name}`
+        )
+        .then(response => this.props.history.push('/recipes'))
+        .catch(error => console.error(error));
     }
 
     render() {
+        var buttons;
+
+        if (this.state.recipe === null) {
+            buttons = <LoadingIndicator />;
+        } else {
+            buttons = 
+                <div>
+                    <EditRecipeForm recipe={this.state.recipe} onSubmit={this.handleSubmit.bind(this)} />
+                    <DeleteRecipeForm recipe={this.state.recipe} onSubmit={this.handleDelete.bind(this)} />
+                </div>;
+        }
         return (
             <div className="submit">
                 <div className="title">
@@ -55,13 +71,7 @@ export default class EditRecipePage extends React.Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                {
-                                    this.state.recipe === null
-                                        ? <LoadingIndicator />
-                                        : <EditRecipeForm recipe={this.state.recipe} onSubmit={this.handleSubmit.bind(this)} />
-                                }
-
-                                <DeleteRecipeForm onSubmit={this.handleDelete.bind(this)} />
+                                {buttons}
                             </div>
                         </div>
                     </div>

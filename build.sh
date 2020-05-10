@@ -4,6 +4,7 @@ mkdir dist
 
 echo "Packaging web service..."
 pushd server/recipes/
+zip ../../dist/recipes-delete.zip delete.js
 zip ../../dist/recipes-get.zip get.js
 zip ../../dist/recipes-index.zip index.js
 zip ../../dist/recipes-post.zip post.js
