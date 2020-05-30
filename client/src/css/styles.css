@@ -522,7 +522,9 @@ body.demo{
 .recipe-detail .ingredient-direction ul.ingredients{
     padding:30px 30px 30px 0;
     list-style:none;
-    background:#f9f9f9
+    background:#f9f9f9;
+    position: sticky;
+    top: 100px;
 }
 .recipe-detail .ingredient-direction ul.ingredients li{
     margin-bottom:10px;

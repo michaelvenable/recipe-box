@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Displays the recipe for the cook while cooking.
+ */
 class Recipe extends React.Component {
     render() {
         return (
