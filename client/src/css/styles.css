@@ -536,6 +536,11 @@ body.demo{
     margin-bottom:30px;
     padding-left:20px
 }
+
+.recipe-detail ol.directions > li.complete {
+    opacity: 0.4;
+}
+
 .recipe-detail ol.directions{
     list-style-type:none;
     margin:15px 0 0 34px;

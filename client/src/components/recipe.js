@@ -4,6 +4,16 @@ import React from 'react';
  * Displays the recipe for the cook while cooking.
  */
 class Recipe extends React.Component {
+    toggleStepCompletion(e) {
+        console.log("Toggle completion of step", e.target);
+
+        if (e.target.classList.contains('complete')) {
+            e.target.classList.remove('complete');
+        } else {
+            e.target.classList.add('complete');
+        }
+    }
+
     render() {
         return (
             <div className="recipe-detail">
@@ -38,7 +48,7 @@ class Recipe extends React.Component {
                                         {
                                             this.props.recipe.steps.map((step, index) => {
                                                 return (
-                                                    <li key={index}>{step}</li>
+                                                    <li key={index} onClick={this.toggleStepCompletion}>{step}</li>
                                                 )
                                             })
                                         }
