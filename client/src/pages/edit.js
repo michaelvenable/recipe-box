@@ -31,7 +31,7 @@ export default class EditRecipePage extends React.Component {
     }
 
     handleDelete(recipe) {
-        console.log('The user chose to delete.');
+        console.log('Deleting a recipe.', recipe);
 
         Axios.delete(
             `https://a2j4q04p5g.execute-api.us-east-2.amazonaws.com/prod/recipes/${recipe.name}`
