@@ -10,6 +10,9 @@ zip ../../dist/recipes-index.zip index.js
 zip ../../dist/recipes-post.zip post.js
 zip ../../dist/recipes-put.zip put.js
 popd
+pushd server/data-access
+zip ../../dist/recipe-repository.zip recipe-repository.js
+popd
 
 echo "Building website..."
 pushd client

@@ -1,5 +1,4 @@
 ./build.sh
-d
 
 echo "Deploying..."
 pushd deployment

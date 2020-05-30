@@ -32,6 +32,10 @@ module "api_gateway" {
     source = "./modules/api-gateway"
 }
 
+module "recipe_repository" {
+    source = "./modules/recipe-repository"
+}
+
 module "recipes_index" {
     source = "./modules/recipes-index"
 
@@ -48,6 +52,7 @@ module "recipes_post" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipes_resource_id
     execution_arn = module.api_gateway.execution_arn
+    layers        = [module.recipe_repository.arn]
 }
 
 module "recipes_get" {
