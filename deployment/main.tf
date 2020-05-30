@@ -43,6 +43,7 @@ module "recipes_index" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipes_resource_id
     execution_arn = module.api_gateway.execution_arn
+    layers        = [module.recipe_repository.arn]
 }
 
 module "recipes_post" {

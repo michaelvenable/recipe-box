@@ -4,6 +4,7 @@ resource "aws_lambda_function" "this" {
     function_name = "recipes-index"
     handler       = "index.handler"
     role          = var.role
+    layers        = var.layers
 
     source_code_hash = filebase64sha256("../dist/recipes-index.zip")
 
