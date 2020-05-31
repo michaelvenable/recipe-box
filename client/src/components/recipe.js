@@ -24,6 +24,8 @@ class Recipe extends React.Component {
                         </div>
 
                         <div className="col-lg-8">
+                            <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+
                             <div className="ingredient-direction">
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
