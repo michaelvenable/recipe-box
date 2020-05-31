@@ -4,6 +4,7 @@ resource "aws_lambda_function" "this" {
     function_name = "recipes-put"
     handler       = "put.handler"
     role          = var.role
+    layers        = var.layers
 
     source_code_hash = filebase64sha256("../dist/recipes-put.zip")
 

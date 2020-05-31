@@ -6,7 +6,7 @@ terraform apply -auto-approve -state ../build-artifacts/terraform/terraform.tfst
 popd
 
 # Copy the website to S3.
-if [ "$1" = "with-client" ]
+if [ "$1" = "--with-client" ]
 then
     aws s3 cp client/build s3://orbital-recipe-box --exclude "*" --include "*.json" --recursive --content-type "application/json"
     aws s3 cp client/build s3://orbital-recipe-box --exclude "*" --include "*.html" --recursive --content-type "text/html"

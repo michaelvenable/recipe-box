@@ -6,6 +6,9 @@ class RecipeSummary extends React.Component {
         return (
             <div className="col-lg-4 col-sm-6">
                 <div className="box grid recipes">
+                    <Link to={`/recipes/${this.props.recipe.name}`}>
+                        <img src={this.props.recipe.imageUrl} alt="{this.props.recipe.name}." />
+                    </Link>
                     <h2><Link to={`/recipes/${this.props.recipe.name}`}>{this.props.recipe.name}</Link></h2>
                 </div>
             </div>

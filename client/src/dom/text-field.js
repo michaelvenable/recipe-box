@@ -1,9 +1,9 @@
 import React from 'react';
 
 /**
- * Displays a TextArea HTML element with label and wrapping in a Bootstrap form-group.
+ * Displays an Input type=text HTML element with label and wrapping in a Bootstrap form-group.
  */
-export default class TextAreaField extends React.Component {
+export default class TextField extends React.Component {
     /**
      * Initializes this. The below fields are required. Any other provided properties will be passed directly
      * to the HTML control.
@@ -28,9 +28,9 @@ export default class TextAreaField extends React.Component {
         return (
             <div className="form-group">
                 <label htmlFor={this.props.id}>{this.props.label}:</label>
-                <textarea className="form-control"
+                <input type="text" className="form-control"
                           {...this.props}
-                ></textarea>
+                />
             </div>
         )
     }

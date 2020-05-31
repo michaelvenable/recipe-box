@@ -32,8 +32,8 @@ module "api_gateway" {
     source = "./modules/api-gateway"
 }
 
-module "recipe_repository" {
-    source = "./modules/recipe-repository"
+module "server_domain" {
+    source = "./modules/server-domain"
 }
 
 module "recipes_index" {
@@ -43,7 +43,7 @@ module "recipes_index" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipes_resource_id
     execution_arn = module.api_gateway.execution_arn
-    layers        = [module.recipe_repository.arn]
+    layers        = [module.server_domain.arn]
 }
 
 module "recipes_post" {
@@ -53,7 +53,7 @@ module "recipes_post" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipes_resource_id
     execution_arn = module.api_gateway.execution_arn
-    layers        = [module.recipe_repository.arn]
+    layers        = [module.server_domain.arn]
 }
 
 module "recipes_get" {
@@ -63,6 +63,7 @@ module "recipes_get" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipe_resource_id
     execution_arn = module.api_gateway.execution_arn
+    layers        = [module.server_domain.arn]
 }
 
 module "recipes_put" {
@@ -72,6 +73,7 @@ module "recipes_put" {
     rest_api_id   = module.api_gateway.rest_api_id
     resource_id   = module.api_gateway.recipe_resource_id
     execution_arn = module.api_gateway.execution_arn
+    layers        = [module.server_domain.arn]
 }
 
 module "recipes_delete" {
@@ -83,19 +85,24 @@ module "recipes_delete" {
     execution_arn = module.api_gateway.execution_arn
 }
 
-module "recipes-cors" {
-  source      = "./modules/cors"
-  rest_api_id = module.api_gateway.rest_api_id
-  resource_id = module.api_gateway.recipes_resource_id
+module "recipes_cors" {
+    source      = "./modules/cors"
+    rest_api_id = module.api_gateway.rest_api_id
+    resource_id = module.api_gateway.recipes_resource_id
 }
 
-module "recipe-cors" {
-  source      = "./modules/cors"
-  rest_api_id = module.api_gateway.rest_api_id
-  resource_id = module.api_gateway.recipe_resource_id
+module "recipe_cors" {
+    source      = "./modules/cors"
+    rest_api_id = module.api_gateway.rest_api_id
+    resource_id = module.api_gateway.recipe_resource_id
 }
 
 module "website" {
     source = "./modules/website"
     bucket = "orbital-recipe-box"
+}
+
+module "recipe_photos" {
+    source = "./modules/recipe-photos"
+    bucket = "orbital-recipe-box-photos"
 }
