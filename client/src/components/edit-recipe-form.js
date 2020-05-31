@@ -1,6 +1,7 @@
 import React from 'react';
 import SubmitButton from '../dom/submit-button'
 import TextAreaField from '../dom/text-area-field'
+import TextField from '../dom/text-field'
 
 export default class EditRecipeForm extends React.Component {
     constructor(props) {
@@ -14,6 +15,7 @@ export default class EditRecipeForm extends React.Component {
             name: props.recipe.name,
             ingredients: props.recipe.ingredients,
             steps: props.recipe.steps,
+            imageUrl: props.recipe.imageUrl,
             onSubmit: props.onSubmit
         };
     }
@@ -22,7 +24,8 @@ export default class EditRecipeForm extends React.Component {
         this.state.onSubmit({
             name: this.state.name,
             ingredients: this.state.ingredients,
-            steps: this.state.steps
+            steps: this.state.steps,
+            imageUrl: this.state.imageUrl
         });
 
         e.preventDefault();
@@ -40,6 +43,12 @@ export default class EditRecipeForm extends React.Component {
         });
     }
 
+    handleImageChange(e) {
+        this.setState({
+            imageUrl: e.target.value
+        });
+    }
+
     render() {
         return (
             <form onSubmit={this.handleSubmit.bind(this)}>
@@ -48,7 +57,7 @@ export default class EditRecipeForm extends React.Component {
                     label="Ingredients"
                     onChange={this.handleIngredientsChange.bind(this)}
                     required="required"
-                    rows="4"
+                    rows="8"
                     value={this.state.ingredients.join('\n')} />
 
                 <TextAreaField
@@ -56,8 +65,14 @@ export default class EditRecipeForm extends React.Component {
                     label="Directions"
                     onChange={this.handleStepsChange.bind(this)}
                     required="required"
-                    rows="4"
+                    rows="15"
                     value={this.state.steps.join('\n')} />
+
+                <TextField
+                    id="image"
+                    label="Image URL"
+                    onChange={this.handleImageChange.bind(this)}
+                    value={this.state.imageUrl} />
 
                 <div className="container">
                     <div className="row">

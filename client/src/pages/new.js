@@ -1,5 +1,6 @@
 import React from 'react';
 import Axios from 'axios';
+import TextField from '../dom/text-field'
 
 export default class NewRecipePage extends React.Component {
     constructor(props) {
@@ -38,6 +39,12 @@ export default class NewRecipePage extends React.Component {
         });
     }
 
+    handleImageChange(e) {
+        this.setState({
+            imageUrl: e.target.value
+        });
+    }
+
     render() {
         return (
             <div className="submit">
@@ -71,7 +78,7 @@ export default class NewRecipePage extends React.Component {
                                                   className="form-control"
                                                   value={this.state.ingredients.join('\n')}
                                                   onChange={this.handleIngredientsChange.bind(this)}
-                                                  rows="4"
+                                                  rows="8"
                                                   required="required"></textarea>
                                     </div>
 
@@ -81,9 +88,15 @@ export default class NewRecipePage extends React.Component {
                                                   value={this.state.steps.join('\n')}
                                                   onChange={this.handleStepsChange.bind(this)}
                                                   className="form-control"
-                                                  rows="4"
+                                                  rows="15"
                                                   required="required"></textarea>
                                     </div>
+
+                                    <TextField
+                                        id="image"
+                                        label="Image URL"
+                                        onChange={this.handleImageChange.bind(this)}
+                                        value={this.state.imageUrl} />
 
                                     <div className="container">
                                         <div className="row">
