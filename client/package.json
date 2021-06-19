@@ -12,8 +12,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npm run build-recipe-file",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "build-recipe-file": "node ../scripts/build-recipe-file.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +32,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }

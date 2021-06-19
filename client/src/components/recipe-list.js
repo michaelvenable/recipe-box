@@ -2,6 +2,7 @@ import React from 'react';
 import RecipeSummary from './recipe-summary';
 
 class RecipeList extends React.Component {
+    // TODO: Replace Bootstrap with CSS Grid.
     render() {
         return (
             <div className="list">

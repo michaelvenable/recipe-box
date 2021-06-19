@@ -12,11 +12,13 @@ class RecipeIndexPage extends React.Component {
         };
     }
 
-    componentDidMount() {
-        // Contact the web service.
-        Axios.get("https://a2j4q04p5g.execute-api.us-east-2.amazonaws.com/prod/recipes")
-        .then(response => this.setState({ recipes: response.data }))
-        .catch(error => console.error(error));
+    async componentDidMount() {
+        // TODO: Load from a RecipeStore service.
+        const recipes = (await Axios.get('data.json')).data;
+
+        this.setState({
+            recipes: recipes
+        });
     }
 
     render() {

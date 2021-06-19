@@ -20,11 +20,11 @@ class Recipe extends React.Component {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-12 text-center">
-                            <h1>{this.props.recipe.name}</h1>
+                            <h1>{this.props.recipe.title}</h1>
                         </div>
 
                         <div className="col-lg-8">
-                            <img src={this.props.recipe.imageUrl} alt={this.props.recipe.name} />
+                            <img src={this.props.recipe.photo} alt={this.props.recipe.title} />
 
                             <div className="ingredient-direction">
                                 <div className="row">
@@ -48,7 +48,7 @@ class Recipe extends React.Component {
                                         <h3>Directions</h3>
                                         <ol className="directions">
                                         {
-                                            this.props.recipe.steps.map((step, index) => {
+                                            this.props.recipe.directions.map((step, index) => {
                                                 return (
                                                     <li key={index} onClick={this.toggleStepCompletion}>{step}</li>
                                                 )

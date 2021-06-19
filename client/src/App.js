@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import EditRecipePage from './pages/edit';
-import NewRecipePage from './pages/new';
 import RecipeIndexPage from './pages/index';
 import ViewRecipePage from './pages/view';
 import Menu from './menu';
@@ -23,9 +21,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={RecipeIndexPage} />
         <Route exact path="/recipes" component={RecipeIndexPage} />
-        <Route path="/recipes/new" component={NewRecipePage} />
-        <Route exact path="/recipes/:name" component={ViewRecipePage} />
-        <Route path="/recipes/:name/edit" component={EditRecipePage} />
+        <Route exact path="/recipes/:title" component={ViewRecipePage} />
       </Switch>
     </Router>
   );

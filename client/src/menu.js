@@ -13,10 +13,6 @@ class Menu extends React.Component {
                             <li className="nav-item">
                                 <Link to="/recipes" className="nav-link">&nbsp;</Link>
                             </li>
-
-                            <li className="nav-item btn-submit-recipe">
-                                <Link to="/recipes/new" className="nav-link"><i className="fa fa-upload" aria-hidden="true"></i>Add a Recipe</Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
