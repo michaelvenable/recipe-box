@@ -2,11 +2,6 @@
 
 CALL build.bat
 
-ECHO Deploying...
-REM PUSHD deployment
-REM terraform apply -auto-approve -state ..\build-artifacts\terraform\terraform.tfstate
-REM POPD
-
 REM Copy the website to S3.
 aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "*.json" --recursive --content-type "application/json"
 aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "*.html" --recursive --content-type "text/html"

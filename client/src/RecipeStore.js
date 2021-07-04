@@ -55,6 +55,8 @@ class RecipeStore {
   }
 
   async all() {
+    console.log('Loading all recipes from the local database.');
+
     if (!this.database.isOpen) {
       await this.database.open();
     }
@@ -71,6 +73,8 @@ class RecipeStore {
 
       request.onsuccess = async (event) => {
         var recipes = event.target.result;
+
+        console.log(`Loaded ${recipes.length} recipes.`);
 
         if (recipes.length === 0) {
           console.log("There are no recipes stored locally. Downloading from server.");
