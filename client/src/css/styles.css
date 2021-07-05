@@ -3,7 +3,6 @@
     Description: Steaks & Chops is a fully responsive, feature rich and beautifully designed Bootstrap 4 Theme for recipes related websites. 
     Version: 1.1
     Author: Excellent Dynamics
-    
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
@@ -12,7 +11,6 @@ body{
     letter-spacing:.5px;
     color:#666;
     background:#fff;
-    padding-top:94px
 }
 body,html{
     height:100%
@@ -20,57 +18,9 @@ body,html{
 body.demo{
     background: #222;
 }
-.navbar{
-    padding-top:0;
-    padding-bottom:0;
-    background-color:#222;
-    box-shadow:0 0 15px rgba(0,0,0,.1)
-}
-.navbar-brand img{
-    max-width: 80px;
-    width: 100%;
-}
-.navbar-dark .navbar-brand{
-    color: #fff;
-    transition: all 0.3s ease;
-}
-.navbar-dark .navbar-brand:hover{
-    color: #f51e09;
-    transition: all 0.3s ease;
-}
-.navbar .navbar-brand{
-    font-weight:700;
-    position:absolute;
-    left:30px;
-    letter-spacing:5px;
-    font-size: 21px;
-}
-.navbar .navbar-brand img{
-    margin-right: 10px;
-}
 .featured h4,.page .title h4,.recipe-detail h4{
     letter-spacing:2px;
     font-weight:700
-}
-.navbar .navbar-brand i{
-    color:#fff
-}
-.navbar .navbar-nav .btn-submit-recipe{
-    position:absolute;
-    right:30px
-}
-.navbar .navbar-nav .btn-submit-recipe a{
-    margin-top:23px;
-    padding:13px 24px 11px;
-    color:#fff;
-    border-radius:3px;
-    background-color:#e13b2b;
-}
-.navbar .navbar-nav .btn-submit-recipe a i{
-    margin-right:5px
-}
-.navbar .navbar-nav .btn-submit-recipe a:hover{
-    color:#222
 }
 .dropdown-item {
     display: block;
@@ -83,28 +33,6 @@ body.demo{
     white-space: nowrap;
     background: 0 0;
     border: 0;
-}
-.navbar .dropdown-item.active,.navbar .dropdown-item:active,.navbar .dropdown-item:focus,.navbar .dropdown-item:hover{
-    text-decoration:none;
-    color:#fff;
-    background-color:#e13b2b
-}
-.navbar-dark .navbar-nav{
-    padding-left: 80px;
-}
-.navbar-dark .navbar-nav .nav-link{
-    font-weight:700;
-    padding:36px 20px 31px;
-    color:#fff;
-    transition: all 0.3s ease;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #f51e09;
-    transition: all 0.3s ease;
-}
-.navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
-    color:#f51e09;
-    border-bottom:3px solid #f51e09;
 }
 
 .dropdown-menu {
@@ -760,65 +688,7 @@ footer .btn:hover{color: #222;font-weight: bold;}
 	outline: none;
 }
 
-@media only screen and (max-width:992px){
-    .navbar{
-        padding:10px 0
-    }
-    .navbar-dark .navbar-nav{
-        padding-left: 0;
-    }
-    .navbar .container-fluid{
-        padding-right:15px;
-        padding-left:15px
-    }
-    .navbar .navbar-brand{
-        position:unset;
-        left:unset
-    }
-    .navbar .justify-content-center{
-        justify-content:space-between!important
-    }
-    .navbar .navbar-nav .btn-submit-recipe{
-        position:unset;
-        right:unset;
-        text-align:center
-    }
-    .navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
-        border-bottom:1px solid #e13b2b
-    }
-    .navbar-dark .navbar-nav .nav-link{
-        padding:15px
-    }
-}
 @media only screen and (max-width:768px){
-    body{
-        padding-top:61px
-    }
-    .navbar{
-        padding:10px 0
-    }
-    .navbar .container-fluid{
-        padding-right:15px;
-        padding-left:15px
-    }
-    .navbar .navbar-brand{
-        position:unset;
-        left:unset
-    }
-    .navbar .justify-content-center{
-        justify-content:space-between!important
-    }
-    .navbar .navbar-nav .btn-submit-recipe{
-        position:unset;
-        right:unset;
-        text-align:center
-    }
-    .navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
-        border-bottom:1px solid #e13b2b
-    }
-    .navbar-dark .navbar-nav .nav-link{
-        padding:15px
-    }
     .top .box{
         margin-bottom:30px
     }
@@ -840,31 +710,6 @@ footer .btn:hover{color: #222;font-weight: bold;}
     }
 }
 @media only screen and (max-width:480px){
-    .navbar{
-        padding:10px 0
-    }
-    .navbar .container-fluid{
-        padding-right:15px;
-        padding-left:15px
-    }
-    .navbar .navbar-brand{
-        position:unset;
-        left:unset
-    }
-    .navbar .justify-content-center{
-        justify-content:space-between!important
-    }
-    .navbar .navbar-nav .btn-submit-recipe{
-        position:unset;
-        right:unset;
-        text-align:center
-    }
-    .navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active{
-        border-bottom:1px solid #e13b2b
-    }
-    .navbar-dark .navbar-nav .nav-link{
-        padding:15px
-    }
     .featured{
         margin-bottom:20px
     }
@@ -882,9 +727,6 @@ footer .btn:hover{color: #222;font-weight: bold;}
     }
     .list .tag a{
         margin-bottom:5px
-    }
-    body{
-        padding-top:60px
     }
     .box.list.recipes img{
         width:60px;
@@ -912,13 +754,6 @@ footer .btn:hover{color: #222;font-weight: bold;}
     .recipe-detail .nutrition-facts div{
         width:50%;
         margin-bottom:10px
-    }
-}
-
-@media only screen and (max-width:420px){
-
-    .navbar-brand span{
-        display: none;
     }
 }
 

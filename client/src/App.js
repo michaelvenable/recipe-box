@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import RecipeIndexPage from './pages/RecipeIndexPage';
 import ViewRecipePage from './pages/ViewRecipePage';
-import Menu from './menu';
+import Header from './Header';
 
 import './css/bootstrap.min.css';
 import './css/styles.css';
@@ -35,7 +35,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Router>
-        <Menu />
+        <Header />
 
         <div className="App">
         </div>
