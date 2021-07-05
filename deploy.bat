@@ -10,3 +10,4 @@ aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "*.css" -
 aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "*.map" --recursive --content-type "application/octet-stream"
 aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "*.txt" --recursive --content-type "text/plain"
 aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "static/media/*" --recursive --content-type "application/octet-stream"
+aws s3 cp client\build s3://orbital-recipe-box --exclude "*" --include "photos/*" --recursive --content-type "application/jpg"
