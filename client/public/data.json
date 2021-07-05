@@ -1316,5 +1316,37 @@
       "Serve with a drizzle of maple syrup and fresh berries."
     ],
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/waffles.jpg"
+  },
+  {
+    "title": "Orange Chicken",
+    "ingredients": [
+      "1 1/2 cups jasmine rice",
+      "2 oranges",
+      "4 scallions",
+      "20 oz chicken cutlets",
+      "164g Tempura Mix",
+      "8 tbsp sweet soy glaze",
+      "2 oz sweet thai chili sauce",
+      "5 tsp rice wine vinegar",
+      "4 tbsp apricot jam",
+      "2 chicken stock concentrate",
+      "1 tbsp cornstarch"
+    ],
+    "directions": [
+      "In a small pot, combine rice, 2 1/4 cups of water, and a pinch of salt. Brint to a boil, then cover and reduce to a low simmer. Cook until tender, 15 - 18 minutes.",
+      "Keep covered off heat until ready to serve.",
+      "Zest orange until you have 2 tsp. Halve oranges. Sweeze juice from both halves into a small bowl.",
+      "Thinly slice scallions.",
+      "Pat chicken dry with paper towels. Dice into 1\" pieces.",
+      "In a large bowl, whick together tempura mix, 2/3 cup of water, and salt until smooth. Add water if mixture is too thick.",
+      "Stir chicken into batter until fully coated.",
+      "To bowl with orange juice, add sweet soy glaze, chili sauce, jam stock concentrate, orange zest, vinegar, 2 tbsp water, 2 tsp cornstarch, and 8 tsp sugar.",
+      "Heat a medium, dry pan over medium-high heat. Pour in orange sauce. Cook until slightly thickened, 3 - 4 minutes. Remove pan from heat.",
+      "Heat a 1/3\" layer of oil in a large, heavy-bottomed pan over medium-high heat. Once oil is hot enough that a drop of batter sizzles when added to the pan, working in batches if necessary, carefully add coated chicken in a single layer. Cook until groden brown on first side, 3- 5 minutes. Using tongs, flip and cook until chicken is golden brown and cooked through, 4 - 5 minutes more.",
+      "Using tongs or a slotted spoon, transfer chicken to a paper-towel-lined plate. Immediately season lightly with salt and pepper.",
+      "Add tempura chicken and half the scallions to pan with sauce. Reheat over medium heat, stirring, until chicken is glazed, 1 - 2 minutes. If sauce is too thick, add a splash of water.",
+      "Fluff rice with a fork. Divide between plates. Top with orange chicken and any remaining sauce from pan. Garnish with remaining scallions and serve."
+    ],
+    "photo": "https://recipes.mikevenable.net/photos/Orange Chicken.jpg"
   }
 ]
