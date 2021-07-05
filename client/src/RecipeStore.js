@@ -122,13 +122,17 @@ class RecipeStore {
     return match;
   }
 
-  removeAll() {
+  async removeAll() {
     console.log('Removing all recipes from database.');
 
+    if (!this.database.isOpen) {
+      await this.database.open();
+    }
+
     return new Promise((resolve, reject) => {
-      const request = 
+      const request =
         this.database
-          .transction('recipes', 'readwrite')
+          .transaction('recipes', 'readwrite')
           .objectStore('recipes')
           .clear();
 
