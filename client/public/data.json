@@ -58,8 +58,7 @@
       "Note: This bread will keep, tightly wrapped and refrigerated, for up to 1 week. Bring to room temperature before slicing."
     ],
     "tags": [
-      "breakfast",
-      "brunch"
+      "breakfast"
     ]
   },
   {
@@ -461,7 +460,10 @@
       "In a large frying pan over medium heat, melt 1 tbsp of the butter. When the butter has foamed and the foam begins to subside, add as many slices of bread as will fit in the pan without overlapping. When the slices are golden brown on the bottom, after about 3 minutes, carefully turn them over and cook until golden brown on the second side, about 2 minutes longer if you like custardy French toast, or about 3 minutes longer if you prefer drier French toast. Transfer the slices to a platter. Melt the remaining 1 tbsp butter and repeat with the remaining bread slices.",
       "Transfer the French toast to individual plates, dust with confectioners' sugar, and serve with maple syrup."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Fried Bananas",
@@ -482,7 +484,10 @@
       "Transfer half of bananas to batter and stir to coat. using tongs or fork and working with 1 piece at a time, remove bananas from batter, allowing excess batter to drip back into bowl, then add to hot oil. Cook until golden brown, about 2 minutes, stirring occasionally and flipping bananas as needed. Adjust burner, if necessary, to maintain oil temperature between 350 and 375 degrees.",
       "Transfer bananas to prepared rack. Return oil to 375 degrees and repeat with remaining bananas and batter. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fried-bananas.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fried-bananas.jpg",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Ginger and Lime-Glazed Corn on the Cob",
@@ -501,6 +506,10 @@
       "Mix and brush the glaze all over the corn.",
       "Grill the corn over direct medium heat, with the lid closed as much as possible. Cook until it is browned in spots and tender, 10 to 15 minutes, turning several times.",
       "Transfer to a platter and baste with the remaining glaze."
+    ],
+    "tags": [
+      "barbecue",
+      "bbq"
     ]
   },
   {
@@ -739,7 +748,8 @@
     ],
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/malasadas.jpg",
     "tags": [
-      "breakfast"
+      "breakfast",
+      "brunch"
     ]
   },
   {
@@ -989,7 +999,10 @@
       "Shape into 1\" balls. Roll in remaining 1/4 cup sugar. Place 2 inches apart on ungreased baking sheet. Bake 10 to 12 minutes or until golden brown.",
       "Top each cookie immediately with an unwrapped chocolate piece, pressing down firmly so that cookie cracks around edge. Remove cookies to wire rack to cool completely."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "dessert"
+    ]
   },
   {
     "title": "Perfect Chocolate Chip Cookies",
@@ -1016,7 +1029,10 @@
       "Bake cookies one tray at a time until cookies are golden brown and still puffy, and edges have begun to set but centers are still soft, 10 to 14 minutes, rotating baking sheet halfway.",
       "Transfer baking sheet to wire rack. Cool cookies completely before serving."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg",
+    "tags": [
+      "dessert"
+    ]
   },
   {
     "title": "Popcorn Chicken",
@@ -1152,7 +1168,10 @@
       "Bake cookies, 1 sheet at a time, until puffed and covered with small cracks (cookies will look raw between cracks and seem underdone; they will deflate and set as they cool), 11 to 13 minutes, rotating sheet halfway through baking.",
       "Let cookies cool on sheet for 5 minutes, then transfer to wire rack and let cool completely. Serve. (Cookies can be stored in airtight container for up to 3 days)."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/snickerdoodles.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/snickerdoodles.jpg",
+    "tags": [
+      "dessert"
+    ]
   },
   {
     "title": "Spaghetti and Meatballs",

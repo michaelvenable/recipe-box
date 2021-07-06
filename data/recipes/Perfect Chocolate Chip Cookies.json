@@ -23,5 +23,8 @@
         "Bake cookies one tray at a time until cookies are golden brown and still puffy, and edges have begun to set but centers are still soft, 10 to 14 minutes, rotating baking sheet halfway.",
         "Transfer baking sheet to wire rack. Cool cookies completely before serving."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg",
+    "tags": [
+        "dessert"
+    ]
 }
