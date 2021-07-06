@@ -12,7 +12,7 @@ class Header extends React.Component {
 
   async handleRefreshRecipesClick() {
     const recipes = new RecipeStore();
-    await recipes.removeAll();
+    await recipes.syncWithServer();
   }
 
   render() {

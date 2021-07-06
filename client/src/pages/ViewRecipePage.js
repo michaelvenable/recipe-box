@@ -9,6 +9,7 @@ class ViewRecipePage extends React.Component {
 
     this.state = {
       title: '',
+      photo: 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png',
       ingredients: [],
       directions: [],
       tags: []

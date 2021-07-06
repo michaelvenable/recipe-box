@@ -31,6 +31,8 @@ class RecipeStore {
   }
 
   async addMany(newRecipes) {
+    console.log(`Adding ${newRecipes.length} recipes.`);
+
     if (!this.database.isOpen) {
       await this.database.open();
     }
@@ -78,15 +80,8 @@ class RecipeStore {
 
         if (recipes.length === 0) {
           console.log("There are no recipes stored locally. Downloading from server.");
-          recipes = (await Axios.get('/data.json')).data;
-
-          // Add a 'tags' property if missing for backwards compatibilty.
-          for (let recipe of recipes) {
-            recipe.tags = recipe.tags || [];
-          }
-
-          console.log(`Adding ${recipes.length} to the local database.`);
-          await this.addMany(recipes);
+          await this.syncWithServer();
+          recipes = await this.all();
         }
 
         resolve(recipes);
@@ -120,11 +115,28 @@ class RecipeStore {
     });
   }
 
+  /**
+   * Finds a recipe by the case-sensitive title. Returns undefined if no recipe matches the title.
+   */
   async findByTitle(title) {
-    console.log(`Searching for recipe "${title}".`);
-    const match = (await this.all()).find(r => r.title === title);
-    console.log('Found:', match);
-    return match;
+    if (!this.database.isOpen) {
+      await this.database.open();
+    }
+
+    return new Promise((resolve, reject) => {
+      const transaction = this.database.transaction('recipes');
+      const store = transaction.objectStore('recipes');
+
+      let request = store.get(title);
+
+      request.onsuccess = event => {
+        resolve(event.target.result);
+      };
+
+      request.onerror = event => {
+        reject(event.target.result);
+      };
+    });
   }
 
   async removeAll() {
@@ -143,6 +155,57 @@ class RecipeStore {
 
       request.onsuccess = () => resolve();
       request.onerror = error => reject(error);
+    });
+  }
+
+  async syncWithServer() {
+    let remoteRecipes = (await Axios.get('/data.json')).data;
+
+    let localRecipes = await this.all();
+
+    // Remove recipes that were deleted from the server.
+    for (let i = 0; i < localRecipes.length; i++) {
+      const localRecipe = localRecipes[i];
+      const remoteRecipe = remoteRecipes.find(r => r.title === localRecipe.title);
+
+      if (remoteRecipe === undefined) {
+        localRecipes.splice(i, 1);
+      }
+    }
+
+    // Update recipes that already exist locally.
+    for (let remoteRecipe of remoteRecipes) {
+      let localRecipe = localRecipes.find(r => r.title === remoteRecipe.title);
+
+      if (localRecipe !== undefined) {
+        Object.assign(localRecipe, remoteRecipe);
+      }
+    }
+
+    // Add new recipes that do not exist locally.
+    for (let remoteRecipe of remoteRecipes) {
+      let localRecipe = localRecipes.find(r => r.title === remoteRecipe.title);
+
+      if (localRecipe === undefined) {
+        localRecipes.push(remoteRecipe);
+      }
+    }
+
+    await this.removeAll();
+    await this.addMany(localRecipes);
+  }
+
+  update(recipe) {
+    console.log('Updating recipe:', recipe);
+
+    return new Promise((resolve, reject) => {
+      const transaction = this.database.transaction('recipes', 'readwrite');
+      const store = transaction.objectStore('recipes');
+
+      let request = store.put(recipe);
+
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject();
     });
   }
 }

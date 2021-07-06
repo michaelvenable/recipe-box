@@ -26,12 +26,12 @@ class Recipe extends React.Component {
             </div>
 
             <div className="col-lg-8">
-              <img class="recipe-photo" src={this.props.recipe.photo} alt={this.props.recipe.title} />
+              <img className="recipe-photo" src={this.props.recipe.photo} alt={this.props.recipe.title} />
 
               <ul className="tags">
               {
                 this.props.recipe.tags.map(tag =>
-                  <li className="tag">{tag}</li>
+                  <li key={tag} className="tag">{tag}</li>
                 )
               }
               </ul>
