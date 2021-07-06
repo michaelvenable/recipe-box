@@ -31,7 +31,10 @@
       "Using spider skimmer, transfer doughnuts to paper towl-lined side of prepared rack and let sit while frying remaining doughnut rounds. Return oil to 350 degrees and repeat with remaining doughnut rounds.",
       "Return oil to 350 degrees and carefully add doughnut holes to hot oil. Cook, stirring often, until deep golden brown, about 2 minutes. Transfer to paper- towel-lined side of wire rack. Lightly toss dougnuts and doughnut holes in coating and transfer to unlined side of wire rack. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/apple-cider-dougnuts.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/apple-cider-dougnuts.jpg",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Banana Nut Bread",
@@ -53,6 +56,10 @@
       "In another bowl, use a wooden spoon to mix together the bananas, buttermilk, eggs, oil, and vanilla. With a rubber spatula, fold the banana mixture into the dry ingredients until just combined and quite chunky. Scoop the batter into the prepared pan.",
       "Bake until the bread is firm and golden brown, and a toothpick inserted into the center comes out clean, about 1 hour. Let cool in the pan for 5 minutes, then turn out onto a rack. Serve warm or a room temperature.",
       "Note: This bread will keep, tightly wrapped and refrigerated, for up to 1 week. Bring to room temperature before slicing."
+    ],
+    "tags": [
+      "breakfast",
+      "brunch"
     ]
   },
   {
@@ -730,7 +737,10 @@
       "Using slotted spoon or spider skimmer, transfer malasadas to prepared wire rack. Return oil to 350 degrees and repeat with remaining dough disks in two batches.",
       "Place remaining 1 cup sugar in large bowl. Lightly toss malasadas, one at a time, in sugar to coat. Transfer to platter. Serve immediately."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/malasadas.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/malasadas.jpg",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Mozz-Stuffed Burgers",
@@ -883,7 +893,10 @@
       "Cook until the second side is golden, then transfer to a platter.",
       "Cook remaining pancakes in the same way, adding butter as needed."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Parmesan-Crusted Chicken",
@@ -950,7 +963,10 @@
       "Lightly sprinkle extra flour evenly over dough to prevent sticking. Using your floured hands, pat dough into even layer and into corners of pan. Using bench scraper sprayed with vegetable oil spray, cut dough into 9 equal squares, but do not separate. Bake until golden brown on top, about 30 minutes.",
       "Let biscuits cool in pan for 5 minutes. Brush tops with softened butter. Let cool for 10 minutes. Pull biscuits apart at cuts and serve warm."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "breakfast"
+    ]
   },
   {
     "title": "Peanut Butter Blossoms",
@@ -1347,6 +1363,9 @@
       "Pour 1/4 cup of the batter into the mini waffle maker and cook until golden brown. Repeat with the remaining batter.",
       "Serve with a drizzle of maple syrup and fresh berries."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/waffles.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/waffles.jpg",
+    "tags": [
+      "breakfast"
+    ]
   }
 ]

@@ -10,7 +10,8 @@ class ViewRecipePage extends React.Component {
     this.state = {
       title: '',
       ingredients: [],
-      directions: []
+      directions: [],
+      tags: []
     };
   }
 

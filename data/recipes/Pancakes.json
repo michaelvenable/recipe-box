@@ -21,5 +21,8 @@
         "Cook until the second side is golden, then transfer to a platter.",
         "Cook remaining pancakes in the same way, adding butter as needed."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+        "breakfast"
+    ]
 }

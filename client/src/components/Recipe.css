@@ -1,0 +1,17 @@
+.recipe-photo {
+  margin: 5px 0;
+}
+
+.tags {
+  padding: 0;
+}
+
+.tag {
+  background: #222;
+  border-radius: 3px;
+  border: 1px solid #222;
+  color: #fff;
+  display: inline-block;
+  margin: 0 3px 6px 0;
+  padding: 10px 20px;
+}

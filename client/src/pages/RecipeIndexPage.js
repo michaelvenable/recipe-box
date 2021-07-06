@@ -33,8 +33,13 @@ class RecipeIndexPage extends React.Component {
    * Filters the recipes on display to only include recipes that contain the search query (case-insensitive) within its title.
    */
   filter(query) {
+    const lowerCaseQuery = query.toLowerCase();
+
     this.setState({
-      recipes: this.allRecipes.filter(r => r.title.toLowerCase().includes(query.toLowerCase()))
+      recipes: this.allRecipes.filter(r =>
+        r.title.toLowerCase().includes(lowerCaseQuery) ||
+        r.tags.some(t => t.includes(lowerCaseQuery))
+      )
     });
   }
 

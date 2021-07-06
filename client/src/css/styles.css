@@ -136,10 +136,6 @@ body.demo{
     background-color:#222;
     font-size: 18px;
 }
-.box.grid.recipes .tag,.box.grid.recipes h2,.box.grid.recipes p{
-    padding-right:15px;
-    padding-left:15px
-}
 .box.grid.recipes h2{
     font-size:1.3rem;
     font-weight:700;
@@ -151,22 +147,6 @@ body.demo{
 .box.grid.recipes img{
     width: 100%;
     margin-bottom:30px
-}
-.box.grid.recipes .tag a{
-    display:inline-block;
-    padding:10px 20px;
-    color:#fff;
-    border:1px solid #222;
-    border-radius:3px;
-    background:#222;
-    transition: all 0.3s ease;
-    margin: 0 3px 6px 0;
-}
-.box.grid.recipes .tag a:hover{
-    text-decoration:none;
-    background-color:#f8f8f8;
-    color:#222;
-    transition: all 0.3s ease;
 }
 .box.list.recipes{
     margin-top:0;
@@ -194,27 +174,6 @@ body.demo{
     font-weight:700;
     color:#333
 }
-.box.list.recipes .tag,.box.list.recipes p{
-    padding-left:140px
-}
-
-.box.list.recipes .tag a{
-    display:inline-block;
-    padding:10px 20px;
-    color:#fff;
-    border:1px solid #222;
-    border-radius:3px;
-    background:#222;
-    transition: all 0.3s ease;
-    margin: 0 3px 6px 0;
-}
-.box.list.recipes .tag a:hover{
-    text-decoration:none;
-    background-color:#f8f8f8;
-    color:#222;
-    transition: all 0.3s ease;
-}
-
 
 .box.list.recipes .by{
     margin-bottom:20px;
@@ -404,24 +363,6 @@ body.demo{
 }
 .recipe-detail img{
     width:100%
-}
-
-
-.recipe-detail .tag a{
-    display:inline-block;
-    padding:10px 20px;
-    color:#fff;
-    border:1px solid #222;
-    border-radius:3px;
-    background:#222;
-    transition: all 0.3s ease;
-    margin: 0 3px 6px 0;
-}
-.recipe-detail .tag a:hover{
-    text-decoration:none;
-    background-color:#f8f8f8;
-    color:#222;
-    transition: all 0.3s ease;
 }
 
 
@@ -705,9 +646,6 @@ footer .btn:hover{color: #222;font-weight: bold;}
         border-radius:3px;
         width:100%
     }
-    .box.grid.recipes .tag a{
-        margin-bottom:5px
-    }
 }
 @media only screen and (max-width:480px){
     .featured{
@@ -725,16 +663,9 @@ footer .btn:hover{color: #222;font-weight: bold;}
     .list{
         margin-top:40px
     }
-    .list .tag a{
-        margin-bottom:5px
-    }
     .box.list.recipes img{
         width:60px;
         height:60px
-    }
-    .box.list.recipes .tag,.box.list.recipes h2,.box.list.recipes p{
-        padding-left:100px;
-        padding-right:15px
     }
     .submit .content input{
         width:100%

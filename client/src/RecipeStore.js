@@ -80,6 +80,11 @@ class RecipeStore {
           console.log("There are no recipes stored locally. Downloading from server.");
           recipes = (await Axios.get('/data.json')).data;
 
+          // Add a 'tags' property if missing for backwards compatibilty.
+          for (let recipe of recipes) {
+            recipe.tags = recipe.tags || [];
+          }
+
           console.log(`Adding ${recipes.length} to the local database.`);
           await this.addMany(recipes);
         }

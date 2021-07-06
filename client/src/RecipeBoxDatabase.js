@@ -49,7 +49,7 @@ class RecipeBoxDatabase {
   }
 
   get version() {
-      return 1;
+    return 1;
   }
 }
 
