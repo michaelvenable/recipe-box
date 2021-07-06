@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import RecipeIndexPage from './pages/RecipeIndexPage';
-import ViewRecipePage from './pages/ViewRecipePage';
+import Recipe from './components/Recipe';
 import Header from './Header';
 
 import './css/bootstrap.min.css';
@@ -43,7 +43,7 @@ export default class App extends React.Component {
         <Switch>
           <Route exact path="/" component={RecipeIndexPage} />
           <Route exact path="/recipes" component={RecipeIndexPage} />
-          <Route path="/recipes/:title" component={ViewRecipePage} />
+          <Route path="/recipes/:title" component={Recipe} />
         </Switch>
       </Router>
     );

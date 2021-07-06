@@ -195,8 +195,12 @@ class RecipeStore {
     await this.addMany(localRecipes);
   }
 
-  update(recipe) {
+  async update(recipe) {
     console.log('Updating recipe:', recipe);
+
+    if (!this.database.isOpen) {
+      await this.database.open();
+    }
 
     return new Promise((resolve, reject) => {
       const transaction = this.database.transaction('recipes', 'readwrite');

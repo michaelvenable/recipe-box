@@ -1,11 +1,46 @@
 import React from 'react';
 
+import RecipeStore from '../RecipeStore';
 import './Recipe.css';
 
-/**
- * Displays the recipe for the cook while cooking.
- */
 class Recipe extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      title: '',
+      photo: 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png',
+      ingredients: [],
+      directions: [],
+      tags: [],
+      history: []
+    };
+
+    this.handleICookedThisToday = this.handleICookedThisToday.bind(this);
+    this.toggleStepCompletion = this.toggleStepCompletion.bind(this);
+  }
+
+  async componentDidMount() {
+    const recipes = new RecipeStore();
+    const currentRecipe = await recipes.findByTitle(this.props.match.params.title);
+
+    if (currentRecipe !== undefined) {
+      this.setState(currentRecipe);
+    }
+  }
+
+  async handleICookedThisToday() {
+    this.setState(
+      (state) => ({
+        history: [...state.history, new Date()]
+      }),
+      async () => {
+        const recipes = new RecipeStore();
+        await recipes.update(this.state);
+      }
+    );
+  }
+
   toggleStepCompletion(e) {
     console.log("Toggle completion of step", e.target);
 
@@ -18,59 +53,61 @@ class Recipe extends React.Component {
 
   render() {
     return (
-      <div className="recipe-detail">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-12 text-center">
-              <h1>{this.props.recipe.title}</h1>
-            </div>
+      <div className="recipe">
+        <section className="recipe-title">
+          <h1>{this.state.title}</h1>
+        </section>
 
-            <div className="col-lg-8">
-              <img className="recipe-photo" src={this.props.recipe.photo} alt={this.props.recipe.title} />
+        <section className="recipe-actions">
+          <ul>
+            <li>
+              <input type="button" value="I Cooked This Today" onClick={this.handleICookedThisToday} />
+            </li>
+          </ul>
+        </section>
 
-              <ul className="tags">
-              {
-                this.props.recipe.tags.map(tag =>
-                  <li key={tag} className="tag">{tag}</li>
-                )
-              }
-              </ul>
+        <section className="recipe-photo">
+          <img src={this.state.photo} alt={this.state.title} />
+        </section>
 
-              <div className="ingredient-direction">
-                <div className="row">
-                  <div className="col-lg-6 col-sm-6">
-                    <h3>Ingredients</h3>
+        <section className="recipe-tags">
+          <ul>
+          {
+            this.state.tags.map(tag =>
+              <li key={tag}>{tag}</li>
+            )
+          }
+          </ul>
+        </section>
 
-                    <ul className="ingredients">
-                    {
-                      this.props.recipe.ingredients.map((ingredient, index) => {
-                        return (
-                          <li key={index}>
-                            {ingredient}
-                          </li>
-                        )
-                      })
-                    }
-                    </ul>
-                  </div>
+        <section className="recipe-ingredients">
+          <h3>Ingredients</h3>
 
-                  <div className="col-lg-6 col-sm-6">
-                    <h3>Directions</h3>
-                    <ol className="directions">
-                    {
-                      this.props.recipe.directions.map((step, index) => {
-                        return (
-                          <li key={index} onClick={this.toggleStepCompletion}>{step}</li>
-                        )
-                      })
-                    }
-                    </ol>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <ul>
+          {
+            this.state.ingredients.map((ingredient, index) => {
+              return (
+                <li key={index}>
+                  {ingredient}
+                </li>
+              )
+            })
+          }
+          </ul>
+        </section>
+
+        <section className="recipe-directions">
+          <h3>Directions</h3>
+          <ol>
+          {
+            this.state.directions.map((step, index) => {
+              return (
+                <li key={index} onClick={this.toggleStepCompletion}>{step}</li>
+              )
+            })
+          }
+          </ol>
+        </section>
       </div>
     )
   }
