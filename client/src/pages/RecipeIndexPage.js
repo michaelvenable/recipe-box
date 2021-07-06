@@ -3,6 +3,10 @@ import React from 'react';
 import RecipeList from '../components/recipe-list';
 import RecipeStore from '../RecipeStore';
 
+// TODO: Dipslay the time since each meal was last cooked.
+// TODO: Add a section called suggestions. It will show three meals that haven't been cooked in a while.
+// TODO: Add a button to show more suggestions.
+
 /**
  * Displays a listing of all recipes. Allows the user to select a recipe to view in detail.
  */
@@ -38,7 +42,7 @@ class RecipeIndexPage extends React.Component {
     this.setState({
       recipes: this.allRecipes.filter(r =>
         r.title.toLowerCase().includes(lowerCaseQuery) ||
-        r.tags.some(t => t.includes(lowerCaseQuery))
+        (r.tags || []).some(t => t.includes(lowerCaseQuery))
       )
     });
   }

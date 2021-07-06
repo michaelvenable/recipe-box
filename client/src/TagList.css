@@ -1,0 +1,9 @@
+.tags {
+  padding: 0;
+  margin: 0;
+}
+
+.tags li {
+  color: #fff;
+  display: inline-block;
+}
