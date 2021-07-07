@@ -1,7 +1,8 @@
 import React from 'react';
 
-import RecipeStore from '../RecipeStore';
 import './Recipe.css';
+import RecipeStore from '../RecipeStore';
+import TagList from '../TagList';
 
 class Recipe extends React.Component {
   constructor(props) {
@@ -71,13 +72,7 @@ class Recipe extends React.Component {
         </section>
 
         <section className="recipe-tags">
-          <ul>
-          {
-            this.state.tags.map(tag =>
-              <li key={tag}>{tag}</li>
-            )
-          }
-          </ul>
+          <TagList tags={this.state.tags} />
         </section>
 
         <section className="recipe-ingredients">

@@ -57,6 +57,7 @@
 
 .recipe-tags {
   grid-area: tags;
+  margin-bottom: 30px;
 }
 
 .recipe-ingredients {
