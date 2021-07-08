@@ -3,6 +3,7 @@ import React from 'react';
 import './Recipe.css';
 import RecipeStore from '../RecipeStore';
 import TagList from '../TagList';
+import WishlistStore from '../WishlistStore';
 
 class Recipe extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class Recipe extends React.Component {
     };
 
     this.handleICookedThisToday = this.handleICookedThisToday.bind(this);
+    this.handleIWantToCookThis = this.handleIWantToCookThis.bind(this);
     this.toggleStepCompletion = this.toggleStepCompletion.bind(this);
   }
 
@@ -42,6 +44,11 @@ class Recipe extends React.Component {
     );
   }
 
+  async handleIWantToCookThis() {
+    const store = new WishlistStore();
+    await store.add(this.state);
+  }
+
   toggleStepCompletion(e) {
     console.log("Toggle completion of step", e.target);
 
@@ -60,9 +67,13 @@ class Recipe extends React.Component {
         </section>
 
         <section className="recipe-actions">
+          <h2>Things you can do with this recipe...</h2>
           <ul>
             <li>
-              <input type="button" value="I Cooked This Today" onClick={this.handleICookedThisToday} />
+              <input type="button" value="I cooked this today" onClick={this.handleICookedThisToday} />
+            </li>
+            <li>
+              <input type="button" value="I want to cook this" onClick={this.handleIWantToCookThis} />
             </li>
           </ul>
         </section>

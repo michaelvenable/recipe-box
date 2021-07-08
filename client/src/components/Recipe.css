@@ -6,14 +6,20 @@
 
   display: grid;
   grid-template-areas:
-    "title       title      actions"
-    "photo       photo      photo"
-    "tags        tags       tags"
-    "ingredients directions directions";
+    "title       title"
+    "photo       photo"
+    "tags        tags"
+    "actions     actions"
+    "ingredients directions";
 
   grid-template-columns: 1fr 1fr min-content;
 
   gap: 10px;
+}
+
+.recipe h2 {
+  font-size:1.2rem;
+  font-weight:700;
 }
 
 .recipe-title {
@@ -24,15 +30,21 @@
 
 .recipe-actions {
   grid-area: actions;
+  border-top: 1px dashed #666;
+  border-bottom: 1px dashed #666;
+  padding: 12px 0;
 }
 
 .recipe-actions ul {
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .recipe-actions li {
   list-style-type: none;
+  margin: 5px;
 }
 
 .recipe-actions input[type=button] {

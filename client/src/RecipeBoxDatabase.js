@@ -30,12 +30,23 @@ class RecipeBoxDatabase {
         console.log(`Upgrading database to version ${this.version}.`);
         const db = event.target.result;
 
-        db.createObjectStore(
-          'recipes',
-          {
-            keyPath: 'title'
-          }
-        );
+        if (!db.objectStoreNames.contains('recipes')) {
+          db.createObjectStore(
+            'recipes',
+            {
+              keyPath: 'title'
+            }
+          );
+        }
+
+        if (!db.objectStoreNames.contains('wishlist')) {
+          db.createObjectStore(
+            'wishlist',
+            {
+              keyPath: 'title'
+            }
+          );
+        }
       };
     });
   }
@@ -49,7 +60,7 @@ class RecipeBoxDatabase {
   }
 
   get version() {
-    return 1;
+    return 2;
   }
 }
 
