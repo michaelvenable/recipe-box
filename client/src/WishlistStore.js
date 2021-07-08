@@ -26,6 +26,28 @@ export default class WishlistStore {
   }
 
   async all() {
+    console.log('Loading wishlist from the local database.');
+
+    if (!this.database.isOpen) {
+      await this.database.open();
+    }
+
+    return new Promise((resolve, reject) => {
+      const transaction = this.database.transaction('wishlist');
+
+      transaction.onerror = function (event) {
+        reject(event.target.error);
+      }
+
+      const store = transaction.objectStore('wishlist');
+      const request = store.getAll();
+
+      request.onsuccess = async (event) => {
+        var recipes = event.target.result;
+        console.log(`Loaded ${recipes.length} recipes from the wishlist.`);
+        resolve(recipes);
+      }
+    });
   }
 
   async remove(recipe) {

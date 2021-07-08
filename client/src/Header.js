@@ -22,6 +22,11 @@ class Header extends React.Component {
           <Link to="/recipes" className="header-app-title">Recipe Box</Link>
         </section>
 
+        <section className="header-middle-section">
+          <Link to="/recipes">Recipes</Link>
+          <Link to="/wishlist">Wish List</Link>
+        </section>
+
         <section className="header-right-section">
           <Link className="header-icon" to="/" onClick={this.handleRefreshRecipesClick} title="Download latest recipes">
             <i className="fa fa-rotate-right"></i>

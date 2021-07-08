@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import RecipeIndexPage from './pages/RecipeIndexPage';
-import Recipe from './components/Recipe';
 import Header from './Header';
+import Recipe from './components/Recipe';
+import RecipeIndexPage from './pages/RecipeIndexPage';
+import Wishlist from './Wishlist';
 
 import './css/bootstrap.min.css';
 import './css/styles.css';
@@ -43,6 +44,7 @@ export default class App extends React.Component {
         <Switch>
           <Route exact path="/" component={RecipeIndexPage} />
           <Route exact path="/recipes" component={RecipeIndexPage} />
+          <Route exact path="/wishlist" component={Wishlist} />
           <Route path="/recipes/:title" component={Recipe} />
         </Switch>
       </Router>

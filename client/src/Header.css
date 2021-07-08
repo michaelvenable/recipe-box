@@ -4,8 +4,8 @@
 
   display: grid;
   grid-template-areas:
-    "left right";
-  grid-template-columns: 1fr 1fr;
+    "left middle right";
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header,
@@ -17,6 +17,14 @@
   grid-area: left;
   align-self: center;
   justify-self: left;
+}
+
+.header-middle-section {
+  grid-area: middle;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  gap: 25px;
 }
 
 .header-right-section {
