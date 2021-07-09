@@ -1,0 +1,52 @@
+.suggestions {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.suggestion-list {
+  display: flex;
+  gap: 30px;
+}
+
+.suggestion {
+  width: 375px;
+  border: 1px solid #bbb;
+  padding: 20px;
+
+  display: grid;
+  grid-template-areas:
+    "photo title"
+    "photo description";
+  gap: 10px;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: fit-content(50px) 1fr;
+}
+
+.suggestion-photo {
+  grid-area: photo;
+}
+
+.suggestion-photo img {
+  width: 100px;
+}
+
+.suggestion-title {
+  grid-area: title;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.suggestion-description {
+  grid-area: description;
+}
+
+.suggestion-description p {
+  font-size: 0.9rem;
+  margin: 0;
+}

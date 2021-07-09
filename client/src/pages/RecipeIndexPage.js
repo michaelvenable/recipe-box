@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import RecipeList from '../components/recipe-list';
 import RecipeStore from '../RecipeStore';
 
-// TODO: Dipslay the time since each meal was last cooked.
-// TODO: Add a section called suggestions. It will show three meals that haven't been cooked in a while.
+import './RecipeIndexPage.css';
+
 // TODO: Add a button to show more suggestions.
 
 /**
@@ -19,7 +20,8 @@ class RecipeIndexPage extends React.Component {
     this.allRecipes = [];
 
     this.state = {
-      recipes: []
+      recipes: [],
+      suggestions: []
     };
   }
 
@@ -29,8 +31,29 @@ class RecipeIndexPage extends React.Component {
     this.allRecipes = await recipes.all();
 
     this.setState({
-      recipes: this.allRecipes
+      recipes: this.allRecipes,
+      suggestions: this.getSuggestions(this.allRecipes)
     });
+  }
+
+  getSuggestions(recipes, numSuggestions = 3) {
+    return Array.from(recipes)
+                .sort((first, second) => {
+                  if (first.history === undefined || first.history.length === 0) {
+                    return second;
+                  }
+
+                  if (second.history === undefined || second.history.length === 0) {
+                    return first;
+                  }
+
+                  return first.history[first.history.length - 1] < second.history[second.history.length - 1];
+                })
+                .slice(0, 9)
+                .map(recipe => ({ sortKey: Math.random(), value: recipe }))
+                .sort((first, second) => first.sortKey - second.sortKey)
+                .map(pair => pair.value)
+                .slice(0, numSuggestions);
   }
 
   /**
@@ -39,11 +62,15 @@ class RecipeIndexPage extends React.Component {
   filter(query) {
     const lowerCaseQuery = query.toLowerCase();
 
-    this.setState({
-      recipes: this.allRecipes.filter(r =>
+    const filteredRecipes =
+      this.allRecipes.filter(r =>
         r.title.toLowerCase().includes(lowerCaseQuery) ||
         (r.tags || []).some(t => t.includes(lowerCaseQuery))
-      )
+      );
+
+    this.setState({
+      recipes: filteredRecipes,
+      suggestions: this.getSuggestions(filteredRecipes)
     });
   }
 
@@ -54,6 +81,32 @@ class RecipeIndexPage extends React.Component {
       clearTimeout(timer);
       timer = setTimeout(() => func.apply(this, args), timeout)
     };
+  }
+
+  timeSince(date) {
+    const now = new Date();
+
+    if (date.getFullYear() === now.getFullYear() &&
+        date.getMonth() === now.getMonth() &&
+        date.getDate() === now.getDate()) {
+      return 'earlier today';
+    }
+
+    const daysSince = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+
+    if (daysSince < 14) {
+      return `${daysSince} ${daysSince === 1 ? 'day' : 'days'} ago`;
+    }
+
+    if (daysSince < 30) {
+      return `${Math.ceil(daysSince / 7)} weeks ago`;
+    }
+
+    if (daysSince < 120) {
+      return `${Math.ceil(daysSince / 30)} months ago`;
+    }
+
+    return 'over 4 months ago'
   }
 
   render() {
@@ -71,6 +124,28 @@ class RecipeIndexPage extends React.Component {
             </div>
           </div>
         </div>
+
+        <section className="list suggestions">
+          <h5><i className="fa fa-cutlery"></i> Suggestions</h5>
+          <div className="suggestion-list">
+          {
+            this.state.suggestions.map((recipe, index) =>
+              <div key={index} className="suggestion">
+                <Link to={`/recipes/${recipe.title}`} className="suggestion-photo">
+                  <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'} />
+                </Link>
+                <Link to={`/recipes/${recipe.title}`} className="suggestion-title">{recipe.title}</Link>
+                <div className="suggestion-description">
+                  { (recipe.history === undefined || recipe.history.length === 0)
+                    ? <p>You've never cooked this.</p>
+                    : <p>You cooked this {this.timeSince(recipe.history[recipe.history.length - 1])}.</p>
+                  }
+                </div>
+              </div>
+            )
+          }
+          </div>
+        </section>
 
         <RecipeList recipes={this.state.recipes}></RecipeList>
       </div>
