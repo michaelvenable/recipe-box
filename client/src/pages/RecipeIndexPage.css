@@ -6,11 +6,12 @@
 
 .suggestion-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .suggestion {
-  width: 375px;
+  width: 346px;
   border: 1px solid #bbb;
   padding: 20px;
 
