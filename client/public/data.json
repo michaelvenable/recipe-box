@@ -180,6 +180,34 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg"
   },
   {
+    "title": "Chicago Thin-Crust Pizza Dough",
+    "ingredients": [
+      "2 1/2 cups all-purpose flour",
+      "2 tsp sugar",
+      "1 1/2 tsp instant or rapid-rise yeast",
+      "1 tsp salt",
+      "3/4 cup plus 2 tbsp cold water",
+      "2 tbsp extra-virgin olive oil",
+      "Cornmeal"
+    ],
+    "directions": [
+      "Process flour, sugar, yeast, and salt in a food processor until combined, about 3 seconds.",
+      "With processor running, slowly add cold water and oil and process until dough forms a sticky ball that clears the sides of bowl, 30 to 60 seconds.",
+      "Transfer the dough to a lightly oiled counter and knead until smooth, about 1 minute.",
+      "Shape dough into a tight ball and place in a greased bowl. Cover the bowl with plastic wrap and let dough rise at room temperature until almost doubled in size, 2 to 2 1/2 hours.",
+      "One hour before baking, adjust oven rack to lowest position, set baking stone on rack, and heat oven to 500 degrees.",
+      "Transfer dough to a lightly floured counter, divide in half, and gently shape each half into a ball. Return 1 dough ball to the bowl and cover with plastic.",
+      "Coat the remaining dough ball lightly with flour and gently flatten into an 8\" disk using your fingertips. Using a rolling pin, roll dough into a 12\" circle, dusting lightly with flour as needed. (If dough springs back during rollling, let rest for 10 minutes before rolling again.",
+      "Sprinkle pizza peel with cornmeal. Transfer dough to prepared pizza peel and carefully stretch to return to 12\" circle.",
+      "Add pizza sauce and toppings.",
+      "Slide pizza onto baking stone and bake until cheese is well browned and edges of pizza are crisp and dark, 10 to 14 minutes."
+    ],
+    "photo": "https://recipes.mikevenable.net/photos/chicago-thin-crust-pizza-dough.jpg",
+    "tags": [
+      "main dish"
+    ]
+  },
+  {
     "title": "Chicken and Sausage Gumbo",
     "ingredients": [
       "1 (5-lb) stewing chicken, preferably a hen",
