@@ -45,7 +45,7 @@ class RecipeSummary extends React.Component {
             : <p>You cooked this {this.timeSince(this.props.recipe.history[this.props.recipe.history.length - 1])}.</p>
           }
 
-          <section class="recipe-tags">
+          <section className="recipe-tags">
             <TagList tags={this.props.recipe.tags || []} />
           </section>
         </div>
