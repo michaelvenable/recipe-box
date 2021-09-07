@@ -51,8 +51,20 @@ export default class WishlistStore {
   }
 
   async remove(recipe) {
-  }
+    console.log('Removing a recipe from the wishlist.');
 
-  async removeAll() {
+    if (!this.database.isOpen) {
+      await this.database.open();
+    }
+
+    return new Promise((resolve, reject) => {
+      const request = this.database
+        .transaction('wishlist', 'readwrite')
+        .objectStore('wishlist')
+        .delete(recipe.title);
+
+      request.onsuccess = resolve;
+      request.onerror = reject;
+    });
   }
 }

@@ -56,8 +56,23 @@ class RecipeStore {
     });
   }
 
+  /**
+   * Retrieves all recipes from the store, first by loading recipes from Local Storage. If no recipes are found in
+   * Local Storage, then recipes are loaded from the server and saved in Local Storage.
+   */
   async all() {
-    console.log('Loading all recipes from the local database.');
+      let recipes = await this.loadAllFromLocalStorage();
+
+      if (recipes.length === 0) {
+        console.log("There are no recipes in Local Storage. Downloading from server.");
+        recipes = await this.syncWithServer();
+      }
+
+      return recipes;
+  }
+
+  async loadAllFromLocalStorage() {
+    console.log('Loading all recipes from Local Storage.');
 
     if (!this.database.isOpen) {
       await this.database.open();
@@ -75,44 +90,14 @@ class RecipeStore {
 
       request.onsuccess = async (event) => {
         var recipes = event.target.result;
-
         console.log(`Loaded ${recipes.length} recipes.`);
-
-        if (recipes.length === 0) {
-          console.log("There are no recipes stored locally. Downloading from server.");
-          await this.syncWithServer();
-          recipes = await this.all();
-        }
-
         resolve(recipes);
       }
     });
   }
 
   async count() {
-    if (!this.database.isOpen) {
-      await this.database.open();
-    }
-
-    return new Promise((resolve, reject) => {
-      const transaction = this.database.transaction('recipes');
-
-      transaction.onerror = function (event) {
-        reject(event.target.error);
-      }
-
-      const recipes = transaction.objectStore('recipes');
-
-      const count = recipes.count();
-
-      count.onerror = function (event) {
-        reject(event.target.error);
-      }
-
-      count.onsuccess = function (event) {
-        resolve(event.target.result);
-      }
-    });
+    return (await this.loadAllFromLocalStorage()).count;
   }
 
   /**
@@ -158,10 +143,17 @@ class RecipeStore {
     });
   }
 
+  /**
+   * Updates the recipes in Local Storage with any changes found on the server. This sync method avoids completely
+   * overwriting the local recipe, since that would mean losing any local changes, like the user's meal history.
+   *
+   * @returns {Recipe[]}    The complete list of new recipes.
+   */
   async syncWithServer() {
+    console.log('Syncing recipes with server...');
     let remoteRecipes = (await Axios.get('/data.json')).data;
 
-    let localRecipes = await this.all();
+    let localRecipes = await this.loadAllFromLocalStorage();
 
     // Remove recipes that were deleted from the server.
     for (let i = 0; i < localRecipes.length; i++) {
@@ -193,6 +185,8 @@ class RecipeStore {
 
     await this.removeAll();
     await this.addMany(localRecipes);
+
+    return localRecipes;
   }
 
   async update(recipe) {

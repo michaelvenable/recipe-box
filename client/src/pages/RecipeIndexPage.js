@@ -139,7 +139,7 @@ class RecipeIndexPage extends React.Component {
             this.state.suggestions.map((recipe, index) =>
               <div key={index} className="suggestion">
                 <Link to={`/recipes/${recipe.title}`} className="suggestion-photo">
-                  <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'} />
+                  <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'} alt="Finished Product" />
                 </Link>
                 <Link to={`/recipes/${recipe.title}`} className="suggestion-title">{recipe.title}</Link>
                 <div className="suggestion-description">

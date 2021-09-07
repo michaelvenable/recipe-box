@@ -16,6 +16,8 @@ export default class Wishlist extends React.Component {
     this.state = {
       wishlist: []
     };
+
+    this.handleRemoveRecipe = this.handleRemoveRecipe.bind(this);
   }
 
   async componentDidMount() {
@@ -26,6 +28,21 @@ export default class Wishlist extends React.Component {
     });
   }
 
+  /**
+   * Removes a recipe from the user's wish list.
+   */
+  async handleRemoveRecipe(recipe) {
+    const wishlist = new WishlistStore();
+
+    // Remove from Local Storage.
+    await wishlist.remove(recipe);
+
+    // Remove from on-screen list.
+    this.setState(prevState => ({
+      wishlist: prevState.wishlist.filter(r => r !== recipe)
+    }));
+  }
+
   render() {
     return (
       <div className="wishlist">
@@ -34,7 +51,7 @@ export default class Wishlist extends React.Component {
         <ul>
         {
           this.state.wishlist.map(recipe =>
-            <li>
+            <li key={recipe.title}>
               <article className="wishlist-item">
                 <Link className="wishlist-item-photo" to={`/recipes/${recipe.title}`}>
                   <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'}
@@ -47,6 +64,10 @@ export default class Wishlist extends React.Component {
 
                 <div className="wishlist-item-tags">
                   <TagList tags={recipe.tags || []} />
+                </div>
+
+                <div className="wishlist-item-actions">
+                  <input type="button" value="Remove" onClick={() => this.handleRemoveRecipe(recipe)}/>
                 </div>
               </article>
             </li>
