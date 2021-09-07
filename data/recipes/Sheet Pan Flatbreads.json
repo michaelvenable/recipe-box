@@ -1,31 +1,31 @@
 {
-    "title": "Sheet Pan Flatbreads",
-    "ingredients": [
-    	"desired toppings (italian sausage, pepperoni, onion, bell pepper, etc.",
-        "2 flatbreads",
-        "1.5oz tomato paste",
-        "1/2 cup mozzerella cheese",
-        "1 tbsp italian seasoning"
-        "2 tbsp butter",
-        "1 tsp olive oil",
-        "1/2 tsp sugar",
-        "kosher salt",
-        "black pepper"
-    ],
-    "directions": [
-    	"Adjust rack to top position and preheat oven to 450 degrees.",
-    	"Prepare and cook selected toppings as needed.",
-    	"In microwave safe bowl, combine 1 tsp italian seasoning, 1/4 cup water, 2 tbsp butter, and 1/2 tsp sugar.",
-    	"Microwave until water is hot and butter has melted, 1 minute.",
-    	"Whisk in tomato paste until smooth, season with salt and pepper.",
-    	"Spread half the sauce over the flagbreads.",
-    	"Optionally toss meat toppings in remaining sauce.",
-    	"Top flatbreads with mozzerella and toppings.",
-    	"Bake on top rack until flatbreads are toasted, cheese has melted and toppings are good 8-10 minutes."
-    ],
-    "tags": [
-		"entree",
-		"pizza",
-		"hellofresh"
-    ]
+  "title": "Sheet Pan Flatbreads",
+  "ingredients": [
+    "desired toppings (italian sausage, pepperoni, onion, bell pepper, etc.",
+    "2 flatbreads",
+    "1.5oz tomato paste",
+    "1/2 cup mozzerella cheese",
+    "1 tbsp italian seasoning",
+    "2 tbsp butter",
+    "1 tsp olive oil",
+    "1/2 tsp sugar",
+    "kosher salt",
+    "black pepper"
+  ],
+  "directions": [
+    "Adjust rack to top position and preheat oven to 450 degrees.",
+    "Prepare and cook selected toppings as needed.",
+    "In microwave safe bowl, combine 1 tsp italian seasoning, 1/4 cup water, 2 tbsp butter, and 1/2 tsp sugar.",
+    "Microwave until water is hot and butter has melted, 1 minute.",
+    "Whisk in tomato paste until smooth, season with salt and pepper.",
+    "Spread half the sauce over the flagbreads.",
+    "Optionally toss meat toppings in remaining sauce.",
+    "Top flatbreads with mozzerella and toppings.",
+    "Bake on top rack until flatbreads are toasted, cheese has melted and toppings are good 8-10 minutes."
+  ],
+  "tags": [
+    "entree",
+    "pizza",
+    "hellofresh"
+  ]
 }

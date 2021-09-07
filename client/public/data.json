@@ -115,6 +115,38 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg"
   },
   {
+    "title": "Buttermilk Drop Biscuits",
+    "ingredients": [
+      "1 1/2 cups all purpose flour",
+      "2 tbps sugar",
+      "1 1/2 tsp baking powder",
+      "1/2 tsp baking soda",
+      "1/2 tsp salt",
+      "3/4 cup buttermilk",
+      "6 tbsp melted butter",
+      "2 tbsp melted butter for tops"
+    ],
+    "directions": [
+      "Preheat the oven to 475 degrees.",
+      "Mix the dry ingredients: Whisk the flour, sugar, baking powder, baking soda and salt together in a large bowl.",
+      "Mix the wet ingredients: Stir buttermilk and 6 tbsp melted butter together.",
+      "Add the wet ingredients to the dry, stir until just incorporated.",
+      "Scoop and drop roughly 9 biscuits onto parchment paper lined pan.",
+      "Optionally sprinkle sugar on tops for sweeter biscuits.",
+      "Bake for 12 to 14 minutes.",
+      "Brush tops with remaining butter."
+    ],
+    "photo": "",
+    "tags": [
+      "breakfast",
+      "brunch",
+      "southern",
+      "fluffy",
+      "butter",
+      "buttery"
+    ]
+  },
+  {
     "title": "Buttermilk",
     "ingredients": [
       "1 cup whole or 2% milk, or heavy cream",
@@ -325,6 +357,32 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
   },
   {
+    "title": "Chicken Parmagiana",
+    "ingredients": [
+      "4 boneless, skinless chicken cutlets",
+      "Salt & Pepper",
+      "Plain bread crumbs or flour",
+      "1 egg",
+      "2 tbsp olive oil",
+      "1 tbsp butter or olive oil",
+      "Minced fresh parsley or oregano leaves for garnish"
+    ],
+    "directions": [
+      "Preheat oven to 400 degrees.",
+      "Set up three bolws: one with all-purpose floure, one with a beaten egg, and one with bread crumbs.",
+      "Sprinkle the chicken with salt and pepper.",
+      "Add oil and butter to the skillet. When it is hot, dredge a piece of chicken in the flour, then the egg, and then the bread crumbs. Add it to the pan.",
+      "Cook just enough to brown -- it will finish cooking in the oven.",
+      "Spread 1/2 cup of tomato sauce on the bottom of a baking dish. Add the chicken and cover with more sauce. Top with mozzarella.",
+      "Bake until the cheese melts. About 10 to 15 minutes.",
+      "Top with minced parsley or oregano."
+    ],
+    "photo": "",
+    "tags": [
+      "main dish"
+    ]
+  },
+  {
     "title": "Chili Macaroni",
     "ingredients": [
       "1 lb ground meat",
@@ -467,6 +525,51 @@
       "While patties cook, halve and toast buns. Spread cut sides of buns with creamy ranch sauce, then fill with patties and top with crispy fried onions."
     ],
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/firehouse-cheeseburgers.jpg"
+  },
+  {
+    "title": "Flautas Supreme",
+    "ingredients": [
+      "16 oz ground meat or meat substitute",
+      "1 pack 10 small flour tortillas",
+      "1 onion yellow or other",
+      "1 lime",
+      "1 roma tomato",
+      "1 pack tex-mex paste or sauce starter pack",
+      "1 tbsp southwest spice blend or taco seasoning pack",
+      "1 cup mexican cheese blend",
+      "4 tbsp sour cream",
+      "2 tsp cooking oil",
+      "1 tbsp olive oil",
+      "salt"
+    ],
+    "directions": [
+      "Adjust rack to middle position and preheat oven to 425 degrees.",
+      "Line a baking sheet with foil and brush with oil or spray.",
+      "Dice the onion and tomato.",
+      "Zest and quater lime.",
+      "Heat a drizzle of oil in pan over medium high heat.",
+      "Add onion except for 1 tbsp to the pan, cook for 3 minutes.",
+      "Add meat and southwest spice, cook breaking up into small pieces until browned and onion softened 4-6 minutes.",
+      "Stir in tex-mex paste and 1/3 cup water.",
+      "Simmer until mixture is thickened and meat is cooked through 2-4 minutes. Turn off heat.",
+      "Brush tortillas with olive oil completely.",
+      "Fill tortillas with 1/4 cup meat filling to one side of each tortilla.",
+      "Sprinkel with 1 tbps mexican cheese.",
+      "Roll up tortillas starting with filled sides.",
+      "Place seam sides down on the baking sheet making flautas snug against each other.",
+      "Bake on the middle rack until golden brown and crispy 8-12 minutes.",
+      "Pico: In a small bowl combine tomato, onion, half lime zest and squeeze of lime juice, salt.",
+      "Lime Crema: In a separate bowl combine sour cream, remaining zest and squeeze of lime juice.",
+      "Add water 1 tsp at a time until drizzle consistency, add salt."
+    ],
+    "photo": "",
+    "tags": [
+      "entree",
+      "mexican",
+      "tortilla",
+      "tortillas",
+      "hellofresh"
+    ]
   },
   {
     "title": "French Toast",
@@ -1148,6 +1251,37 @@
     ]
   },
   {
+    "title": "Sheet Pan Flatbreads",
+    "ingredients": [
+      "desired toppings (italian sausage, pepperoni, onion, bell pepper, etc.",
+      "2 flatbreads",
+      "1.5oz tomato paste",
+      "1/2 cup mozzerella cheese",
+      "1 tbsp italian seasoning",
+      "2 tbsp butter",
+      "1 tsp olive oil",
+      "1/2 tsp sugar",
+      "kosher salt",
+      "black pepper"
+    ],
+    "directions": [
+      "Adjust rack to top position and preheat oven to 450 degrees.",
+      "Prepare and cook selected toppings as needed.",
+      "In microwave safe bowl, combine 1 tsp italian seasoning, 1/4 cup water, 2 tbsp butter, and 1/2 tsp sugar.",
+      "Microwave until water is hot and butter has melted, 1 minute.",
+      "Whisk in tomato paste until smooth, season with salt and pepper.",
+      "Spread half the sauce over the flagbreads.",
+      "Optionally toss meat toppings in remaining sauce.",
+      "Top flatbreads with mozzerella and toppings.",
+      "Bake on top rack until flatbreads are toasted, cheese has melted and toppings are good 8-10 minutes."
+    ],
+    "tags": [
+      "entree",
+      "pizza",
+      "hellofresh"
+    ]
+  },
+  {
     "title": "Skillet Tortellini with Sausage and Cherry Tomatoes",
     "ingredients": [
       "1 tbsp extra virgin olive oil",
@@ -1345,6 +1479,52 @@
       "Sprinkle with salt. Serve."
     ],
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/torn-and-fried-potatoes.jpg"
+  },
+  {
+    "title": "Trattoria Tortelloni Bake",
+    "ingredients": [
+      "4 cloves garlic",
+      "4 roma tomatoes",
+      "1/2 cup panko",
+      "1/2 cup shredded parm",
+      "2 tbsp italian seasoning",
+      "1 tsp chili flakes",
+      "2 unit mushroom stock concentrate (or 1.5 cups stock)",
+      "8 tbsp cream cheese",
+      "3 oz tomato paste",
+      "18 oz cheese tortelloni",
+      "salt",
+      "pepper",
+      "2 tsp olive oil",
+      "3 tbsp butter"
+    ],
+    "directions": [
+      "Heat broiler to high.",
+      "Peel and mince garlic.",
+      "Dice tomatoes.",
+      "In a small bowl, combine panko, parm, drizzle evoo, salt and pepper.",
+      "Heat a drizzle of evoo in medium ovenproof pan over medium high heat.",
+      "Add garlic, italian seasoning, and pinch of chili flakes to taste.",
+      "Cook until fragrant, 30 seconds.",
+      "Add tomatoes and season with salt and pepper.",
+      "Cook, stirring, until slightly softened, 1-2 minutes.",
+      "Stir in tomato paste, cook stirring 1 minute.",
+      "Stir in 1 1/2 cups water, stock concentrate and cream cheese.",
+      "Bring to a simmer and cook stirring until fully combined.",
+      "Season with salt and pepper.",
+      "Add tortelloni to pan stir until sauce is thickened and tortelloni are tender 4-6 minutes.",
+      "If sauce is too thick add a splash of water.",
+      "Turn off heat and stir in 3 tbsp butter until melted. Season with salt and pepper.",
+      "Evenly sprinkle tortelloni with panko mixture.",
+      "Broil until panko is golden brown 2-4 minutes."
+    ],
+    "photo": "",
+    "tags": [
+      "entree",
+      "hellofresh",
+      "pasta",
+      "italian"
+    ]
   },
   {
     "title": "Tuscan Tomato and Bread Soup",
