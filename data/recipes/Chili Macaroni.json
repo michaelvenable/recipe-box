@@ -14,5 +14,8 @@
         "Cook the ground meat in a pan.",
         "Add remaining ingredients and mix."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chili-mac.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chili-mac.jpg",
+    "tags": [
+        "entree"
+    ]
 }

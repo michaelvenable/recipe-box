@@ -1,24 +1,27 @@
 {
-    "title": "Cauliflower Bacon Mac 'n' Cheese",
-    "ingredients": [
-        "2 scallions",
-        "10 oz cauliflower florets",
-        "6 oz cavatappi pasta",
-        "4 oz bacon",
-        "1 tbsp flour",
-        "6.75 oz milk",
-        "1/4 cup chicken stock",
-        "1/2 cup Italian cheese blend"
-    ],
-    "directions": [
-        "Preheat oven to 400 degrees. Bring a large pot of salted water to a boil.",
-        "Trim and thinly slice scallions, separating whites from greens.",
-        "Toss cauliflower on a baking sheet with a large drizzle of olive oil and a pinch of salt and pepper. Roast until tender, 20 - 25 minutes.",
-        "Once water is boiling, add cavatappi to pot. Cook, stirring occasionally, until al dente, 9 - 11 minutes. Reserve 1 cup past cooking water then drain.",
-        "Meanwhile, heat a large, dry pan over medium-high heat. Add bacon and cook, turning occasionally, until just crispy, 6-10 minutes. Turn off heat. Transfer to a paper-towel-lined plate. Discard all but 1 tsp bacon fat from pan.",
-        "Melt 1 tbsp butter in same pan over medium heat. Add scallion whites; cook until softened, 1 minute. Add flour and stir constantly until lightly browned, 1 - 2 minutes. Slowly whisk in milk and chicken stock. Increase heat to high and boil until slightly thickened, 1 - 2 minutes. Turn off heat; whisk in Italian cheese. Season with salt and pepper.",
-        "Chop bacon into small pieces. Stir bacon, cavatappi, and cauliflower into pan with sauce.",
-        "Divide mac 'n' cheese between plates. Garnish with scallion greens and serve."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+  "title": "Cauliflower Bacon Mac 'n' Cheese",
+  "ingredients": [
+    "2 scallions",
+    "10 oz cauliflower florets",
+    "6 oz cavatappi pasta",
+    "4 oz bacon",
+    "1 tbsp flour",
+    "6.75 oz milk",
+    "1/4 cup chicken stock",
+    "1/2 cup Italian cheese blend"
+  ],
+  "directions": [
+    "Preheat oven to 400 degrees. Bring a large pot of salted water to a boil.",
+    "Trim and thinly slice scallions, separating whites from greens.",
+    "Toss cauliflower on a baking sheet with a large drizzle of olive oil and a pinch of salt and pepper. Roast until tender, 20 - 25 minutes.",
+    "Once water is boiling, add cavatappi to pot. Cook, stirring occasionally, until al dente, 9 - 11 minutes. Reserve 1 cup past cooking water then drain.",
+    "Meanwhile, heat a large, dry pan over medium-high heat. Add bacon and cook, turning occasionally, until just crispy, 6-10 minutes. Turn off heat. Transfer to a paper-towel-lined plate. Discard all but 1 tsp bacon fat from pan.",
+    "Melt 1 tbsp butter in same pan over medium heat. Add scallion whites; cook until softened, 1 minute. Add flour and stir constantly until lightly browned, 1 - 2 minutes. Slowly whisk in milk and chicken stock. Increase heat to high and boil until slightly thickened, 1 - 2 minutes. Turn off heat; whisk in Italian cheese. Season with salt and pepper.",
+    "Chop bacon into small pieces. Stir bacon, cavatappi, and cauliflower into pan with sauce.",
+    "Divide mac 'n' cheese between plates. Garnish with scallion greens and serve."
+  ],
+  "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+  "tags": [
+    "entree"
+  ]
 }

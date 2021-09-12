@@ -17,5 +17,8 @@
         "Stir in tomatoes and cook until slightly softened, about 2 minutes.",
         "Sprinkle with basil and serve with Parmesan."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tortellini-with-sausage.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tortellini-with-sausage.jpg",
+    "tags": [
+        "entree"
+    ]
 }

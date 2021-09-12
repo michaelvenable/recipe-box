@@ -4,7 +4,11 @@
   ],
   "directions": [
   ],
-  "photo": "",
+  "photo": "/photos/recipe-name.jpg",
   "tags": [
+    "breakfast",
+    "entree",
+    "side",
+    "condiment"
   ]
 }

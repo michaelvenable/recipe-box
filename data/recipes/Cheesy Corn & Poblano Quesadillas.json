@@ -24,5 +24,8 @@
         "Broil quesadillas until golden brown, 1 - 2 minutes per side. Cut into wedges.",
         "Divide quesadillas between plates. Serve with smoky red pepper crema, hot sauce, and remaining lime wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg",
+    "tags": [
+        "entree"
+    ]
 }

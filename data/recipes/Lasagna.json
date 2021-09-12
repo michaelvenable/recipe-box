@@ -17,5 +17,8 @@
         "Bake in oven. After 30 minutes, cover with foil. Bake another 20 minutes until hot and bubbly.",
         "Let stand, covered for 15 minutes before cutting."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+        "entree"
+    ]
 }

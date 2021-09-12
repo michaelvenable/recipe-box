@@ -24,5 +24,8 @@
         "Remove foil and bake an additional 25 - 30 minutes until the peppers are tender.",
         "Top with basil."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+        "entree"
+    ]
 }

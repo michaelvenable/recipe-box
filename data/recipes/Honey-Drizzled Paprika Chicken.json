@@ -26,5 +26,8 @@
         "Steam green beans. Season with salt and pepper.",
         "Divide chicken, green beans, and biscuits between plates. Drizzle chicken with honey and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg",
+    "tags": [
+        "entree"
+    ]
 }

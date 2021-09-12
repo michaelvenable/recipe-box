@@ -29,5 +29,8 @@
         "Carefully add meatballs to bowl with sauce and toss to coat. ",
         "Divide between bowls or plates. Top rice with meatballs. Drizzle with any remaining sauce. Serve green beans to the side. Garnish with scallion greens, remaining sesame seeds, and chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+        "entree"
+    ]
 }

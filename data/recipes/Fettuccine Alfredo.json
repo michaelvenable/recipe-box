@@ -16,5 +16,8 @@
         "Generously salt the boiling water. Add pasta and cook.",
         "Put the pasta in a warm shallow bowl. Pour on the sauce and sprinkle with six more tbsp of cheese. Toss well."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fettuccine-alfredo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fettuccine-alfredo.png",
+    "tags": [
+        "entree"
+    ]
 }

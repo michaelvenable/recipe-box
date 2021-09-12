@@ -21,5 +21,8 @@
         "Remove zucchini from oven and heat broiler to high. Flip zucchini. Blot out excess liquid with paper towels. Stuff with as much couscous as will fit. Sprinkle with mozzarella. Broil on top rack until cheese is melted and lightly browned, 2 - 3 minutes.",
         "Divide remaining couscous between  plates and top with stuffed zucchini. Top with bruschetta. Garnish with remaining Parmesan. Sprinkle with a pinch of chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg",
+    "tags": [
+        "entree"
+    ]
 }

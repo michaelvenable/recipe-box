@@ -24,5 +24,8 @@
         "Stir in the bell pepper, drained penne, half the parmesage and 4 tbsp of butter. Add more reserved water if needed.",
         "Season pasta with salt and pepper and divide between bowls. Sprinkle with remaining parmesan and, if desired, a pinch of the remaining chili. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg",
+    "tags": [
+        "entree"
+    ]
 }

@@ -27,5 +27,8 @@
         "Return chicken to pan and turn a few times to coat.",
         "Divide chicken, mashed potatoes, and roasted green beans between plates. Top chicken with any remaining sauce."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-cutlets-a-lorgange.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-cutlets-a-lorgange.jpg",
+    "tags": [
+        "entree"
+    ]
 }

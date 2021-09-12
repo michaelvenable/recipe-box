@@ -29,5 +29,8 @@
         "Stir any accumulated juices from the sheat into the remaining sauce.",
         "Serve the chops, passing remaining sauce separately."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg",
+    "tags": [
+        "entree"
+    ]
 }

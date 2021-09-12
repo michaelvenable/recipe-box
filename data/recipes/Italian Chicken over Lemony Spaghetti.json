@@ -23,5 +23,8 @@
         "Add spaghetti, zucchini, sour cream, and 1 tbsp butter to sauce. Toss to coat. Add half the parmesan. Season with salt and pepper.",
         "Divide between bowls and top with chicken. Top with remaining parmesan and lemon zest, and a pinch of chili flakes if desired. Serve with lemon wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/italian-chicken-over-lemony-spaghetti.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/italian-chicken-over-lemony-spaghetti.jpg",
+    "tags": [
+        "entree"
+    ]
 }

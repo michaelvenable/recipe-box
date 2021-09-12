@@ -35,5 +35,8 @@
         "Let the Orange Chicken stand for 5-7 minutes, the sauce will thicken more.",
         "Serve over rice and garnish with fresh chopped green onions and extra orange zest."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/instant-pot-orange-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/instant-pot-orange-chicken.jpg",
+    "tags": [
+        "entree"
+    ]
 }

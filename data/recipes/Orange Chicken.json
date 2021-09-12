@@ -35,5 +35,8 @@
         "Warm the sauce over a medium heat until simmering, about 1 minute. Toss the sauce and chicken in a large bowl until the chicken is evenly coated. ",
         "Serve, sprinkling individual portions with scallions."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg",
+    "tags": [
+        "entree"
+    ]
 }

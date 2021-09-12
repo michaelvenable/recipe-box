@@ -23,5 +23,8 @@
         "Halve buns. Spread cut sides with garlic butter. Place on baking sheet. Toast on middle rack until lightly browned.",
         "Make burgers and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+        "entree"
+    ]
 }

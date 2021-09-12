@@ -25,5 +25,8 @@
         "Add drained ravioli to pan with sauce, gently toss until thoroughly coated.",
         "Divide between plates and top with remaining parmesan and lemon zest to taste."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cream-lemon-spinach-ricotta-ravioli.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cream-lemon-spinach-ricotta-ravioli.jpg",
+    "tags": [
+        "entree"
+    ]
 }

@@ -11,5 +11,8 @@
         "Add the white chocolate to the blend until the chocolate is melted.",
         "Divide between two mugs. Top with dollop of whipped cream and sprinkle with cocoa powder."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/hot-white-chocolate.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/hot-white-chocolate.png",
+    "tags": [
+        "drink"
+    ]
 }
