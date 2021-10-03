@@ -21,8 +21,8 @@ class RecipeIndexPage extends React.Component {
     this.allRecipes = [];
 
     this.state = {
-      recipes: [],
-      suggestions: []
+      recipes: [],      // Shown in the "All Recipes" section.
+      suggestions: []   // Recipe suggestions. Currently hidden.
     };
   }
 
@@ -95,6 +95,35 @@ class RecipeIndexPage extends React.Component {
     };
   }
 
+  /**
+   * Orders the recipe by last time cooked.
+   *
+   * @param {[]} Recipes that will be sorted.
+   *
+   * @returns {[]} Sorted array of recipes.
+   */
+  sort(recipes) {
+    return recipes
+      .sort((first, second) => {
+        if ((first.history === undefined || first.history.length === 0) &&
+            (second.history === undefined || second.history.length === 0)) {
+          return 0;
+        }
+
+        if (first.history === undefined || first.history.length === 0) {
+          return -1;
+        }
+
+        if (second.history === undefined || second.history.length === 0) {
+          return 1;
+        }
+
+        return first.history[first.history.length - 1] < second.history[second.history.length - 1]
+                ? 1
+                : -1;
+      })
+  }
+
   timeSince(date) {
     const now = new Date();
 
@@ -137,6 +166,7 @@ class RecipeIndexPage extends React.Component {
           </div>
         </div>
 
+        { /*
         <section className="list suggestions">
           <h5><i className="fa fa-cutlery"></i> Suggestions</h5>
           <div className="suggestion-list">
@@ -158,6 +188,7 @@ class RecipeIndexPage extends React.Component {
           }
           </div>
         </section>
+        */ }
 
         <RecipeList recipes={this.state.recipes}></RecipeList>
       </div>
