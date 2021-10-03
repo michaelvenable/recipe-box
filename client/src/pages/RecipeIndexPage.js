@@ -37,31 +37,35 @@ class RecipeIndexPage extends React.Component {
     });
   }
 
+  /**
+   * @param recipes {[]}
+   * @param numSuggestions {number}
+   */
   getSuggestions(recipes, numSuggestions = 3) {
-    return Array.from(recipes)
-                .sort((first, second) => {
-                  if ((first.history === undefined || first.history.length === 0) &&
-                      (second.history === undefined || second.history.length === 0)) {
-                    return 0;
-                  }
+    return recipes
+      .sort((first, second) => {
+        if ((first.history === undefined || first.history.length === 0) &&
+            (second.history === undefined || second.history.length === 0)) {
+          return 0;
+        }
 
-                  if (first.history === undefined || first.history.length === 0) {
-                    return -1;
-                  }
+        if (first.history === undefined || first.history.length === 0) {
+          return -1;
+        }
 
-                  if (second.history === undefined || second.history.length === 0) {
-                    return 1;
-                  }
+        if (second.history === undefined || second.history.length === 0) {
+          return 1;
+        }
 
-                  return first.history[first.history.length - 1] < second.history[second.history.length - 1]
-                          ? 1
-                          : -1;
-                })
-                .slice(0, Math.max(9, numSuggestions))
-                .map(recipe => ({ sortKey: Math.random(), value: recipe }))
-                .sort((first, second) => first.sortKey - second.sortKey)
-                .map(pair => pair.value)
-                .slice(0, numSuggestions);
+        return first.history[first.history.length - 1] < second.history[second.history.length - 1]
+                ? 1
+                : -1;
+      })
+      .slice(0, Math.max(9, numSuggestions))
+      .map(recipe => ({ sortKey: Math.random(), value: recipe }))
+      .sort((first, second) => first.sortKey - second.sortKey)
+      .map(pair => pair.value)
+      .slice(0, numSuggestions);
   }
 
   /**
@@ -78,6 +82,7 @@ class RecipeIndexPage extends React.Component {
 
     this.setState({
       recipes: filteredRecipes,
+      suggestions: this.getSuggestions(filteredRecipes, 3)
     });
   }
 

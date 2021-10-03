@@ -87,7 +87,32 @@
       "Stir cream cheese and 1/3 cup reserved pasta cooking water into pan with chicken mixture. Add penne and cook, stirring, until thoroughly combined, 1 - 2  minutes. Turn off heat. Stir in Monterey Jack, stock concentrate, 2 tbsp buttter, and as much hot sauce as you like. Stir until butter is melted. Season with salt and pepper.",
       "Divide penne between bowls or plates. Garnish with scallion greens and remaining tomato. Drizzle with any remaining hot sauce if desired."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Browned Butter Mashed Potatoes",
+    "ingredients": [
+      "2 lb Yukon Gold potatoes, peeled and cut into 1\" pieces",
+      "1/2 tsp table salt, plus salt for cooking potatoes",
+      "14 tbsp unsalted butter, cut into 14 pieces",
+      "3/4 cup whole milk",
+      "1/4 tsp pepper"
+    ],
+    "directions": [
+      "Combine the potatoes and 1 tbsp salt in a large saucepan and cover with water by 1 inch. Bring to a boil over high heat. Reduce heat to medium and simmer until the potatoes are fork-tender, about 20 minutes.",
+      "Meanwhile, melt the butter in a medium heavy-bottomed saucepan over medium heat. Cook, whisking frequently, until the butter is the color of milk chocolate and has a nutty aroma, 3 to 5 minutes. Immediately saucepan remove from heat.",
+      "Measure out 2 tbsp browned butter and set aside. Carefully and slowly whisk milk (mixture may bubble), pepper, and salt into remaining browned butter in saucepan. Cover to keep warm.",
+      "Drain the potatoes and return to the now empty laurge saucepan. Cook over low heat, stirring occasionally, until the potatoes are thoroughly dried and begin to break apart, 1 to 2 minutes. Remove from heat.",
+      "Using a potato masher, mash the potatoes in asaucepan until smooth and no lumps remain.",
+      "Whisk browned butter-milk mixture into potatoes until smooth and creamy. Season with salt and pepper to taste. Transfer to a serving browl. Drizzle with reserved 2 tbsp browned butter. Serve."
+    ],
+    "photo": "/photos/browned-butter-mashed-potatoes.jpg",
+    "tags": [
+      "side"
+    ]
   },
   {
     "title": "Bruschetta Zucchini Boats",
@@ -112,7 +137,10 @@
       "Remove zucchini from oven and heat broiler to high. Flip zucchini. Blot out excess liquid with paper towels. Stuff with as much couscous as will fit. Sprinkle with mozzarella. Broil on top rack until cheese is melted and lightly browned, 2 - 3 minutes.",
       "Divide remaining couscous between  plates and top with stuffed zucchini. Top with bruschetta. Garnish with remaining Parmesan. Sprinkle with a pinch of chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Buttermilk Drop Biscuits",
@@ -160,6 +188,27 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
   },
   {
+    "title": "Cacio e Pepe",
+    "ingredients": [
+      "8 oz spaghetti",
+      "Table salt for cooking pasta",
+      "2 1/2 oz Pecorino Romano cheese, grated (1 1/4 cups), divided",
+      "2 tbsp unsalted butter",
+      "3/4 tsp pepper, plus extra for serving",
+      "Extra-virgin olive oil"
+    ],
+    "directions": [
+      "Bring 1 1/2 quarts water to a boil in a large saucepan. Add the pasta and 1 tsp salt and cook, stirring frequently, until al dente.  Reserve 1/2 cup cooking water, then drain and return to pot.",
+      "Add 1 cup Pecorino, butter, and reserved cooking water to pasta. Set pot over low heat and, using tongs, toss and stir vigorously to thoroughly combine, about 1 minute. Remove pot from heat, cover, and let pasta sit for 1 minute.",
+      "Add pepper and toss pasta vigorously once more so sauce thoroughly coats pasta and any cheese clumps are emulsified into the sauce, about 30 seconds.",
+      "Transfer the pasta to individual bowls. SPrinkle with the remaining 1/4 cup Pecorino and drizzle with oil. Serve immediately, passing extra pepper separately."
+    ],
+    "photo": "/photos/cacio-e-pepe.jpg",
+    "tags": [
+      "entree"
+    ]
+  },
+  {
     "title": "Cauliflower Bacon Mac 'n' Cheese",
     "ingredients": [
       "2 scallions",
@@ -181,7 +230,10 @@
       "Chop bacon into small pieces. Stir bacon, cavatappi, and cauliflower into pan with sauce.",
       "Divide mac 'n' cheese between plates. Garnish with scallion greens and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Cheesy Corn & Poblano Quesadillas",
@@ -209,7 +261,10 @@
       "Broil quesadillas until golden brown, 1 - 2 minutes per side. Cut into wedges.",
       "Divide quesadillas between plates. Serve with smoky red pepper crema, hot sauce, and remaining lime wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Chicago Thin-Crust Pizza Dough",
@@ -271,7 +326,10 @@
       "Stir in green onions, bay leaf, thyme, and basil. Season with salt, pepper, and hot sauce.",
       "Cook and additional 1 - 2 hours, if necessary, until chicken is tender and falling apart. Stir in parsley and adjust seasonings. Serve over steamed white rice."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-and-sausage-gumbo.jpeg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-and-sausage-gumbo.jpeg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Chicken Cutlets A L'Orange",
@@ -302,7 +360,10 @@
       "Return chicken to pan and turn a few times to coat.",
       "Divide chicken, mashed potatoes, and roasted green beans between plates. Top chicken with any remaining sauce."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-cutlets-a-lorgange.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-cutlets-a-lorgange.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Chicken Over Garlic Parmesan Spaghetti",
@@ -326,7 +387,10 @@
       "Melt 1 tbsp butter in a the pot used for pasta over medium heat. Add mashed garlic and remaining Tuscan Heat Spice. Sitr in cream cheese, 3 tbsp butter, 1 cup reserved pasta cooking water, and half the Parmesan. Turn off heat. Season with salt and pepper.",
       "Add spaghetti to pot with sauce. Toss to thoroughly combine. Use more water if needed. Season with salt and pepper. Slice chicken crosswise. Divide pasta between bowls. Top with chicken and roasted tomatoes. Sprinkle with remaining Parmesan and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-over-garlic-parmesan-spaghetti.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-over-garlic-parmesan-spaghetti.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Chicken Parm Stuffed Peppers",
@@ -354,7 +418,10 @@
       "Remove foil and bake an additional 25 - 30 minutes until the peppers are tender.",
       "Top with basil."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Chicken Parmagiana",
@@ -377,7 +444,6 @@
       "Bake until the cheese melts. About 10 to 15 minutes.",
       "Top with minced parsley or oregano."
     ],
-    "photo": "",
     "tags": [
       "entree"
     ]
@@ -398,7 +464,31 @@
       "Cook the ground meat in a pan.",
       "Add remaining ingredients and mix."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chili-mac.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chili-mac.jpg",
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Colombian Arepas",
+    "ingredients": [
+      "1 cup warm water",
+      "1 cup pre-cooked white corn meal (such as P.A.N.)",
+      "1 cup shredded mozzarella cheese",
+      "1 tablespoon butter",
+      "½ teaspoon salt"
+    ],
+    "directions": [
+      "Mix water, corn meal, mozzarella cheese, butter, and salt together in a large bowl. Knead until mixed well and the dough has a soft consistency.",
+      "Form balls the size of a medium orange and place them between 2 sheets of plastic wrap. Flatten with a rolling pin to your desired thickness.",
+      "Cut the dough into circles using a cereal bowl or drinking glass, lip-down, through the plastic wrap. Remove the plastic wrap and remove excess dough.",
+      "Coat a griddle with cooking spray and heat to medium-high. Add arepas and grill until golden brown, about 5 minutes per side. Serve immediately."
+    ],
+    "photo": "/photos/colombian-arepas.jpeg",
+    "tags": [
+      "breakfast",
+      "side"
+    ]
   },
   {
     "title": "Creamy Lemon Spinach Ricotta Ravioli",
@@ -427,7 +517,10 @@
       "Add drained ravioli to pan with sauce, gently toss until thoroughly coated.",
       "Divide between plates and top with remaining parmesan and lemon zest to taste."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cream-lemon-spinach-ricotta-ravioli.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cream-lemon-spinach-ricotta-ravioli.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Easy Mexican Rice",
@@ -449,7 +542,10 @@
       "Heat oil in large saucepan over medium-high heat until shimmering. Add rice and cook, stirring frequently, until edges begin to turn translucent, about 2 minutes. Add tomato paste and cook, stirring constantly, until mixture is uniformlyy colored, about 1 minute. Add tomato mixture and bring to boil. Stir rice, cover, and reduce heat to low. Cook for 20 minutes.",
       "Let stand, covered, off heat for 10 minutes. Stir in cilantro and season with salt and pepper to taste. Transfer rice to serving bowl. Serve with lime wedges."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Fettuccine Alfredo",
@@ -469,7 +565,10 @@
       "Generously salt the boiling water. Add pasta and cook.",
       "Put the pasta in a warm shallow bowl. Pour on the sauce and sprinkle with six more tbsp of cheese. Toss well."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fettuccine-alfredo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fettuccine-alfredo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Firecracker Meatballs",
@@ -502,7 +601,10 @@
       "Carefully add meatballs to bowl with sauce and toss to coat. ",
       "Divide between bowls or plates. Top rice with meatballs. Drizzle with any remaining sauce. Serve green beans to the side. Garnish with scallion greens, remaining sesame seeds, and chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Firehouse Cheeseburgers",
@@ -524,7 +626,10 @@
       "In the last 1 - 2 minutes of cooking, top each patty with Monterey Jack. Cover pan to melt cheese.",
       "While patties cook, halve and toast buns. Spread cut sides of buns with creamy ranch sauce, then fill with patties and top with crispy fried onions."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/firehouse-cheeseburgers.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/firehouse-cheeseburgers.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Flautas Supreme",
@@ -562,7 +667,6 @@
       "Lime Crema: In a separate bowl combine sour cream, remaining zest and squeeze of lime juice.",
       "Add water 1 tsp at a time until drizzle consistency, add salt."
     ],
-    "photo": "",
     "tags": [
       "entree",
       "mexican",
@@ -621,6 +725,42 @@
     ]
   },
   {
+    "title": "Garlic-Herb-Butter Rolls",
+    "ingredients": [
+      "DOUGH: 3/4 cup whole milk",
+      "DOUGH: 4 tbsp unsalted butter, melted, plus 1 tbsp, softened, for baking dish",
+      "DOUGH: 2 large eggs, divided",
+      "DOUGH: 2 cups (10 oz) all-purpose flour",
+      "DOUGH: 2 1/4 tsp instant or rapid-rise yeast",
+      "DOUGH: 2 tbsp sugar",
+      "DOUGH: 1 tsp plus pinch table salt, divided",
+      "GARLIC-HERB BUTTER: 4 tbsp unsalted butter",
+      "GARLIC-HERB BUTTER: 3 garlic cloves, minced",
+      "GARLIC-HERB BUTTER: 1/4 tsp table salt",
+      "GARLIC-HERB BUTTER: 1 tbsp minced fresh parsley"
+    ],
+    "directions": [
+      "FOR THE DOUGH: Whisk milk, melted butter, and 1 egg together in a bowl of a stand mixer. Add flour and yeast",
+      "Mix on medium speed with the dough hook until it comes together and no dry flour remains, about 2 minutes, scraping down the dough hook and bowl as needed.",
+      "Cover the bowl with a dish towel or plastic wrap, and let dough stand for 15 minutes.",
+      "Add sugar and 1 tsp salt and knead dough on medium speed until incorporated, about 30 seconds. Increase the speed to medium-high and continue to knead until dough begins to pull away from sides and bottom of the bowl (dough will be sticky), 8 to 12 minutes longer.",
+      "Transfer the dough to a greased large bowl. Cover tighly with plastic and let rise at room temperature until doubled in size, about 1 hour.",
+      "Grease a 13-by-9 inch baking dish with the softened butter.",
+      "Turn out dough on a clean counter and divide into 12 equal portions (1 3/4 oz each). WOrking with 1 dough portion at a time, cup the dough with your palm and roll against the counter into a smooth, tight ball.",
+      "Place the dough balls in the prepared dish in 3 rows of four. COver tightly with plastic and let rise at room temperature until doubled in size, about 30 minutes.",
+      "Adjust the oven rack to the middle position and heat oven to 350 degrees.",
+      "Beat the remaining egg with the remaining pinch salt.",
+      "Brush the tops of rolls evenly with the egg mixture (you may have some left over). Bake until the rolls are a deep golden brown and register 200 to 205 degrees in the center, about 20 minutes.",
+      "FOR THE GARLIC-HERB-BUTTER: Meanwhile, melt the butter in a small saucepan over medium heat. Add garlic and salt and cook until just fragrant, about 1 minute. Off heat, stir in parsley.",
+      "Remove the dish from the oven and let the rolls cool in the dish for 15 minutes. Brush tops and sides of warm rolls with garlic-herb butter (use all of it). Let rolls sit for 5 minutes. Serve warm."
+    ],
+    "photo": "/photos/garlic-herb-butter-rolls.jpg",
+    "tags": [
+      "breakfast",
+      "side"
+    ]
+  },
+  {
     "title": "Ginger and Lime-Glazed Corn on the Cob",
     "ingredients": [
       "1/3 cup low sodium chicken broth",
@@ -639,6 +779,51 @@
       "Transfer to a platter and baste with the remaining glaze."
     ],
     "tags": [
+      "side",
+      "outdoor grill"
+    ]
+  },
+  {
+    "title": "Holiday Smoked Turkey",
+    "ingredients": [
+      "MOP: 2 cups distilled white vinegar",
+      "MOP: 1/4 cup granulated sugar",
+      "MOP: 2 thin lemon slices",
+      "MOP: 1 tbsp pepper",
+      "MOP: 2 tsp cayenne pepper",
+      "MOP: 1/2 tsp red pepper flakes",
+      "RUB: 2 tbsp kosher salt",
+      "RUB: 1 tbsp monosodium glutamate",
+      "RUB: 1 tbsp pepper",
+      "RUB: 1 tbsp paprika",
+      "RUB: 1 tbsp chili powder",
+      "RUB: 1 tbsp packed light brown sugar",
+      "RUB: 1 1/2 tsp garlic powder",
+      "RUB: 1 1/2 tsp onion powder",
+      "RUB: 1/4 tsp cayenne pepper",
+      "TURKEY: 1 (12- to 14-lb) turkey, neck and giblets discarded, spatchocked",
+      "TURKEY: 4 (3-inch) wood chunks",
+      "TURKEY: 1 (13 by 9-inch) disposable aluminum pan"
+    ],
+    "directions": [
+      "FOR THE MOP: Combine all of the ingredients in a medium saucepan and bring to a simmer over medium-high heat.",
+      "Cook until the sugar is dissolved, about 2 minutes. Remove from heat and let cool completely. Discard lemon slices. (Mope can be refrigerated in an airtight container for up to two months.)",
+      "FOR THE RUB: Combine all ingredients in a bowl.",
+      "FOR THE TURKEY: Sprinkle rub all over both sides of the turkey.",
+      "Open the bottom vent of a charcoal grill completely. To make the charcoal snake, arrange 50 charcoal briquettes, 2 briquettes wide, around the perimeter of the grill, overlapping slightly so briquettes are touching and leaving a 9\" gap between the ends of the snake. Place a second layer of 50 briquettes, also 2 briquettes wide, on top of the first. (The completed arrangement should be 2 briqettes wide by 2 briquettes high.)",
+      "Starting 2\" from each end of the charcoal snake, place wood chunks on top of the charcoal about 2\" apart.",
+      "Slide the disposable pan into the charcoal gap, running lengthwise into the arc of the snake and touching the grill wall on opposite side of the snake. Pour 6 cups of water into the pan.",
+      "Light chimney starter filled with 20 briquettes (pile briquettes on 1 side of the chimney so they catch). When the coals are partially covered with ash, use tongs to pil 10 coals on each end of the charcoal snake, where the briquettes meet the water pan, so both ends of the snake ignite.",
+      "Set the cooking grate in place, then clean and oil the grate.",
+      "Position the tukey, skin side down, over the water pan, with drumsticks pointing toward the arc in the charcoal snake. COver the grill, position lid vent over the turkey, and open the lid vent completely. Cook, undisturbed, for 2 hours.",
+      "Using a small barbecue mop or basting brush, hbaste the turkey liberally with the mop.",
+      "Using oven mitts, flip the turkey skin side up, again positioning it over the water pan with drumsticks pointing toward the arc in the charcoal snake. Baste the skin side liberall with more mop (you may not need all of it).",
+      "Insert temperature probe into the thickest part of the breast. Cover the grill and cook until the breast registers 160 degrees (check temperature of both side of breast) and thighs register 175 degrees, about 1 hour.",
+      "Transfer the turkey to a rimmed baking sheet. Let it rest for 30 to 40 minutes. Carve the turkey and trasfer to a serving platter and serve."
+    ],
+    "photo": "/photos/holiday-smoked-turkey.jpg",
+    "tags": [
+      "entree",
       "outdoor grill"
     ]
   },
@@ -670,7 +855,10 @@
       "Steam green beans. Season with salt and pepper.",
       "Divide chicken, green beans, and biscuits between plates. Drizzle chicken with honey and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Hot White Chocolate",
@@ -685,7 +873,10 @@
       "Add the white chocolate to the blend until the chocolate is melted.",
       "Divide between two mugs. Top with dollop of whipped cream and sprinkle with cocoa powder."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/hot-white-chocolate.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/hot-white-chocolate.png",
+    "tags": [
+      "drink"
+    ]
   },
   {
     "title": "Indoor Barbecue Pork Chops",
@@ -718,7 +909,10 @@
       "Stir any accumulated juices from the sheat into the remaining sauce.",
       "Serve the chops, passing remaining sauce separately."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Instant Pot Orange Chicken",
@@ -757,7 +951,10 @@
       "Let the Orange Chicken stand for 5-7 minutes, the sauce will thicken more.",
       "Serve over rice and garnish with fresh chopped green onions and extra orange zest."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/instant-pot-orange-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/instant-pot-orange-chicken.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Italian Chicken over Lemony Spaghetti",
@@ -784,7 +981,10 @@
       "Add spaghetti, zucchini, sour cream, and 1 tbsp butter to sauce. Toss to coat. Add half the parmesan. Season with salt and pepper.",
       "Divide between bowls and top with chicken. Top with remaining parmesan and lemon zest, and a pinch of chili flakes if desired. Serve with lemon wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/italian-chicken-over-lemony-spaghetti.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/italian-chicken-over-lemony-spaghetti.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Lasagna",
@@ -805,7 +1005,34 @@
       "Bake in oven. After 30 minutes, cover with foil. Bake another 20 minutes until hot and bubbly.",
       "Let stand, covered for 15 minutes before cutting."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "Lemon Aioli",
+    "ingredients": [
+      "1 large egg",
+      "3 tbsp lemon juice",
+      "1 garlic clove, minced",
+      "3/4 tsp table salt",
+      "1/4 tsp sugar",
+      "Pinch cayenne pepper",
+      "1 1/2 cups vegetable oil",
+      "2 tbsp extra-virgin olive oil"
+    ],
+    "directions": [
+      "Process the egg, lemon juice, mustard, garlic, salt, sugar, and cayenne in food processor until combined, about 5 seconds.",
+      "With the processor running, slowly drizzle in vegetable oil until emulsified and the mixture is thick, about 2 minutes.",
+      "Scrape down the sides of the bowl with a rubber-spatula and continue to process 5 seconds longer.",
+      "Transfer to a jar and stir in the olive oil.",
+      "Affix the jar lid and refrigerate until ready to use (can be refrigerated for up to a week)."
+    ],
+    "photo": "/photos/lemon-aioli.jpg",
+    "tags": [
+      "condiment"
+    ]
   },
   {
     "title": "Lemon-Oregano Chicken Breasts",
@@ -826,7 +1053,9 @@
       "Grill the chicken, smooth side down, over direct medium heat, with the lid closes as much as possible, until the meat is firm to the touch and opaque all the way to the center, 8 to 12 minutes, turning once or twice.",
       "Serve warm."
     ],
-    "photo": ""
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Macaroni and Cheese Casserole",
@@ -850,7 +1079,10 @@
       "Remove dish from oven and discard foil. Stir to redistribute macaroni. Sprinkle with remaining 4 oz cheddar. Return dish to oven and continue to bake until edges are bubbling and just set and center registers 150 to 160 degrees, about 15 minutes.",
       "Broil until top of casserole is spotty brown, about 2 minutes. Let rest on wire rack for 25 minutes. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/easy-macaroni-and-cheese-casserole.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/easy-macaroni-and-cheese-casserole.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Malasadas",
@@ -907,7 +1139,10 @@
       "Halve buns. Spread cut sides with garlic butter. Place on baking sheet. Toast on middle rack until lightly browned.",
       "Make burgers and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Orange Chicken (Hello Fresh)",
@@ -939,7 +1174,10 @@
       "Add tempura chicken and half the scallions to pan with sauce. Reheat over medium heat, stirring, until chicken is glazed, 1 - 2 minutes. If sauce is too thick, add a splash of water.",
       "Fluff rice with a fork. Divide between plates. Top with orange chicken and any remaining sauce from pan. Garnish with remaining scallions and serve."
     ],
-    "photo": "https://recipes.mikevenable.net/photos/orange-chicken-hello-fresh.jpg"
+    "photo": "https://recipes.mikevenable.net/photos/orange-chicken-hello-fresh.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Orange Chicken",
@@ -978,7 +1216,10 @@
       "Warm the sauce over a medium heat until simmering, about 1 minute. Toss the sauce and chicken in a large bowl until the chicken is evenly coated. ",
       "Serve, sprinkling individual portions with scallions."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Oregon Blackberry Pie",
@@ -1064,7 +1305,10 @@
       "Melt 1 tbsp butter in pot used for pasta over medium heat. Add remaining garlic; cook until fragrant, 20-30 seconds. Lower heat; stir in another 1tbsp butter, cream cheese, a pinch of lemon zest, and 1/4 cup reserved pasta cooking water until smooth. Squeeze in 1 tbsp lemon juice; add spaghetti and toss to combine.",
       "Add half the tomatoes to pot with spaghetti. Season with salt and pepper; toss to combine. Divide pasta and chicken between plates. Top pasta with remaining tomatoes and parmesan. Serve with any remaining lemon wedges on the side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/parmesan-crusted-chicken.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/parmesan-crusted-chicken.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Pasta Caprese",
@@ -1085,7 +1329,10 @@
       "Meanwhile, bring a large pot of water to a boil over high heat. Generously salt the boiling water, and the pasta, and cook until al dente, 10 - 12 minutes.",
       "Drain the pasta and put it in a warmed large, shallow bowl. Add the tomato mixture and toss. Add the mozzarella and basil shreds and toss gently. The heat from the past will start to melt the cheese. Taste and adjust the seasoning. Garnish with basil sprigs and serve at once."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pasta-caprese.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pasta-caprese.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Pat-in-the-Pan Biscuits",
@@ -1132,6 +1379,21 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "dessert"
+    ]
+  },
+  {
+    "title": "Peanut Butter",
+    "ingredients": [
+      "2 cups dry-roates peanuts",
+      "OPTIONAL: For honey peanut butter, add 3 tbsp honey and 2tbsp peanut or vegetable oil",
+      "OPTIONAL: For maple-pumpkin spice peanut butter, add 1/4 cup peanut or vegatble oil, 2 tbsp maple syprup, and 1 1/2 tsp pumpkin pie spice"
+    ],
+    "directions": [
+      "Mix in mixer for about 3 minutes, scraping along bottom"
+    ],
+    "photo": "/photos/peanut-butter.jpg",
+    "tags": [
+      "condiment"
     ]
   },
   {
@@ -1190,7 +1452,10 @@
       "Using spider skimmer or slotted spoon, carefully add half of chicken to hot oil in several spoonfuls. Immediately stir to break up clumps. Fry until chicken is evenly golden brown and cooked through, 2 to 3 minutes, stirring occasionally. Using clean spider skimmer or slotted spoon, transfer chicken to paper towel-lined sheet. Return oil to 400 degrees and repeat with remaining chicken. Let cool for 5 minutes.",
       "Whisk honey, hot sauce, and pinch salt together in small bowl. Serve chicken with honey sauce."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Pork Sausage & Roasted Bell Pepper Pasta",
@@ -1218,7 +1483,10 @@
       "Stir in the bell pepper, drained penne, half the parmesage and 4 tbsp of butter. Add more reserved water if needed.",
       "Season pasta with salt and pepper and divide between bowls. Sprinkle with remaining parmesan and, if desired, a pinch of the remaining chili. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Roasted Ranch Potatoes",
@@ -1248,6 +1516,9 @@
       "FOR THE POTATOES: Adjust oven rack to middle position and head to 400 degrees. Toss potatoes, oil, granulated garlic, onion powder, salt, and pepper together in bowl.",
       "Arrange potatoes in single layer on rimmed baking sheet. Roast until potatoes are tender and deep golden brown on bottoms, 35 to 40 minutes. Sprinkle potatoes with cheddar, return sheet to oven, and continue to roast until cheese is melted, about 3 minutes longer.",
       "Transfer potatoes to platter. Sprinkle with cilantro and dill. Serve with sauce."
+    ],
+    "tags": [
+      "side"
     ]
   },
   {
@@ -1300,7 +1571,10 @@
       "Stir in tomatoes and cook until slightly softened, about 2 minutes.",
       "Sprinkle with basil and serve with Parmesan."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tortellini-with-sausage.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tortellini-with-sausage.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Snickerdoodles",
@@ -1357,6 +1631,9 @@
       "Crush tomatoes with fork or hands and add to pan along with juice. Cook, stirring occasionally, until tomatoes begin to break, five to 10 minutes.",
       "Mix spaghetti with sauce and meatballs. Top with remaining parmesan when serving.",
       "Pour off all but a film of the fat that has accumnjulated in the pan. Add onion, stirring until begins to brown."
+    ],
+    "tags": [
+      "entree"
     ]
   },
   {
@@ -1380,6 +1657,9 @@
       "Working with 1 chop at a time, dredge chops in flour, shaking off excess; dip in eggs, allowing excess to drip off; then coat with panko mixture, pressing gently to adhere. Transfer chops to large plate.",
       "Heat oil in 12\" nonstick skillet over medium-high heat to 350 degrees. Add 2 chops and cook until golden brown on first side, 2 to 3 minutes. (Adjust burner, if necessary, to maintain oil temperature between 325 and 350 degrees.) Using 2 spatulas, gently flip chops; continue to cook until golden brown on second side and meat registers 140 degrees, 2 to 3 minutes longer.",
       "Transfer chops to paper towel-lined side of prepared wire rack and let drain for 15 seconds on each side, then move to unlined side of rack. Return oil to 350 degrees and repeat with remaining 2 chops. Serve with lemon wedges."
+    ],
+    "tags": [
+      "entree"
     ]
   },
   {
@@ -1404,7 +1684,10 @@
       "Heat 1tbsp oil in 12\" nonstick skillet over high heat until just smoking. Add steak and 2 tbsp soy sauce mixture to skillet and cook until stea is well browned, about 4 minutes. Transfer steak to bowl; set aside.",
       "Add remaining 1 tbsp oil, scallion whites, and garlic to now-empty skillet and cook until fragrant, about 15 seconds. Stir in rice and remaining soy sauce mixture. Cook, stirring often, until rice is sizzling and popping loudly, about 4 minutes. Push rice to 1 side of skillet. Pour eggs into empty side of skillet and cook until just set, about 1 minute. Stir eggs, steak, scallion greens, and peas and carrots into rice. Serve with extra sriracha."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/steak-fried-rice.png"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/steak-fried-rice.png",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Sweet Fresh Corn Muffins",
@@ -1457,7 +1740,10 @@
       "Using greased 1-tbsp measure, divide dough into 16 heaping tbsp portion on prepared sheets, 8 portions per sheet. Divide any remaining dough evenly among portions. Using your moistened fingers, press press dough portions to 1/2\" thickness.",
       "Bake cookies, 1 sheet at a time, until deep golden brown, 16 to 18 minutes, rotating sheet halfway though baking. Let cookies cool on sheet for 20 minutes. Serve. (Cookies can be stored at room temperature for up to three days)."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/thin-and-crispy-chocolate-chip-cookies.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/thin-and-crispy-chocolate-chip-cookies.jpg",
+    "tags": [
+      "desert"
+    ]
   },
   {
     "title": "Torn and Fried Potatoes",
@@ -1545,7 +1831,10 @@
       "Stir in tomatoes, bread, broth, basil sprig, salt, and pepper and bring to boil over high heat. Reduce heat to medium, cover, and simmer vigorously until bread has softened completely and soup has thickened slightly, about 15 minutes, stirring occasionally.",
       "Off heat, discard basil sprig. Whisk soup until bread has fully broken down and soup has thickened further, about 1 minute. Sprinkle with Parmesan and chopped basil, drizzle with extra oil, and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-tomato-soup.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-tomato-soup.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Tuscan Trattoria Chicken & Kale Spaghetti",
@@ -1573,7 +1862,10 @@
       "Add drained spaghetti and 2 tbsp butter to the pan with sauce. Toss to combine. Season with salt and pepper. If needed, stir in more pasta cooking water.",
       "Divide pasta between bowls, top with parmesan, and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-trattoria-chicken-and-kale-spaghetti.jpg"
+    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-trattoria-chicken-and-kale-spaghetti.jpg",
+    "tags": [
+      "entree"
+    ]
   },
   {
     "title": "Virginia Peanut Pie",
