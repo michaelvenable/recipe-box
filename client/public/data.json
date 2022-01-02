@@ -667,6 +667,38 @@
     ]
   },
   {
+    "title": "Five Cheese Ziti",
+    "ingredients": [
+      "ZITI SAUCE: 4 cupts tomato sauce",
+      "ZITI SAUCE: 2 cups alfredo sauce",
+      "ZITI SAUCE: 1/2 cup ricotta cheese",
+      "ZITI SAUCE: 1/4 cup mozzarella, shredded",
+      "ZITI SAUCE: 3 tbsp Fontina, shredded",
+      "ZITI SAUCE: 1 tsp garlic pepper",
+      "ZITI SAUCE: 1/2 tsp garlic powder",
+      "ZITI TOPPING: 3 cups mozzarella, shredded",
+      "ZITI TOPPING: 1/2 cup Italian bredcrumbs",
+      "ZITI TOPPING: 3 tbsp romano, grated",
+      "ZITI TOPPING: 3 tbsp parmesan, grated",
+      "ZITI TOPPING: 1 tbsp gresh garlic, chopped",
+      "ZITI TOPPING: 3 tbsp vegetable oil",
+      "ZITI TOPPING: 3 tbsp flat-leaf Italian parsley, chopped",
+      "REMAINING INGREDIENTS: 1 lb dry ziti pasta",
+      "REMAINING INGREDIENTS: 1 cup mozzarella cheese, shredded"
+    ],
+    "directions": [
+      "Preheat oven to 375 degrees. Spray a 13 x 9 dish.",
+      "Cook the pasta on the stove top.",
+      "In a large bwol, prepare the ziti sauce by combining all of the ziti sauce ingredients.",
+      "In a medium bowl, whisk together the mozzarella, breadcrumbs, romano, and parm. Then add garlic, oil, and parsley and mix.",
+      "Pour 1/2 cup ziti sauce into dish. Put pasta in remaining sauce and mix then pour into dish. 1 cup mozzarella on top, then ziti topping.",
+      "Bake 30 - 40 minutes."
+    ],
+    "tags": [
+      "entree"
+    ]
+  },
+  {
     "title": "Flautas Supreme",
     "ingredients": [
       "16 oz ground meat or meat substitute",
@@ -1521,6 +1553,22 @@
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg",
     "tags": [
       "entree"
+    ]
+  },
+  {
+    "title": "Red Pizza Sauce",
+    "ingredients": [
+      "1 8-ounce can tomato paste",
+      "1 tbsp tomato paste",
+      "2 tsp sugar",
+      "1/2 tsp Italian seasoning",
+      "1/2 tsp fennel seeds"
+    ],
+    "directions": [
+      "Whisk all ingredients together in a bowl. Sauce can be refrigerated up to two days."
+    ],
+    "tags": [
+      "condiment"
     ]
   },
   {
