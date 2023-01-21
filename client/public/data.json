@@ -470,6 +470,30 @@
     ]
   },
   {
+    "title": "Churros",
+    "ingredients": [
+      "1 cup water",
+      "2 1/2 tablespoons white sugar",
+      "1/2 teaspon salt",
+      "2 tbsp vegetable oil",
+      "1 cup all-purpose flour",
+      "2 quarts oil for frying",
+      "1/2 cup white sugar",
+      "1 tsp ground cinnamon"
+    ],
+    "directions": [
+      "In a small saucepan over medium heat, combine water, 2 1/2 tbsp sugar, salt, and 2 tbsp vegetable oil. Bring to a boil.",
+      "Remove from heat. Stir in flour until mixture forms a ball",
+      "Heat oil for frying in deep-fryer or deep skillet to 375 degrees.",
+      "Pipe strips of dough into hot oil using a pastry bag. Fry until golden. Drain on paper towels",
+      "Combine 1/2 cup sugar and cinnamon. Roll drained churros in cinnamon and sugar mixture."
+    ],
+    "photo": "/photos/churros.jpg",
+    "tags": [
+      "breakfast"
+    ]
+  },
+  {
     "title": "Colombian Arepas",
     "ingredients": [
       "1 cup warm water",
@@ -488,6 +512,47 @@
     "tags": [
       "breakfast",
       "side"
+    ]
+  },
+  {
+    "title": "Creamy Lemon Butter Chicken",
+    "ingredients": [
+      "1 Zucchini",
+      "2 Scallions",
+      "1 Lemon",
+      "1 tbsp Tuscan Heat Spice",
+      "10 oz Chicken Cutlets",
+      "2.5 oz Israeli Couscous",
+      "2 Chicken Stock Concentrates",
+      "1/4 cup Panko breadcrumbs",
+      "1/4 cup Parmesan cheese",
+      "2 tbsp sour cream",
+      "Kosher salt",
+      "black pepper",
+      "Olive oil",
+      "butter"
+    ],
+    "directions": [
+      "Adjust rack to top position and preheat oven to 450 degrees.",
+      "Trim and slice zucchini crosswise into 1/2-inch-thick rounds. Trim and thinly slice scallions, separating whites from greens. Zest and halve lemon.",
+      "Toss zucchini on a baking sheet with a large drizzle of olive oil, half the Tuscan Heat Spice, salt, and pepper.",
+      "Roast on top rack until golden brown and tender, 14 - 16 minutes.",
+      "Meanwhile, pat chicken dry with paper towels, season with reamining Tuscan Heat Spice, salt, and pepper.",
+      "Heat a large drizzle of oil in a large pan over medium-high heat. Add chicken and cook until browned and cooked through, 3 - 5 minutes per side.",
+      "Turn off heat. Transfer chicken to a plate. Wipe out pan.",
+      "While chicken cooks, heat a drizzle of oil in a small pot over medium-high heat. Add scallion whites. Cook until softened, 1 minute.",
+      "Add couscous. Stir until toasted. 30 seconds.",
+      "Stir in 3/4 cup water, half the stock concentrates, and a pinch of salt. Cover and bring to a boil, then reduce heat to low. Cook until couscous is tender, 6 - 8 minutes.",
+      "Keep covered off heat until ready to serve.",
+      "Once zucchini is tender, remove sheet from oven. Heat broiler to high. Sprinkle zucchini with Panko and Parmesan. Broil until browned and crispy, 2 - 5 minutes.",
+      "Heat pan used for chicken over medium-high heat. Add remaining stock concentrates, 1/4 cup water, and a squeeze of lemon juice to taste. Simmer until slightly reduced, 2 - 3 minutes.",
+      "Stir in sour cream and 1 tbsp butter until melted and combined. Season with salt and pepper. Turn off heat.",
+      "Add 1 tbsp butter, half the lemon zest, juice from half the lemon, half the scalion greens, salt, and pepper to pot with couscous. Stir to combine.",
+      "Divide couscous, chicken, and zucchini between plates. Spoon sauce over chicken. Top with remaining scallion greens and lemon zest and serve."
+    ],
+    "photo": "/photos/creamy-lemon-butter-chicken.png",
+    "tags": [
+      "entree"
     ]
   },
   {
@@ -699,6 +764,22 @@
     ]
   },
   {
+    "title": "Flax and Strawberry Banana Smoothie",
+    "ingredients": [
+      "1 cup of frozen strawberries",
+      "4 ox pineapple juice (no sugar added)",
+      "1/2 banana",
+      "1 tbsp of ground flax seed"
+    ],
+    "directions": [
+      "Add ingredients to blender.",
+      "Blend on high until mixture has a smooth consistency."
+    ],
+    "tags": [
+      "low sodium"
+    ]
+  },
+  {
     "title": "Flautas Supreme",
     "ingredients": [
       "16 oz ground meat or meat substitute",
@@ -848,6 +929,30 @@
     "tags": [
       "side",
       "outdoor grill"
+    ]
+  },
+  {
+    "title": "Goldilocks' Potatoes",
+    "ingredients": [
+      "2 lbs Yukon gold or other potatoes",
+      "1/4 tsp salt",
+      "1/8 tsp black pepper",
+      "Milk (optional)",
+      "1/2 cup whipping cream",
+      "1/3 cup shredded cheddar cheese"
+    ],
+    "directions": [
+      "Cut potatoes into 1/4 pieces.",
+      "Preheat oven to 350 degrees",
+      "Boil potatoes.",
+      "Mash potatoes. Add salt, pepper, and milk if desired.",
+      "Grease four 10-oz individual casseroles or custard cups.",
+      "Spoon the potato mixture into casseroles.",
+      "In a chilled medium mixing bowl, beat whipping cream with chilled beaters of an electric mixer o medium speed until soft peaks form. Fold in cheese.",
+      "Spoon cheese mixture over potatoes. Bake for 15 to 20 minutes until light brown."
+    ],
+    "tags": [
+      "entree"
     ]
   },
   {
@@ -1125,6 +1230,29 @@
     ]
   },
   {
+    "title": "Low Sodium Honey Mustard Sauce",
+    "ingredients": [
+      "3/4 cup Greek nonfat yogurt (ex. Chobani)",
+      "1/4 cup honey",
+      "1 tbs white distilled vinegar",
+      "1 tbs ground mustard powder",
+      "1/4 tsp garlic powder",
+      "1/4 tsp onion powder",
+      "1/4 tsp turmeric"
+    ],
+    "directions": [
+      "Mix ground mustard powder with distilled vinegar in bowl and stir well.",
+      "Add garlic powder, onion powder and tumeric and stir until combined.",
+      "Mix in Greek yogurt and then add honey. Stir well.",
+      "Refrigerate any leftovers for one week after use."
+    ],
+    "photo": "/photos/low-sodium-honey-mustard-sauce.jpg",
+    "tags": [
+      "condiment",
+      "low sodium"
+    ]
+  },
+  {
     "title": "Macaroni and Cheese Casserole",
     "ingredients": [
       "8 oz sharp cheddar cheese, shredded (2 cups)",
@@ -1207,6 +1335,40 @@
       "Make burgers and serve."
     ],
     "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "tags": [
+      "entree"
+    ]
+  },
+  {
+    "title": "One-Pan Cajun Pork Sausage Skillet",
+    "ingredients": [
+      "18 oz Italian Pork Sausage",
+      "1 cup Jasmine rice",
+      "1 yellow onion",
+      "1/2 cup Monterey jack cheese",
+      "2 green bell peppers",
+      "3 oz tomato paste",
+      "4 chicken stock concentrates",
+      "2 tbsp Cajun spice blend",
+      "8 tbsp sour cream",
+      "2 Roma tomato",
+      "1/4 oz parsley"
+    ],
+    "directions": [
+      "Core, deseed, and dice bell pepper into 1/2\" pieces. Halve, peel, and dice onion into 1/2\" pieces. Dice tomato into 1/2\" pieces.",
+      "Remove sausage from casing. Discard casing.",
+      "Heat a drizzle of oil in a large, preferably nonstick, pan over medium-high heat. Add sausage and cook, breaking up meat into pieces until browned, 3 - 4 minutes (it'll finish cooking later).",
+      "Using a slotted spoon, transfer sausage to a paper-towel-lined plate, keeping as much oil in pan as possible.",
+      "Heat another drizzle of oil in the same pan over medium-high heat. Add bell pepper and diced onion. Cook, stirring occasionally, until veggies are lightly browned, 2 - 3 minutes. Season with salt and pepper.",
+      "Add rice, diced tomato, tomato paste, Cajun Spice, 1 tsp salt, and a pinch of pepper to pan with veggies. Cook, stirring frequently, 30 seconds.",
+      "Add stock concentrates and 3 cups water to pan and bring to a boil. Cook, stirring occasionally, until liquid is reduced by half, 3 - 4 minutes.",
+      "Return sausage to pan. Cover pan and reduce heat to low. Cook until rice is tender, 15 - 18 minutes.",
+      "While rice cooks, pick parsley leaves from stems. Finely chop leaves.",
+      "In a small browl, combine sour cream with half the chopped parsley. Season with salt and pepper. Stir in water 1 tsp at a time until mixture reaches a drizzling consistency.",
+      "Stir remaining chopped parsley into rice skillet. Season with salt and pepper to taste. Top with Monterey Jack and parsley crema.",
+      "Divide between plates and serve."
+    ],
+    "photo": "/photos/one-pan-cajun-pork-sausage-skillet.jpg",
     "tags": [
       "entree"
     ]
@@ -1800,6 +1962,25 @@
     "photo": "/photos/sweet-fresh-corn-muffins.jpg",
     "tags": [
       "side"
+    ]
+  },
+  {
+    "title": "Taco Seasoning - No Salt Added",
+    "ingredients": [
+      "1 tbsp chili powder",
+      "1 1/2 tsp cumin powder",
+      "1 tsp onion powder",
+      "1 tsp garlic powder",
+      "1 tsp paprika",
+      "1 tsp black pwpper",
+      "1/2 tsp dried oregano"
+    ],
+    "directions": [
+      "Mix in small bowl.",
+      "Double or triple the recipe for future use and store in an airtight container."
+    ],
+    "tags": [
+      "low sodium"
     ]
   },
   {

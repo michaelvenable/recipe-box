@@ -1,0 +1,24 @@
+{
+  "title": "Churros",
+  "ingredients": [
+    "1 cup water",
+    "2 1/2 tablespoons white sugar",
+    "1/2 teaspon salt",
+    "2 tbsp vegetable oil",
+    "1 cup all-purpose flour",
+    "2 quarts oil for frying",
+    "1/2 cup white sugar",
+    "1 tsp ground cinnamon"
+  ],
+  "directions": [
+    "In a small saucepan over medium heat, combine water, 2 1/2 tbsp sugar, salt, and 2 tbsp vegetable oil. Bring to a boil.",
+    "Remove from heat. Stir in flour until mixture forms a ball",
+    "Heat oil for frying in deep-fryer or deep skillet to 375 degrees.",
+    "Pipe strips of dough into hot oil using a pastry bag. Fry until golden. Drain on paper towels",
+    "Combine 1/2 cup sugar and cinnamon. Roll drained churros in cinnamon and sugar mixture."
+  ],
+  "photo": "/photos/churros.jpg",
+  "tags": [
+    "breakfast"
+  ]
+}
