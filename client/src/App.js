@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Header from './Header';
 import Recipe from './components/Recipe';
@@ -41,12 +41,12 @@ export default class App extends React.Component {
         <div className="App">
         </div>
 
-        <Switch>
-          <Route exact path="/" component={RecipeIndexPage} />
-          <Route exact path="/recipes" component={RecipeIndexPage} />
-          <Route exact path="/wishlist" component={Wishlist} />
-          <Route path="/recipes/:title" component={Recipe} />
-        </Switch>
+        <Routes>
+          <Route exact path="/" element={<RecipeIndexPage />} />
+          <Route exact path="/recipes" element={<RecipeIndexPage />} />
+          <Route exact path="/wishlist" element={<Wishlist />} />
+          <Route path="/recipes/:title" element={<Recipe />} />
+        </Routes>
       </Router>
     );
   }
