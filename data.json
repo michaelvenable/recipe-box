@@ -31,7 +31,7 @@
       "Using spider skimmer, transfer doughnuts to paper towl-lined side of prepared rack and let sit while frying remaining doughnut rounds. Return oil to 350 degrees and repeat with remaining doughnut rounds.",
       "Return oil to 350 degrees and carefully add doughnut holes to hot oil. Cook, stirring often, until deep golden brown, about 2 minutes. Transfer to paper- towel-lined side of wire rack. Lightly toss dougnuts and doughnut holes in coating and transfer to unlined side of wire rack. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/apple-cider-dougnuts.jpg",
+    "photo": "/photos/apple-cider-dougnuts.jpg",
     "tags": [
       "breakfast"
     ]
@@ -57,6 +57,7 @@
       "Bake until the bread is firm and golden brown, and a toothpick inserted into the center comes out clean, about 1 hour. Let cool in the pan for 5 minutes, then turn out onto a rack. Serve warm or a room temperature.",
       "Note: This bread will keep, tightly wrapped and refrigerated, for up to 1 week. Bring to room temperature before slicing."
     ],
+    "photo": "/photos/Banana Nut Bread.jpg",
     "tags": [
       "breakfast"
     ]
@@ -87,7 +88,7 @@
       "Stir cream cheese and 1/3 cup reserved pasta cooking water into pan with chicken mixture. Add penne and cook, stirring, until thoroughly combined, 1 - 2  minutes. Turn off heat. Stir in Monterey Jack, stock concentrate, 2 tbsp buttter, and as much hot sauce as you like. Stir until butter is melted. Season with salt and pepper.",
       "Divide penne between bowls or plates. Garnish with scallion greens and remaining tomato. Drizzle with any remaining hot sauce if desired."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
+    "photo": "/photos/Blackened Chicken Penne.jpg",
     "tags": [
       "entree"
     ]
@@ -137,7 +138,7 @@
       "Remove zucchini from oven and heat broiler to high. Flip zucchini. Blot out excess liquid with paper towels. Stuff with as much couscous as will fit. Sprinkle with mozzarella. Broil on top rack until cheese is melted and lightly browned, 2 - 3 minutes.",
       "Divide remaining couscous between  plates and top with stuffed zucchini. Top with bruschetta. Garnish with remaining Parmesan. Sprinkle with a pinch of chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg",
+    "photo": "/photos/zucchini-boats.jpg",
     "tags": [
       "entree"
     ]
@@ -164,7 +165,6 @@
       "Bake for 12 to 14 minutes.",
       "Brush tops with remaining butter."
     ],
-    "photo": "",
     "tags": [
       "breakfast",
       "brunch",
@@ -184,8 +184,7 @@
       "Stir the milk or cream and lemon juice or vinegar together.",
       "Let the mixture stand at room temperature for 5 to 10 minutes. When it is ready, the milk will be slightly thickened and you will see small curdled bits. This substitute will not become as thick as regular buttermilk, but you will also not notice the curdled bits in your finished recipe.",
       "Use this substitute as you would buttermilk in your recipe."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    ]
   },
   {
     "title": "Cacio e Pepe",
@@ -230,7 +229,6 @@
       "Chop bacon into small pieces. Stir bacon, cavatappi, and cauliflower into pan with sauce.",
       "Divide mac 'n' cheese between plates. Garnish with scallion greens and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -261,7 +259,7 @@
       "Broil quesadillas until golden brown, 1 - 2 minutes per side. Cut into wedges.",
       "Divide quesadillas between plates. Serve with smoky red pepper crema, hot sauce, and remaining lime wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg",
+    "photo": "/photos/cheesy-corn-and-poblano-quesadillas.jpg",
     "tags": [
       "entree"
     ]
@@ -289,7 +287,7 @@
       "Add pizza sauce and toppings.",
       "Slide pizza onto baking stone and bake until cheese is well browned and edges of pizza are crisp and dark, 10 to 14 minutes."
     ],
-    "photo": "https://recipes.mikevenable.net/photos/chicago-thin-crust-pizza-dough.jpg",
+    "photo": "/photos/chicago-thin-crust-pizza-dough.jpg",
     "tags": [
       "entree"
     ]
@@ -323,7 +321,7 @@
       "Return chicken to pan and turn a few times to coat.",
       "Divide chicken, mashed potatoes, and roasted green beans between plates. Top chicken with any remaining sauce."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-cutlets-a-lorgange.jpg",
+    "photo": "/photos/chicken-cutlets-a-lorgange.jpg",
     "tags": [
       "entree"
     ]
@@ -350,7 +348,7 @@
       "Melt 1 tbsp butter in a the pot used for pasta over medium heat. Add mashed garlic and remaining Tuscan Heat Spice. Sitr in cream cheese, 3 tbsp butter, 1 cup reserved pasta cooking water, and half the Parmesan. Turn off heat. Season with salt and pepper.",
       "Add spaghetti to pot with sauce. Toss to thoroughly combine. Use more water if needed. Season with salt and pepper. Slice chicken crosswise. Divide pasta between bowls. Top with chicken and roasted tomatoes. Sprinkle with remaining Parmesan and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-over-garlic-parmesan-spaghetti.jpg",
+    "photo": "/photos/chicken-over-garlic-parmesan-spaghetti.jpg",
     "tags": [
       "entree"
     ]
@@ -381,7 +379,6 @@
       "Remove foil and bake an additional 25 - 30 minutes until the peppers are tender.",
       "Top with basil."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -443,7 +440,7 @@
       "Stir in green onions, bay leaf, thyme, and basil. Season with salt, pepper, and hot sauce.",
       "Cook and additional 1 - 2 hours, if necessary, until chicken is tender and falling apart. Stir in parsley and adjust seasonings. Serve over steamed white rice."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chicken-and-sausage-gumbo.jpeg",
+    "photo": "/photos/chicken-and-sausage-gumbo.jpeg",
     "tags": [
       "entree"
     ]
@@ -464,7 +461,7 @@
       "Cook the ground meat in a pan.",
       "Add remaining ingredients and mix."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/chili-mac.jpg",
+    "photo": "/photos/chili-mac.jpg",
     "tags": [
       "entree"
     ]
@@ -582,7 +579,7 @@
       "Add drained ravioli to pan with sauce, gently toss until thoroughly coated.",
       "Divide between plates and top with remaining parmesan and lemon zest to taste."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cream-lemon-spinach-ricotta-ravioli.jpg",
+    "photo": "/photos/cream-lemon-spinach-ricotta-ravioli.jpg",
     "tags": [
       "entree"
     ]
@@ -642,7 +639,6 @@
       "Heat oil in large saucepan over medium-high heat until shimmering. Add rice and cook, stirring frequently, until edges begin to turn translucent, about 2 minutes. Add tomato paste and cook, stirring constantly, until mixture is uniformlyy colored, about 1 minute. Add tomato mixture and bring to boil. Stir rice, cover, and reduce heat to low. Cook for 20 minutes.",
       "Let stand, covered, off heat for 10 minutes. Stir in cilantro and season with salt and pepper to taste. Transfer rice to serving bowl. Serve with lime wedges."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -665,7 +661,7 @@
       "Generously salt the boiling water. Add pasta and cook.",
       "Put the pasta in a warm shallow bowl. Pour on the sauce and sprinkle with six more tbsp of cheese. Toss well."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fettuccine-alfredo.png",
+    "photo": "/photos/fettuccine-alfredo.png",
     "tags": [
       "entree"
     ]
@@ -701,7 +697,6 @@
       "Carefully add meatballs to bowl with sauce and toss to coat. ",
       "Divide between bowls or plates. Top rice with meatballs. Drizzle with any remaining sauce. Serve green beans to the side. Garnish with scallion greens, remaining sesame seeds, and chili flakes."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -726,7 +721,7 @@
       "In the last 1 - 2 minutes of cooking, top each patty with Monterey Jack. Cover pan to melt cheese.",
       "While patties cook, halve and toast buns. Spread cut sides of buns with creamy ranch sauce, then fill with patties and top with crispy fried onions."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/firehouse-cheeseburgers.jpg",
+    "photo": "/photos/firehouse-cheeseburgers.jpg",
     "tags": [
       "entree"
     ]
@@ -843,7 +838,6 @@
       "In a large frying pan over medium heat, melt 1 tbsp of the butter. When the butter has foamed and the foam begins to subside, add as many slices of bread as will fit in the pan without overlapping. When the slices are golden brown on the bottom, after about 3 minutes, carefully turn them over and cook until golden brown on the second side, about 2 minutes longer if you like custardy French toast, or about 3 minutes longer if you prefer drier French toast. Transfer the slices to a platter. Melt the remaining 1 tbsp butter and repeat with the remaining bread slices.",
       "Transfer the French toast to individual plates, dust with confectioners' sugar, and serve with maple syrup."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "breakfast"
     ]
@@ -867,7 +861,7 @@
       "Transfer half of bananas to batter and stir to coat. using tongs or fork and working with 1 piece at a time, remove bananas from batter, allowing excess batter to drip back into bowl, then add to hot oil. Cook until golden brown, about 2 minutes, stirring occasionally and flipping bananas as needed. Adjust burner, if necessary, to maintain oil temperature between 350 and 375 degrees.",
       "Transfer bananas to prepared rack. Return oil to 375 degrees and repeat with remaining bananas and batter. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fried-bananas.jpg",
+    "photo": "/photos/fried-bananas.jpg",
     "tags": [
       "breakfast"
     ]
@@ -1027,7 +1021,7 @@
       "Steam green beans. Season with salt and pepper.",
       "Divide chicken, green beans, and biscuits between plates. Drizzle chicken with honey and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg",
+    "photo": "/photos/honey-drizzled-paprika-chicken.jpg",
     "tags": [
       "entree"
     ]
@@ -1045,9 +1039,9 @@
       "Add the white chocolate to the blend until the chocolate is melted.",
       "Divide between two mugs. Top with dollop of whipped cream and sprinkle with cocoa powder."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/hot-white-chocolate.png",
+    "photo": "/photos/hot-white-chocolate.png",
     "tags": [
-      "drink"
+      "beverage"
     ]
   },
   {
@@ -1081,7 +1075,7 @@
       "Stir any accumulated juices from the sheat into the remaining sauce.",
       "Serve the chops, passing remaining sauce separately."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg",
+    "photo": "/photos/indoor-barbecue-pork-chops.jpg",
     "tags": [
       "entree"
     ]
@@ -1123,7 +1117,7 @@
       "Let the Orange Chicken stand for 5-7 minutes, the sauce will thicken more.",
       "Serve over rice and garnish with fresh chopped green onions and extra orange zest."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/instant-pot-orange-chicken.jpg",
+    "photo": "/photos/instant-pot-orange-chicken.jpg",
     "tags": [
       "entree"
     ]
@@ -1153,7 +1147,7 @@
       "Add spaghetti, zucchini, sour cream, and 1 tbsp butter to sauce. Toss to coat. Add half the parmesan. Season with salt and pepper.",
       "Divide between bowls and top with chicken. Top with remaining parmesan and lemon zest, and a pinch of chili flakes if desired. Serve with lemon wedges on side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/italian-chicken-over-lemony-spaghetti.jpg",
+    "photo": "/photos/italian-chicken-over-lemony-spaghetti.jpg",
     "tags": [
       "entree"
     ]
@@ -1177,7 +1171,6 @@
       "Bake in oven. After 30 minutes, cover with foil. Bake another 20 minutes until hot and bubbly.",
       "Let stand, covered for 15 minutes before cutting."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -1274,7 +1267,7 @@
       "Remove dish from oven and discard foil. Stir to redistribute macaroni. Sprinkle with remaining 4 oz cheddar. Return dish to oven and continue to bake until edges are bubbling and just set and center registers 150 to 160 degrees, about 15 minutes.",
       "Broil until top of casserole is spotty brown, about 2 minutes. Let rest on wire rack for 25 minutes. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/easy-macaroni-and-cheese-casserole.jpg",
+    "photo": "/photos/easy-macaroni-and-cheese-casserole.jpg",
     "tags": [
       "entree"
     ]
@@ -1303,7 +1296,7 @@
       "Using slotted spoon or spider skimmer, transfer malasadas to prepared wire rack. Return oil to 350 degrees and repeat with remaining dough disks in two batches.",
       "Place remaining 1 cup sugar in large bowl. Lightly toss malasadas, one at a time, in sugar to coat. Transfer to platter. Serve immediately."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/malasadas.jpg",
+    "photo": "/photos/malasadas.jpg",
     "tags": [
       "breakfast",
       "brunch"
@@ -1334,7 +1327,6 @@
       "Halve buns. Spread cut sides with garlic butter. Place on baking sheet. Toast on middle rack until lightly browned.",
       "Make burgers and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -1403,7 +1395,7 @@
       "Add tempura chicken and half the scallions to pan with sauce. Reheat over medium heat, stirring, until chicken is glazed, 1 - 2 minutes. If sauce is too thick, add a splash of water.",
       "Fluff rice with a fork. Divide between plates. Top with orange chicken and any remaining sauce from pan. Garnish with remaining scallions and serve."
     ],
-    "photo": "https://recipes.mikevenable.net/photos/orange-chicken-hello-fresh.jpg",
+    "photo": "/photos/orange-chicken-hello-fresh.jpg",
     "tags": [
       "entree"
     ]
@@ -1445,7 +1437,7 @@
       "Warm the sauce over a medium heat until simmering, about 1 minute. Toss the sauce and chicken in a large bowl until the chicken is evenly coated. ",
       "Serve, sprinkling individual portions with scallions."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg",
+    "photo": "/photos/orange-chicken.jpg",
     "tags": [
       "entree"
     ]
@@ -1477,8 +1469,7 @@
       "Transfer blackberry mixture to dough-lined pie plate and dot with butter. Lay 4 dough strips parallel to each other across pie, about 1 inch apart. Brush strips with egg, leaving 1/2 inch at ends unbrushed. Lay remaining 4 strips perpendicular to first layer of strips, about 1 inch apart.",
       "Pinch edges of lattice strips and bottom crust firmly together. Trim overhang to 1/2 inch beyond lip of plate. Tuck overhang under itself; folded edge should be flush with edge of plate. Crimp dough evenly around edge of plate using your fingers.",
       "Brush lattice top and crimped edge with egg and sprinkle with remaining 1 teaspoon sugar. Set pie on parchment-lined baking sheet. Bake until golden brown and juices bubble evenly along surface, 45 to 50 minutes, rotating sheet halfway through baking. Let cool on wire rack for at least 4 hours before serving."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+    ]
   },
   {
     "title": "Pancakes",
@@ -1503,7 +1494,6 @@
       "Cook until the second side is golden, then transfer to a platter.",
       "Cook remaining pancakes in the same way, adding butter as needed."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "breakfast"
     ]
@@ -1534,7 +1524,7 @@
       "Melt 1 tbsp butter in pot used for pasta over medium heat. Add remaining garlic; cook until fragrant, 20-30 seconds. Lower heat; stir in another 1tbsp butter, cream cheese, a pinch of lemon zest, and 1/4 cup reserved pasta cooking water until smooth. Squeeze in 1 tbsp lemon juice; add spaghetti and toss to combine.",
       "Add half the tomatoes to pot with spaghetti. Season with salt and pepper; toss to combine. Divide pasta and chicken between plates. Top pasta with remaining tomatoes and parmesan. Serve with any remaining lemon wedges on the side."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/parmesan-crusted-chicken.jpg",
+    "photo": "/photos/parmesan-crusted-chicken.jpg",
     "tags": [
       "entree"
     ]
@@ -1558,7 +1548,7 @@
       "Meanwhile, bring a large pot of water to a boil over high heat. Generously salt the boiling water, and the pasta, and cook until al dente, 10 - 12 minutes.",
       "Drain the pasta and put it in a warmed large, shallow bowl. Add the tomato mixture and toss. Add the mozzarella and basil shreds and toss gently. The heat from the past will start to melt the cheese. Taste and adjust the seasoning. Garnish with basil sprigs and serve at once."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pasta-caprese.jpg",
+    "photo": "/photos/pasta-caprese.jpg",
     "tags": [
       "entree"
     ]
@@ -1579,7 +1569,6 @@
       "Lightly sprinkle extra flour evenly over dough to prevent sticking. Using your floured hands, pat dough into even layer and into corners of pan. Using bench scraper sprayed with vegetable oil spray, cut dough into 9 equal squares, but do not separate. Bake until golden brown on top, about 30 minutes.",
       "Let biscuits cool in pan for 5 minutes. Brush tops with softened butter. Let cool for 10 minutes. Pull biscuits apart at cuts and serve warm."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "breakfast"
     ]
@@ -1605,7 +1594,6 @@
       "Shape into 1\" balls. Roll in remaining 1/4 cup sugar. Place 2 inches apart on ungreased baking sheet. Bake 10 to 12 minutes or until golden brown.",
       "Top each cookie immediately with an unwrapped chocolate piece, pressing down firmly so that cookie cracks around edge. Remove cookies to wire rack to cool completely."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "dessert"
     ]
@@ -1650,7 +1638,7 @@
       "Bake cookies one tray at a time until cookies are golden brown and still puffy, and edges have begun to set but centers are still soft, 10 to 14 minutes, rotating baking sheet halfway.",
       "Transfer baking sheet to wire rack. Cool cookies completely before serving."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg",
+    "photo": "/photos/perfect-chocolate-chip.jpg",
     "tags": [
       "dessert"
     ]
@@ -1681,7 +1669,6 @@
       "Using spider skimmer or slotted spoon, carefully add half of chicken to hot oil in several spoonfuls. Immediately stir to break up clumps. Fry until chicken is evenly golden brown and cooked through, 2 to 3 minutes, stirring occasionally. Using clean spider skimmer or slotted spoon, transfer chicken to paper towel-lined sheet. Return oil to 400 degrees and repeat with remaining chicken. Let cool for 5 minutes.",
       "Whisk honey, hot sauce, and pinch salt together in small bowl. Serve chicken with honey sauce."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
     "tags": [
       "entree"
     ]
@@ -1712,7 +1699,7 @@
       "Stir in the bell pepper, drained penne, half the parmesage and 4 tbsp of butter. Add more reserved water if needed.",
       "Season pasta with salt and pepper and divide between bowls. Sprinkle with remaining parmesan and, if desired, a pinch of the remaining chili. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pork-sausage-and-roasted-bell-pepper-pasta.jpg",
+    "photo": "/photos/pork-sausage-and-roasted-bell-pepper-pasta.jpg",
     "tags": [
       "entree"
     ]
@@ -1816,7 +1803,7 @@
       "Stir in tomatoes and cook until slightly softened, about 2 minutes.",
       "Sprinkle with basil and serve with Parmesan."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tortellini-with-sausage.jpg",
+    "photo": "/photos/tortellini-with-sausage.jpg",
     "tags": [
       "entree"
     ]
@@ -1848,7 +1835,7 @@
       "Bake cookies, 1 sheet at a time, until puffed and covered with small cracks (cookies will look raw between cracks and seem underdone; they will deflate and set as they cool), 11 to 13 minutes, rotating sheet halfway through baking.",
       "Let cookies cool on sheet for 5 minutes, then transfer to wire rack and let cool completely. Serve. (Cookies can be stored in airtight container for up to 3 days)."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/snickerdoodles.jpg",
+    "photo": "/photos/snickerdoodles.jpg",
     "tags": [
       "dessert"
     ]
@@ -1929,7 +1916,7 @@
       "Heat 1tbsp oil in 12\" nonstick skillet over high heat until just smoking. Add steak and 2 tbsp soy sauce mixture to skillet and cook until stea is well browned, about 4 minutes. Transfer steak to bowl; set aside.",
       "Add remaining 1 tbsp oil, scallion whites, and garlic to now-empty skillet and cook until fragrant, about 15 seconds. Stir in rice and remaining soy sauce mixture. Cook, stirring often, until rice is sizzling and popping loudly, about 4 minutes. Push rice to 1 side of skillet. Pour eggs into empty side of skillet and cook until just set, about 1 minute. Stir eggs, steak, scallion greens, and peas and carrots into rice. Serve with extra sriracha."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/steak-fried-rice.png",
+    "photo": "/photos/steak-fried-rice.png",
     "tags": [
       "entree"
     ]
@@ -2004,7 +1991,7 @@
       "Using greased 1-tbsp measure, divide dough into 16 heaping tbsp portion on prepared sheets, 8 portions per sheet. Divide any remaining dough evenly among portions. Using your moistened fingers, press press dough portions to 1/2\" thickness.",
       "Bake cookies, 1 sheet at a time, until deep golden brown, 16 to 18 minutes, rotating sheet halfway though baking. Let cookies cool on sheet for 20 minutes. Serve. (Cookies can be stored at room temperature for up to three days)."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/thin-and-crispy-chocolate-chip-cookies.jpg",
+    "photo": "/photos/thin-and-crispy-chocolate-chip-cookies.jpg",
     "tags": [
       "desert"
     ]
@@ -2028,7 +2015,7 @@
       "Using spider skimmer or slotted spoon, transfer potatoes to prepared sheet.",
       "Sprinkle with salt. Serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/torn-and-fried-potatoes.jpg"
+    "photo": "/photos/torn-and-fried-potatoes.jpg"
   },
   {
     "title": "Trattoria Tortelloni Bake",
@@ -2068,7 +2055,6 @@
       "Evenly sprinkle tortelloni with panko mixture.",
       "Broil until panko is golden brown 2-4 minutes."
     ],
-    "photo": "",
     "tags": [
       "entree",
       "hellofresh",
@@ -2095,7 +2081,7 @@
       "Stir in tomatoes, bread, broth, basil sprig, salt, and pepper and bring to boil over high heat. Reduce heat to medium, cover, and simmer vigorously until bread has softened completely and soup has thickened slightly, about 15 minutes, stirring occasionally.",
       "Off heat, discard basil sprig. Whisk soup until bread has fully broken down and soup has thickened further, about 1 minute. Sprinkle with Parmesan and chopped basil, drizzle with extra oil, and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-tomato-soup.jpg",
+    "photo": "/photos/tuscan-tomato-soup.jpg",
     "tags": [
       "entree"
     ]
@@ -2126,7 +2112,7 @@
       "Add drained spaghetti and 2 tbsp butter to the pan with sauce. Toss to combine. Season with salt and pepper. If needed, stir in more pasta cooking water.",
       "Divide pasta between bowls, top with parmesan, and serve."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/tuscan-trattoria-chicken-and-kale-spaghetti.jpg",
+    "photo": "/photos/tuscan-trattoria-chicken-and-kale-spaghetti.jpg",
     "tags": [
       "entree"
     ]
@@ -2175,7 +2161,7 @@
       "Pour 1/4 cup of the batter into the mini waffle maker and cook until golden brown. Repeat with the remaining batter.",
       "Serve with a drizzle of maple syrup and fresh berries."
     ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/waffles.jpg",
+    "photo": "/photos/waffles.jpg",
     "tags": [
       "breakfast"
     ]
