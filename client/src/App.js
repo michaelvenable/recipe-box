@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Header from './Header';
-import Recipe from './components/Recipe';
+import RecipeViewPage from './pages/RecipeViewPage';
 import RecipeIndexPage from './pages/RecipeIndexPage';
 import Wishlist from './Wishlist';
 
@@ -42,10 +42,10 @@ export default class App extends React.Component {
         </div>
 
         <Routes>
-          <Route exact path="/" element={<RecipeIndexPage />} />
-          <Route exact path="/recipes" element={<RecipeIndexPage />} />
-          <Route exact path="/wishlist" element={<Wishlist />} />
-          <Route path="/recipes/:title" element={<Recipe />} />
+          <Route path="/" element={<RecipeIndexPage />} />
+          <Route path="/recipes" element={<RecipeIndexPage />} />
+          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/recipes/:title" element={<RecipeViewPage />} />
         </Routes>
       </Router>
     );
