@@ -16,7 +16,7 @@
     "prebuild": "npm run build-recipe-file",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "build-recipe-file": "node ../scripts/build-recipe-file.js",
+    "build-recipe-file": "node ./build-recipe-file.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
