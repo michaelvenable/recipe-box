@@ -84,39 +84,10 @@ class RecipeIndexPage extends React.Component {
           return 1;
         }
 
-        console.log("Comparing " + first.history[first.history.length - 1] + " and " + second.history[second.history.length -1]);
-        console.log("    is " + first.history[first.history.length - 1] < second.history[second.history.length - 1]);
-
         return first.history[first.history.length - 1] < second.history[second.history.length - 1]
                 ? -1
                 : 1;
       })
-  }
-
-  timeSince(date) {
-    const now = new Date();
-
-    if (date.getFullYear() === now.getFullYear() &&
-        date.getMonth() === now.getMonth() &&
-        date.getDate() === now.getDate()) {
-      return 'earlier today';
-    }
-
-    const daysSince = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
-
-    if (daysSince < 14) {
-      return `${daysSince} ${daysSince === 1 ? 'day' : 'days'} ago`;
-    }
-
-    if (daysSince < 30) {
-      return `${Math.ceil(daysSince / 7)} weeks ago`;
-    }
-
-    if (daysSince < 120) {
-      return `${Math.ceil(daysSince / 30)} months ago`;
-    }
-
-    return 'over 4 months ago'
   }
 
   render() {

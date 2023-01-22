@@ -1,6 +1,6 @@
 import React from 'react';
 
-import RecipeSummary from './recipe-summary';
+import RecipeSummary from './RecipeSummary';
 
 class RecipeList extends React.Component {
   // TODO: Replace Bootstrap with CSS Grid.

@@ -15,6 +15,10 @@ class RecipeSummary extends React.Component {
 
     const daysSince = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
 
+    if (daysSince <= 0) {
+      return 'yesterday';
+    }
+
     if (daysSince < 14) {
       return `${daysSince} ${daysSince === 1 ? 'day' : 'days'} ago`;
     }
@@ -27,7 +31,7 @@ class RecipeSummary extends React.Component {
       return `${Math.ceil(daysSince / 30)} months ago`;
     }
 
-    return 'over 4 months ago'
+    return 'over 4 months ago';
   }
 
   render() {
