@@ -15,7 +15,7 @@ import './App.css';
 export default class App extends React.Component {
   async componentDidMount() {
     const recipes = new RecipeStore();
-    await recipes.syncWithServer();
+    recipes.syncWithServer();
   }
 
   render() {

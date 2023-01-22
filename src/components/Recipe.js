@@ -11,7 +11,7 @@ class Recipe extends React.Component {
 
     this.state = {
       title: '',
-      photo: 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png',
+      photo: '/photos/missing-photo.png',
       ingredients: [],
       directions: [],
       tags: [],
@@ -79,7 +79,7 @@ class Recipe extends React.Component {
         </section>
 
         <section className="recipe-photo">
-          <img src={this.state.photo} alt={this.state.title} />
+          <img src={this.state.photo || '/photos/missing-photo.png'} alt={this.state.title} />
         </section>
 
         <section className="recipe-tags">

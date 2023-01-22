@@ -165,12 +165,17 @@ class RecipeStore {
       }
     }
 
-    // Update recipes that already exist locally.
+    // Update recipes that already exist locally. Do not replace the entire object, because that would remove
+    // properties that are added by the client application, like when the recipe was last cooked.
     for (let remoteRecipe of remoteRecipes) {
       let localRecipe = localRecipes.find(r => r.title === remoteRecipe.title);
 
       if (localRecipe !== undefined) {
-        Object.assign(localRecipe, remoteRecipe);
+        localRecipe.title = remoteRecipe.title;
+        localRecipe.ingredients = remoteRecipe.ingredients;
+        localRecipe.directions = remoteRecipe.directions;
+        localRecipe.photo = remoteRecipe.photo;
+        localRecipe.tags = remoteRecipe.tags;
       }
     }
 
@@ -182,6 +187,8 @@ class RecipeStore {
         localRecipes.push(remoteRecipe);
       }
     }
+
+    console.log('The merged recipes.', localRecipes);
 
     await this.removeAll();
     await this.addMany(localRecipes);

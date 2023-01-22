@@ -54,7 +54,7 @@ export default class MealPlan extends React.Component {
             <li key={recipe.title}>
               <article className="meal-plan-item">
                 <Link className="meal-plan-item-photo" to={`/recipes/${recipe.title}`}>
-                  <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'}
+                  <img src={recipe.photo || '/photos/missing-photo.png'}
                        alt="{recipe.title}." />
                 </Link>
 

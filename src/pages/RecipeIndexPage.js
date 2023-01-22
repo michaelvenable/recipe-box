@@ -165,30 +165,6 @@ class RecipeIndexPage extends React.Component {
           </div>
         </div>
 
-        { /*
-        <section className="list suggestions">
-          <h5><i className="fa fa-cutlery"></i> Suggestions</h5>
-          <div className="suggestion-list">
-          {
-            this.state.suggestions.map((recipe, index) =>
-              <div key={index} className="suggestion">
-                <Link to={`/recipes/${recipe.title}`} className="suggestion-photo">
-                  <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'} alt="Finished Product" />
-                </Link>
-                <Link to={`/recipes/${recipe.title}`} className="suggestion-title">{recipe.title}</Link>
-                <div className="suggestion-description">
-                  { (recipe.history === undefined || recipe.history.length === 0)
-                    ? <p>You've never cooked this.</p>
-                    : <p>You cooked this {this.timeSince(recipe.history[recipe.history.length - 1])}.</p>
-                  }
-                </div>
-              </div>
-            )
-          }
-          </div>
-        </section>
-        */ }
-
         <RecipeList recipes={this.state.recipes}></RecipeList>
       </div>
     )
