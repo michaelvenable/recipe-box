@@ -1,12 +1,11 @@
 import React from 'react';
 
-import RecipeList from '../components/recipe-list';
+import RecipeList from '../components/RecipeList';
 import RecipeStore from '../RecipeStore';
 
 import './RecipeIndexPage.css';
 
 // TODO: Add a button to skip a suggestion.
-// TODO: Add a button to show more suggestions.
 
 /**
  * Displays a listing of all recipes. Allows the user to select a recipe to view in detail.
@@ -20,8 +19,7 @@ class RecipeIndexPage extends React.Component {
     this.allRecipes = [];
 
     this.state = {
-      recipes: [],      // Shown in the "All Recipes" section.
-      suggestions: []   // Recipe suggestions. Currently hidden.
+      recipes: []      // Shown in the "All Recipes" section.
     };
   }
 
@@ -31,40 +29,8 @@ class RecipeIndexPage extends React.Component {
     this.allRecipes = await recipes.all();
 
     this.setState({
-      recipes: this.allRecipes,
-      suggestions: this.getSuggestions(this.allRecipes)
+      recipes: this.sort(this.allRecipes)
     });
-  }
-
-  /**
-   * @param recipes {[]}
-   * @param numSuggestions {number}
-   */
-  getSuggestions(recipes, numSuggestions = 3) {
-    return recipes
-      .sort((first, second) => {
-        if ((first.history === undefined || first.history.length === 0) &&
-            (second.history === undefined || second.history.length === 0)) {
-          return 0;
-        }
-
-        if (first.history === undefined || first.history.length === 0) {
-          return -1;
-        }
-
-        if (second.history === undefined || second.history.length === 0) {
-          return 1;
-        }
-
-        return first.history[first.history.length - 1] < second.history[second.history.length - 1]
-                ? 1
-                : -1;
-      })
-      .slice(0, Math.max(9, numSuggestions))
-      .map(recipe => ({ sortKey: Math.random(), value: recipe }))
-      .sort((first, second) => first.sortKey - second.sortKey)
-      .map(pair => pair.value)
-      .slice(0, numSuggestions);
   }
 
   /**
@@ -80,8 +46,7 @@ class RecipeIndexPage extends React.Component {
       );
 
     this.setState({
-      recipes: filteredRecipes,
-      suggestions: this.getSuggestions(filteredRecipes, 3)
+      recipes: filteredRecipes
     });
   }
 
@@ -102,6 +67,8 @@ class RecipeIndexPage extends React.Component {
    * @returns {[]} Sorted array of recipes.
    */
   sort(recipes) {
+    console.log("Sorting recipe.");
+
     return recipes
       .sort((first, second) => {
         if ((first.history === undefined || first.history.length === 0) &&
@@ -117,9 +84,12 @@ class RecipeIndexPage extends React.Component {
           return 1;
         }
 
+        console.log("Comparing " + first.history[first.history.length - 1] + " and " + second.history[second.history.length -1]);
+        console.log("    is " + first.history[first.history.length - 1] < second.history[second.history.length - 1]);
+
         return first.history[first.history.length - 1] < second.history[second.history.length - 1]
-                ? 1
-                : -1;
+                ? -1
+                : 1;
       })
   }
 

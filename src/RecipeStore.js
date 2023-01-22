@@ -188,8 +188,6 @@ class RecipeStore {
       }
     }
 
-    console.log('The merged recipes.', localRecipes);
-
     await this.removeAll();
     await this.addMany(localRecipes);
 
