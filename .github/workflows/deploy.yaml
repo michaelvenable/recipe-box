@@ -26,20 +26,17 @@ jobs:
         with:
           node-version: 18.12.1
           cache: npm
-          cache-dependency-path: ./client/package-lock.json
 
       - name: Install
         run: |
-          cd client
           npm ci
 
       - name: Build
         run: |
-          cd client
           npm run build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: client/build
+          folder: build
           branch: public
