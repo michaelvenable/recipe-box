@@ -18,21 +18,24 @@ class Recipe extends React.Component {
       history: []
     };
 
-  this.handleICookedThisToday = this.handleICookedThisToday.bind(this);
-  this.handleIWantToCookThis = this.handleIWantToCookThis.bind(this);
-  this.toggleStepCompletion = this.toggleStepCompletion.bind(this);
+    this.handleICookedThisToday = this.handleICookedThisToday.bind(this);
+    this.handleIWantToCookThis = this.handleIWantToCookThis.bind(this);
+    this.toggleStepCompletion = this.toggleStepCompletion.bind(this);
   }
 
   async componentDidMount() {
     const recipes = new RecipeStore();
-    const currentRecipe = await recipes.findByTitle(this.props.title);
+    this.recipe = await recipes.findByTitle(this.props.title);
 
-    if (currentRecipe !== undefined) {
-      this.setState(currentRecipe);
+    if (this.recipe !== undefined) {
+      this.setState(this.recipe);
     }
   }
 
   async handleICookedThisToday() {
+    const mealPlan = new MealPlanStore();
+    mealPlan.remove(this.recipe);
+
     this.setState(
       (state) => ({
         history: [...state.history, new Date()]
