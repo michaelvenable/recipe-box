@@ -3,7 +3,7 @@ import Axios from 'axios';
 import RecipeBoxDatabase from './RecipeBoxDatabase';
 
 class RecipeStore {
-  constructor(database) {
+  constructor(database = undefined) {
     this.database = database || new RecipeBoxDatabase();
   }
 
