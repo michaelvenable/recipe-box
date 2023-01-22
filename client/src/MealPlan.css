@@ -1,16 +1,16 @@
-.wishlist {
+.meal-plan {
 }
 
-.wishlist ul {
+.meal-plan ul {
   margin: 0;
   padding: 0;
 }
 
-.wishlist li {
+.meal-plan li {
   list-style-type: none;
 }
 
-.wishlist-item {
+.meal-plan-item {
   display: grid;
   grid-template-areas:
     "photo title"
@@ -26,15 +26,15 @@
   margin-right: auto;
 }
 
-.wishlist-item-photo {
+.meal-plan-item-photo {
   grid-area: photo;
 }
 
-.wishlist-item-photo img {
+.meal-plan-item-photo img {
   width: 125px;
 }
 
-.wishlist-item-title {
+.meal-plan-item-title {
   grid-area: title;
   font-weight: 700;
   color: #333;
@@ -44,6 +44,6 @@
   letter-spacing: .5px;
 }
 
-.wishlist-item-tags {
+.meal-plan-item-tags {
   grid-area: tags;
 }

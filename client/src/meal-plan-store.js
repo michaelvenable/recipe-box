@@ -1,6 +1,6 @@
 import RecipeBoxDatabase from './RecipeBoxDatabase';
 
-export default class WishlistStore {
+export default class MealPlanStore {
   constructor(database) {
     this.database = database || new RecipeBoxDatabase();
   }

@@ -3,7 +3,7 @@ import React from 'react';
 import './Recipe.css';
 import RecipeStore from '../RecipeStore';
 import TagList from '../TagList';
-import WishlistStore from '../WishlistStore';
+import MealPlanStore from '../meal-plan-store';
 
 class Recipe extends React.Component {
   constructor(props) {
@@ -45,7 +45,7 @@ class Recipe extends React.Component {
   }
 
   async handleIWantToCookThis() {
-    const store = new WishlistStore();
+    const store = new MealPlanStore();
     await store.add(this.state);
   }
 

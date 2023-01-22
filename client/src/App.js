@@ -5,7 +5,7 @@ import Header from './Header';
 import RecipeIndexPage from './pages/RecipeIndexPage';
 import RecipeStore from './RecipeStore';
 import RecipeViewPage from './pages/RecipeViewPage';
-import Wishlist from './Wishlist';
+import MealPlan from './MealPlan';
 
 import './css/bootstrap.min.css';
 import './css/styles.css';
@@ -29,7 +29,7 @@ export default class App extends React.Component {
         <Routes>
           <Route path="/" element={<RecipeIndexPage />} />
           <Route path="/recipes" element={<RecipeIndexPage />} />
-          <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="/plan" element={<MealPlan />} />
           <Route path="/recipes/:title" element={<RecipeViewPage />} />
         </Routes>
       </Router>

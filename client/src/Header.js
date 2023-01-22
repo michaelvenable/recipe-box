@@ -24,7 +24,7 @@ class Header extends React.Component {
 
         <section className="header-middle-section">
           <Link to="/recipes">Recipes</Link>
-          <Link to="/wishlist">Wish List</Link>
+          <Link to="/plan">Meal Plan</Link>
         </section>
 
         <section className="header-right-section">

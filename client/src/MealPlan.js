@@ -2,71 +2,71 @@ import React from "react";
 import { Link } from 'react-router-dom'
 
 import TagList from './TagList';
-import WishlistStore from './WishlistStore';
+import MealPlanStore from './meal-plan-store';
 
-import './Wishlist.css';
+import './MealPlan.css';
 
-// TODO: Allow the user to remove an item from the wishlist.
-// TODO: Remove an item from the wish list when the user cooks it.
+// TODO: Allow the user to remove an item from the plan.
+// TODO: Remove an item from the plan when the user cooks it.
 
-export default class Wishlist extends React.Component {
+export default class MealPlan extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      wishlist: []
+      plan: []
     };
 
     this.handleRemoveRecipe = this.handleRemoveRecipe.bind(this);
   }
 
   async componentDidMount() {
-    const wishlist = new WishlistStore();
+    const plan = new MealPlanStore();
 
     this.setState({
-      wishlist: await wishlist.all()
+      plan: await plan.all()
     });
   }
 
   /**
-   * Removes a recipe from the user's wish list.
+   * Removes a recipe from the user's meal plan.
    */
   async handleRemoveRecipe(recipe) {
-    const wishlist = new WishlistStore();
+    const plan = new MealPlanStore();
 
     // Remove from Local Storage.
-    await wishlist.remove(recipe);
+    await plan.remove(recipe);
 
     // Remove from on-screen list.
     this.setState(prevState => ({
-      wishlist: prevState.wishlist.filter(r => r !== recipe)
+      plan: prevState.plan.filter(r => r !== recipe)
     }));
   }
 
   render() {
     return (
-      <div className="wishlist">
-        <h5><i className="fa fa-cutlery"></i> Wish List</h5>
+      <div className="meal-plan">
+        <h5><i className="fa fa-cutlery"></i> Meal Plan</h5>
 
         <ul>
         {
-          this.state.wishlist.map(recipe =>
+          this.state.plan.map(recipe =>
             <li key={recipe.title}>
-              <article className="wishlist-item">
-                <Link className="wishlist-item-photo" to={`/recipes/${recipe.title}`}>
+              <article className="meal-plan-item">
+                <Link className="meal-plan-item-photo" to={`/recipes/${recipe.title}`}>
                   <img src={recipe.photo || 'https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png'}
                        alt="{recipe.title}." />
                 </Link>
 
-                <Link className="wishlist-item-title" to={`/recipes/${recipe.title}`}>
+                <Link className="meal-plan-item-title" to={`/recipes/${recipe.title}`}>
                   {recipe.title}
                 </Link>
 
-                <div className="wishlist-item-tags">
+                <div className="meal-plan-item-tags">
                   <TagList tags={recipe.tags || []} />
                 </div>
 
-                <div className="wishlist-item-actions">
+                <div className="meal-plan-item-actions">
                   <input type="button" value="Remove" onClick={() => this.handleRemoveRecipe(recipe)}/>
                 </div>
               </article>
