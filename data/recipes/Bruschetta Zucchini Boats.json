@@ -1,28 +1,28 @@
 {
-    "title": "Bruschetta Zucchini Boats",
-    "ingredients": [
-        "2 Zucchini",
-        "1 tbsp Italian seasoning",
-        "1 clove garlic",
-        "2 roma tomatoes",
-        "3/4 cup Israeli Couscous",
-        "3/4 cup Vegetable stock",
-        "1/4 cup parmesan cheese",
-        "1 tsp chili flakes",
-        "1/2 cup mozzarella cheese"
-    ],
-    "directions": [
-        "Adjust rack to top position and preheat oven to 450 degrees.",
-        "Trim and halve zucchini. Scoop out seeds with a spoon and discard. Rub each half all over with a drizzle of olive oil. Season with half the Italian seasoning, salt, and pepper. Arrange cut sides down on a baking sheet. Roast on top rack until browned and tender, 15 - 20 minutes.",
-        "While Zucchini roasts, peel and mince garlic. Finely dice tomatoes.",
-        "Heat a drizzle of olive oil in a medium pot over medium-high heat. Add couscous, garlic, half the tomatoes, and remaining Italian seasoning.",
-        "Cook, stirring, until fragrant, 1 - 2 minutes. Add stock and a big pinch of salt. Bring to a simmer, then cover and reduce heat to low. Cook until tender, 6 - 8 minutes. Turn off heat. Drain and excess liquid from the pot.",
-        "Meanwhile, in a medium bowl, combine half the Parmesan, remaining tomatoes, and a large drizzle of olive oil. Season with salt, pepper, and a pinch chili flakes.",
-        "Remove zucchini from oven and heat broiler to high. Flip zucchini. Blot out excess liquid with paper towels. Stuff with as much couscous as will fit. Sprinkle with mozzarella. Broil on top rack until cheese is melted and lightly browned, 2 - 3 minutes.",
-        "Divide remaining couscous between  plates and top with stuffed zucchini. Top with bruschetta. Garnish with remaining Parmesan. Sprinkle with a pinch of chili flakes."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/zucchini-boats.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Bruschetta Zucchini Boats",
+  "ingredients": [
+    "2 Zucchini",
+    "1 tbsp Italian seasoning",
+    "1 clove garlic",
+    "2 roma tomatoes",
+    "3/4 cup Israeli Couscous",
+    "3/4 cup Vegetable stock",
+    "1/4 cup parmesan cheese",
+    "1 tsp chili flakes",
+    "1/2 cup mozzarella cheese"
+  ],
+  "directions": [
+    "Adjust rack to top position and preheat oven to 450 degrees.",
+    "Trim and halve zucchini. Scoop out seeds with a spoon and discard. Rub each half all over with a drizzle of olive oil. Season with half the Italian seasoning, salt, and pepper. Arrange cut sides down on a baking sheet. Roast on top rack until browned and tender, 15 - 20 minutes.",
+    "While Zucchini roasts, peel and mince garlic. Finely dice tomatoes.",
+    "Heat a drizzle of olive oil in a medium pot over medium-high heat. Add couscous, garlic, half the tomatoes, and remaining Italian seasoning.",
+    "Cook, stirring, until fragrant, 1 - 2 minutes. Add stock and a big pinch of salt. Bring to a simmer, then cover and reduce heat to low. Cook until tender, 6 - 8 minutes. Turn off heat. Drain and excess liquid from the pot.",
+    "Meanwhile, in a medium bowl, combine half the Parmesan, remaining tomatoes, and a large drizzle of olive oil. Season with salt, pepper, and a pinch chili flakes.",
+    "Remove zucchini from oven and heat broiler to high. Flip zucchini. Blot out excess liquid with paper towels. Stuff with as much couscous as will fit. Sprinkle with mozzarella. Broil on top rack until cheese is melted and lightly browned, 2 - 3 minutes.",
+    "Divide remaining couscous between  plates and top with stuffed zucchini. Top with bruschetta. Garnish with remaining Parmesan. Sprinkle with a pinch of chili flakes."
+  ],
+  "photo": "/photos/zucchini-boats.jpg",
+  "tags": [
+    "entree"
+  ]
 }

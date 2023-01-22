@@ -1,42 +1,42 @@
 {
-    "title": "Orange Chicken",
-    "ingredients": [
-        "SAUCE",
-        "2 oranges",
-        "3/4 cup chicken broth",
-        "1/3 cup white wine",
-        "1/3 cup packed brown sugar",
-        "1/4 cup sauce",
-        "2 tbsp cornstarch",
-        "3 garlic cloves, minced",
-        "1 tbsp grated fresh ginger",
-        "1 tbsp siracha",
-        "1 tbsp toasted sesame oil",
-        "CHICKEN",
-        "1 1/2 lb boneless, skinless chicken thighs, trimmed and cut into 1\" pieces",
-        "2 large egg whites",
-        "1/2 tsp table salt",
-        "1 1/2 cups cornstarch",
-        "1/2 cup all-purpose flour",
-        "1 tsp baking powder",
-        "1 quart peanut or vegetable oil for frying",
-        "2 scallions, sliced thin on bias"
-    ],
-    "directions": [
-        "FOR THE SAUCE: Using vegetable peeler, remove eight 2\" strips of zest from 1 orange. Using a rasp-style grate, grate 1 1/2 tsp of zest from the remaining orange. Halve both oranges and squeeze to get 3/4 cup of juice.",
-        "Combine the orange zest (strips and grated) and juice, broth, vinegar, sugar, soy sauce, cornstarch, garlic, ginger, siracha, and oil in a medium sauce pan and whisk to dissolve the cornstarch.",
-        "Bring the sauce to a simmer over medium-high heat, stirring frequently. Cook until dark brown and thickened, about 2 minutes. Cover and set aside.",
-        "Combine the chicken, egg whites, and salt in a bowl.",
-        "Place cornstarch, flour and baking powder in a double-bagged large paper shopping bag. Roll top of bag to seal and shake gently to combine.",
-        "Add the chicken mixture to the cornstarch mixture in a bag, roll the top of the bag to seal, and shake vigorously to thoroughly coat the chicken. Set it aside.",
-        "Line a rimmed baking sheet with a triple layer of paper towels. Add oil to a large dutch oven and heat over medium-high heat to 350 degrees.",
-        "Shake the chicken in the bag once more. Add half of the chicken to the hot oil and fry until cooked through (chicken will still be somewhat pale), 4 to 6 minutes, stirring frequently.",
-        "Adjust the burner, if necessary, to maintain an oil temperature between 300 and 350 degrees. Using a slotted spoon or spider skimmer, transfer the fried chicken to the prepared sheet. Return the oil to 350 degrees and repeat with the remaining chicken.",
-        "Warm the sauce over a medium heat until simmering, about 1 minute. Toss the sauce and chicken in a large bowl until the chicken is evenly coated. ",
-        "Serve, sprinkling individual portions with scallions."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/orange-chicken.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Orange Chicken",
+  "ingredients": [
+    "SAUCE",
+    "2 oranges",
+    "3/4 cup chicken broth",
+    "1/3 cup white wine",
+    "1/3 cup packed brown sugar",
+    "1/4 cup sauce",
+    "2 tbsp cornstarch",
+    "3 garlic cloves, minced",
+    "1 tbsp grated fresh ginger",
+    "1 tbsp siracha",
+    "1 tbsp toasted sesame oil",
+    "CHICKEN",
+    "1 1/2 lb boneless, skinless chicken thighs, trimmed and cut into 1\" pieces",
+    "2 large egg whites",
+    "1/2 tsp table salt",
+    "1 1/2 cups cornstarch",
+    "1/2 cup all-purpose flour",
+    "1 tsp baking powder",
+    "1 quart peanut or vegetable oil for frying",
+    "2 scallions, sliced thin on bias"
+  ],
+  "directions": [
+    "FOR THE SAUCE: Using vegetable peeler, remove eight 2\" strips of zest from 1 orange. Using a rasp-style grate, grate 1 1/2 tsp of zest from the remaining orange. Halve both oranges and squeeze to get 3/4 cup of juice.",
+    "Combine the orange zest (strips and grated) and juice, broth, vinegar, sugar, soy sauce, cornstarch, garlic, ginger, siracha, and oil in a medium sauce pan and whisk to dissolve the cornstarch.",
+    "Bring the sauce to a simmer over medium-high heat, stirring frequently. Cook until dark brown and thickened, about 2 minutes. Cover and set aside.",
+    "Combine the chicken, egg whites, and salt in a bowl.",
+    "Place cornstarch, flour and baking powder in a double-bagged large paper shopping bag. Roll top of bag to seal and shake gently to combine.",
+    "Add the chicken mixture to the cornstarch mixture in a bag, roll the top of the bag to seal, and shake vigorously to thoroughly coat the chicken. Set it aside.",
+    "Line a rimmed baking sheet with a triple layer of paper towels. Add oil to a large dutch oven and heat over medium-high heat to 350 degrees.",
+    "Shake the chicken in the bag once more. Add half of the chicken to the hot oil and fry until cooked through (chicken will still be somewhat pale), 4 to 6 minutes, stirring frequently.",
+    "Adjust the burner, if necessary, to maintain an oil temperature between 300 and 350 degrees. Using a slotted spoon or spider skimmer, transfer the fried chicken to the prepared sheet. Return the oil to 350 degrees and repeat with the remaining chicken.",
+    "Warm the sauce over a medium heat until simmering, about 1 minute. Toss the sauce and chicken in a large bowl until the chicken is evenly coated. ",
+    "Serve, sprinkling individual portions with scallions."
+  ],
+  "photo": "/photos/orange-chicken.jpg",
+  "tags": [
+    "entree"
+  ]
 }

@@ -1,24 +1,24 @@
 {
-    "title": "Pasta Caprese",
-    "ingredients": [
-        "5 large tomatoes",
-        "1/2 cup extra-virgin olive oil",
-        "1 tsp balsamic vinegar",
-        "2 cloves garlic, very thinly sliced",
-        "Salt and freshly ground black pepper",
-        "Pinch of cayenne pepper",
-        "1 lb penne or ziti",
-        "1/2 lb fresh mozzarella cheese, cut into small cubes",
-        "About 15 fresh basil leaves, finely shredded, plus several sprigs"
-    ],
-    "directions": [
-        "Peel and seed the tomatoes, then cut them into small dice. Drain the diced tomatoes in a colander for about 15 minutes to remove excess liquid.",
-        "In a bowl, combine the drained tomatoes, olive oil, vinegar, and garlic. Season to taste with salt and black pepper and the cayenne. Toss and let sit and room temperature for about 20 minutes to develop flavor.",
-        "Meanwhile, bring a large pot of water to a boil over high heat. Generously salt the boiling water, and the pasta, and cook until al dente, 10 - 12 minutes.",
-        "Drain the pasta and put it in a warmed large, shallow bowl. Add the tomato mixture and toss. Add the mozzarella and basil shreds and toss gently. The heat from the past will start to melt the cheese. Taste and adjust the seasoning. Garnish with basil sprigs and serve at once."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/pasta-caprese.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Pasta Caprese",
+  "ingredients": [
+    "5 large tomatoes",
+    "1/2 cup extra-virgin olive oil",
+    "1 tsp balsamic vinegar",
+    "2 cloves garlic, very thinly sliced",
+    "Salt and freshly ground black pepper",
+    "Pinch of cayenne pepper",
+    "1 lb penne or ziti",
+    "1/2 lb fresh mozzarella cheese, cut into small cubes",
+    "About 15 fresh basil leaves, finely shredded, plus several sprigs"
+  ],
+  "directions": [
+    "Peel and seed the tomatoes, then cut them into small dice. Drain the diced tomatoes in a colander for about 15 minutes to remove excess liquid.",
+    "In a bowl, combine the drained tomatoes, olive oil, vinegar, and garlic. Season to taste with salt and black pepper and the cayenne. Toss and let sit and room temperature for about 20 minutes to develop flavor.",
+    "Meanwhile, bring a large pot of water to a boil over high heat. Generously salt the boiling water, and the pasta, and cook until al dente, 10 - 12 minutes.",
+    "Drain the pasta and put it in a warmed large, shallow bowl. Add the tomato mixture and toss. Add the mozzarella and basil shreds and toss gently. The heat from the past will start to melt the cheese. Taste and adjust the seasoning. Garnish with basil sprigs and serve at once."
+  ],
+  "photo": "/photos/pasta-caprese.jpg",
+  "tags": [
+    "entree"
+  ]
 }

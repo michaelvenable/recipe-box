@@ -1,27 +1,27 @@
 {
-    "title": "Steak Fried Rice",
-    "ingredients": [
-        "3 quarts water",
-        "1 1/2 cups long-grain white rice",
-        "5 tbsp soy sauce",
-        "2 tbsp hoisin sauce",
-        "1 tbsp sriracha",
-        "Chicken tenders",
-        "2 tbsp toasted sesame oil",
-        "4 scallions, white parts minced, green parts sliced thin on bias",
-        "4 garlic cloves, minced",
-        "4 large eggs, lightly beaten",
-        "1/2 cup frozen peas and carrots, thawed"
-    ],
-    "directions": [
-        "Bring water to boil in large saucepan over high heat. Add rice and cook, stirring occasionally, until just cooked through, about 12 minutes. Drain rice in fine-mesh strainer; set aside.",
-        "Combine soy sauce, hoisin, and sriracha in bowl; set aside.",
-        "Cut chicken into small pieces.",
-        "Heat 1tbsp oil in 12\" nonstick skillet over high heat until just smoking. Add steak and 2 tbsp soy sauce mixture to skillet and cook until stea is well browned, about 4 minutes. Transfer steak to bowl; set aside.",
-        "Add remaining 1 tbsp oil, scallion whites, and garlic to now-empty skillet and cook until fragrant, about 15 seconds. Stir in rice and remaining soy sauce mixture. Cook, stirring often, until rice is sizzling and popping loudly, about 4 minutes. Push rice to 1 side of skillet. Pour eggs into empty side of skillet and cook until just set, about 1 minute. Stir eggs, steak, scallion greens, and peas and carrots into rice. Serve with extra sriracha."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/steak-fried-rice.png",
-    "tags": [
-        "entree"
-    ]
+  "title": "Steak Fried Rice",
+  "ingredients": [
+    "3 quarts water",
+    "1 1/2 cups long-grain white rice",
+    "5 tbsp soy sauce",
+    "2 tbsp hoisin sauce",
+    "1 tbsp sriracha",
+    "Chicken tenders",
+    "2 tbsp toasted sesame oil",
+    "4 scallions, white parts minced, green parts sliced thin on bias",
+    "4 garlic cloves, minced",
+    "4 large eggs, lightly beaten",
+    "1/2 cup frozen peas and carrots, thawed"
+  ],
+  "directions": [
+    "Bring water to boil in large saucepan over high heat. Add rice and cook, stirring occasionally, until just cooked through, about 12 minutes. Drain rice in fine-mesh strainer; set aside.",
+    "Combine soy sauce, hoisin, and sriracha in bowl; set aside.",
+    "Cut chicken into small pieces.",
+    "Heat 1tbsp oil in 12\" nonstick skillet over high heat until just smoking. Add steak and 2 tbsp soy sauce mixture to skillet and cook until stea is well browned, about 4 minutes. Transfer steak to bowl; set aside.",
+    "Add remaining 1 tbsp oil, scallion whites, and garlic to now-empty skillet and cook until fragrant, about 15 seconds. Stir in rice and remaining soy sauce mixture. Cook, stirring often, until rice is sizzling and popping loudly, about 4 minutes. Push rice to 1 side of skillet. Pour eggs into empty side of skillet and cook until just set, about 1 minute. Stir eggs, steak, scallion greens, and peas and carrots into rice. Serve with extra sriracha."
+  ],
+  "photo": "/photos/steak-fried-rice.png",
+  "tags": [
+    "entree"
+  ]
 }

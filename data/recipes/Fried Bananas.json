@@ -1,24 +1,24 @@
 {
-    "title": "Fried Bananas",
-    "ingredients": [
-        "4 ripe bananas, sliced 1\" thick",
-        "2 tbsp all-purpose flour, plus 3/4 cup, divided",
-        "1/2 cup sugar",
-        "1/2 tsp baking powder",
-        "1/2 tsp finely grated lemon zest",
-        "1/4 tsp salt",
-        "3/4 cup whole milk",
-        "2 quarts vegetable oil, for frying"
-    ],
-    "directions": [
-        "Toss bananas with 2 tbsp flour in bowl. Freeze until bananas are firm, about 30 minutes.",
-        "Whisk sugar, baking powder, lemon zest, salt, and remaining 3/4 cup flour together in bowl. Slowly whisk milk into flour mixture until smooth batter form.s",
-        "Set wire rake in rimmed baking sheet and line rack with triple layer of paper towels. Add oil to large Dutch oven until it measures about 1 1/2\" deep and heat over medium-high heat to 375 degrees.",
-        "Transfer half of bananas to batter and stir to coat. using tongs or fork and working with 1 piece at a time, remove bananas from batter, allowing excess batter to drip back into bowl, then add to hot oil. Cook until golden brown, about 2 minutes, stirring occasionally and flipping bananas as needed. Adjust burner, if necessary, to maintain oil temperature between 350 and 375 degrees.",
-        "Transfer bananas to prepared rack. Return oil to 375 degrees and repeat with remaining bananas and batter. Serve."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/fried-bananas.jpg",
-    "tags": [
-        "breakfast"
-    ]
+  "title": "Fried Bananas",
+  "ingredients": [
+    "4 ripe bananas, sliced 1\" thick",
+    "2 tbsp all-purpose flour, plus 3/4 cup, divided",
+    "1/2 cup sugar",
+    "1/2 tsp baking powder",
+    "1/2 tsp finely grated lemon zest",
+    "1/4 tsp salt",
+    "3/4 cup whole milk",
+    "2 quarts vegetable oil, for frying"
+  ],
+  "directions": [
+    "Toss bananas with 2 tbsp flour in bowl. Freeze until bananas are firm, about 30 minutes.",
+    "Whisk sugar, baking powder, lemon zest, salt, and remaining 3/4 cup flour together in bowl. Slowly whisk milk into flour mixture until smooth batter form.s",
+    "Set wire rake in rimmed baking sheet and line rack with triple layer of paper towels. Add oil to large Dutch oven until it measures about 1 1/2\" deep and heat over medium-high heat to 375 degrees.",
+    "Transfer half of bananas to batter and stir to coat. using tongs or fork and working with 1 piece at a time, remove bananas from batter, allowing excess batter to drip back into bowl, then add to hot oil. Cook until golden brown, about 2 minutes, stirring occasionally and flipping bananas as needed. Adjust burner, if necessary, to maintain oil temperature between 350 and 375 degrees.",
+    "Transfer bananas to prepared rack. Return oil to 375 degrees and repeat with remaining bananas and batter. Serve."
+  ],
+  "photo": "/photos/fried-bananas.jpg",
+  "tags": [
+    "breakfast"
+  ]
 }

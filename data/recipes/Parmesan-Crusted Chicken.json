@@ -1,31 +1,31 @@
 {
-    "title": "Parmesan-Crusted Chicken",
-    "ingredients": [
-        "1 lemon",
-        "1/2 cup panko breadcrumbs",
-        "1 tbsp fry seasoning",
-        "1/2 cup parmesan cheese",
-        "12 oz chicken breasts",
-        "2 tsp dijon mustard",
-        "2 tbsp mayonnaise",
-        "6 oz spaghetti",
-        "4 oz grape tomatoes",
-        "2 cloves garlic",
-        "2 tbsp cream cheese"
-    ],
-    "directions": [
-        "Adjust rack to middle position and preheat oven to 450 degrees. Bring a large pot of salted water to a boil. Line a baking sheet with foil and lightly oil.",
-        "Zest and quarter lemon.",
-        "In a small bowl, combine panko, half the fry seasoning, half the parmesan, and a drizzle of oil. Season with salt and pepper.",
-        "Pat chicken dry with paper towels and place on one side of prepared baking sheet. Season all over with salt, pepper, and remaining fry seasoning.",
-        "In a second small bowl, combine mustard and mayonnaise; evenly spread onto tops of chicken. Mound coated sides with panko mixture, pressing to adhere (no need to coat the undersides). Roast for 10 minutes (we'll add more to the sheet then).",
-        "Once water is boiling, add spaghetti to pot. Cook until al dente, 9-11 minutes. Reserve 1 cup pasta cooking water, then drain. Meanwhile, halve tomatoes. Mince or grate garlic. In a medium bowl, toss tomatoes with half the garlic and a drizzle of olive oil. Season with plenty of salt and pepper.",
-        "Once chicken has roasted 10 minutes, remove baking sheet from oven. Place seasoned tomatoes on empty side of sheet. Return to oven until tomatoes are lightly browned and softened and chicken is cooked through, 7-8minutes.",
-        "Melt 1 tbsp butter in pot used for pasta over medium heat. Add remaining garlic; cook until fragrant, 20-30 seconds. Lower heat; stir in another 1tbsp butter, cream cheese, a pinch of lemon zest, and 1/4 cup reserved pasta cooking water until smooth. Squeeze in 1 tbsp lemon juice; add spaghetti and toss to combine.",
-        "Add half the tomatoes to pot with spaghetti. Season with salt and pepper; toss to combine. Divide pasta and chicken between plates. Top pasta with remaining tomatoes and parmesan. Serve with any remaining lemon wedges on the side."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/parmesan-crusted-chicken.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Parmesan-Crusted Chicken",
+  "ingredients": [
+    "1 lemon",
+    "1/2 cup panko breadcrumbs",
+    "1 tbsp fry seasoning",
+    "1/2 cup parmesan cheese",
+    "12 oz chicken breasts",
+    "2 tsp dijon mustard",
+    "2 tbsp mayonnaise",
+    "6 oz spaghetti",
+    "4 oz grape tomatoes",
+    "2 cloves garlic",
+    "2 tbsp cream cheese"
+  ],
+  "directions": [
+    "Adjust rack to middle position and preheat oven to 450 degrees. Bring a large pot of salted water to a boil. Line a baking sheet with foil and lightly oil.",
+    "Zest and quarter lemon.",
+    "In a small bowl, combine panko, half the fry seasoning, half the parmesan, and a drizzle of oil. Season with salt and pepper.",
+    "Pat chicken dry with paper towels and place on one side of prepared baking sheet. Season all over with salt, pepper, and remaining fry seasoning.",
+    "In a second small bowl, combine mustard and mayonnaise; evenly spread onto tops of chicken. Mound coated sides with panko mixture, pressing to adhere (no need to coat the undersides). Roast for 10 minutes (we'll add more to the sheet then).",
+    "Once water is boiling, add spaghetti to pot. Cook until al dente, 9-11 minutes. Reserve 1 cup pasta cooking water, then drain. Meanwhile, halve tomatoes. Mince or grate garlic. In a medium bowl, toss tomatoes with half the garlic and a drizzle of olive oil. Season with plenty of salt and pepper.",
+    "Once chicken has roasted 10 minutes, remove baking sheet from oven. Place seasoned tomatoes on empty side of sheet. Return to oven until tomatoes are lightly browned and softened and chicken is cooked through, 7-8minutes.",
+    "Melt 1 tbsp butter in pot used for pasta over medium heat. Add remaining garlic; cook until fragrant, 20-30 seconds. Lower heat; stir in another 1tbsp butter, cream cheese, a pinch of lemon zest, and 1/4 cup reserved pasta cooking water until smooth. Squeeze in 1 tbsp lemon juice; add spaghetti and toss to combine.",
+    "Add half the tomatoes to pot with spaghetti. Season with salt and pepper; toss to combine. Divide pasta and chicken between plates. Top pasta with remaining tomatoes and parmesan. Serve with any remaining lemon wedges on the side."
+  ],
+  "photo": "/photos/parmesan-crusted-chicken.jpg",
+  "tags": [
+    "entree"
+  ]
 }

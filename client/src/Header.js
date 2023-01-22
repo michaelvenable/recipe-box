@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
-import RecipeStore from './RecipeStore';
 import './Header.css';
+import RecipeStore from './RecipeStore';
 
 class Header extends React.Component {
   constructor() {
@@ -10,9 +10,9 @@ class Header extends React.Component {
     this.handleRefreshRecipesClick = this.handleRefreshRecipesClick.bind(this);
   }
 
-  async handleRefreshRecipesClick() {
+  handleRefreshRecipesClick() {
     const recipes = new RecipeStore();
-    await recipes.syncWithServer();
+    recipes.syncWithServer();
   }
 
   render() {
@@ -23,8 +23,8 @@ class Header extends React.Component {
         </section>
 
         <section className="header-middle-section">
-          <Link to="/recipes">Recipes</Link>
-          <Link to="/plan">Meal Plan</Link>
+          <Link to="/recipes">My Recipes</Link>
+          <Link to="/plan">My Meal Plan</Link>
         </section>
 
         <section className="header-right-section">

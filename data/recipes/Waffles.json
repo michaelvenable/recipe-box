@@ -1,24 +1,24 @@
 {
-    "title": "Waffles",
-    "ingredients": [
-        "1 cup flour",
-        "1 tbsp sugar",
-        "2 tsp baking powder",
-        "1/4 tsp salt",
-        "1 egg",
-        "1 cup milk",
-        "2 tbsp vegetable oil"
-    ],
-    "directions": [
-        "In a medium bowl, sift the flour, sugar, baking powder, and salt.",
-        "Whisk the egg, milk, and oil in a separate bowl.",
-        "Add the wet ingredients to the the dry and mix until just incorporated.",
-        "Grease the waffle maker with butter or coat with a light coat of cooking spray.",
-        "Pour 1/4 cup of the batter into the mini waffle maker and cook until golden brown. Repeat with the remaining batter.",
-        "Serve with a drizzle of maple syrup and fresh berries."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/waffles.jpg",
-    "tags": [
-        "breakfast"
-    ]
+  "title": "Waffles",
+  "ingredients": [
+    "1 cup flour",
+    "1 tbsp sugar",
+    "2 tsp baking powder",
+    "1/4 tsp salt",
+    "1 egg",
+    "1 cup milk",
+    "2 tbsp vegetable oil"
+  ],
+  "directions": [
+    "In a medium bowl, sift the flour, sugar, baking powder, and salt.",
+    "Whisk the egg, milk, and oil in a separate bowl.",
+    "Add the wet ingredients to the the dry and mix until just incorporated.",
+    "Grease the waffle maker with butter or coat with a light coat of cooking spray.",
+    "Pour 1/4 cup of the batter into the mini waffle maker and cook until golden brown. Repeat with the remaining batter.",
+    "Serve with a drizzle of maple syrup and fresh berries."
+  ],
+  "photo": "/photos/waffles.jpg",
+  "tags": [
+    "breakfast"
+  ]
 }

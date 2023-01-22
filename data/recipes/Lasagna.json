@@ -1,24 +1,23 @@
 {
-    "title": "Lasagna",
-    "ingredients": [
-        "12 lasagna noodles",
-        "1 lb mozzarella",
-        "2 cups (1 15-oz container) ricotta cheese",
-        "Salt and pepper",
-        "5 cups tomato sauce (2 26-oz jars)",
-        "½ cup plus 2 tablespoons grated parmesan or romano"
-    ],
-    "directions": [
-        "Boil noodles.",
-        "Preheat oven to 375 degrees.",
-        "Cut mozzarella into ½ inch cubes.",
-        "In small bowl, combine ricotta, ½ cup of Parmesan, and 1 tbsp of water from boiling pasta pot. Season mixture with salt and pepper.",
-        "To assemble lasagna, lay down 1 cup of tomato sauce, followed by noodle, followed by 1/3 of cheese. Repeat.",
-        "Bake in oven. After 30 minutes, cover with foil. Bake another 20 minutes until hot and bubbly.",
-        "Let stand, covered for 15 minutes before cutting."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
-    "tags": [
-        "entree"
-    ]
+  "title": "Lasagna",
+  "ingredients": [
+    "12 lasagna noodles",
+    "1 lb mozzarella",
+    "2 cups (1 15-oz container) ricotta cheese",
+    "Salt and pepper",
+    "5 cups tomato sauce (2 26-oz jars)",
+    "½ cup plus 2 tablespoons grated parmesan or romano"
+  ],
+  "directions": [
+    "Boil noodles.",
+    "Preheat oven to 375 degrees.",
+    "Cut mozzarella into ½ inch cubes.",
+    "In small bowl, combine ricotta, ½ cup of Parmesan, and 1 tbsp of water from boiling pasta pot. Season mixture with salt and pepper.",
+    "To assemble lasagna, lay down 1 cup of tomato sauce, followed by noodle, followed by 1/3 of cheese. Repeat.",
+    "Bake in oven. After 30 minutes, cover with foil. Bake another 20 minutes until hot and bubbly.",
+    "Let stand, covered for 15 minutes before cutting."
+  ],
+  "tags": [
+    "entree"
+  ]
 }

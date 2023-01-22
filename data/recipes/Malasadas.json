@@ -1,30 +1,30 @@
 {
-    "title": "Malasadas",
-    "ingredients": [
-        "2 1/4 cups bread flour",
-        "1/4 cup sugar, plus 1 cup for coating",
-        "2 1/4 tsp instance or rapid rise yeast",
-        "1/2 tsp salt",
-        "3/4 cup whole milk",
-        "2 large eggs",
-        "2 tbsp unsalted butter, melted and cooled",
-        "1 tbsp plus 2 quarts vegetable oil"
-    ],
-    "directions": [
-        "Whisk flour, 1/4 cup sugar, yeast, and salt together in bowl of stand mixer. ",
-        "Whisk milk, eggs, and melted butter in separate bowl until combined.",
-        "Add Milk mixture to flour mixture. Fit mixer with dough hook and mix on low speed until dough comes together, about 2 minutes. Increase speed to medium and knead until dough is uniform, shiny, and sticky, about 8 minutes (dough will not clear bottom or sides of bowl).",
-        "Using greased rubber spatula, transfer dough to greased large bowl. Cover with plastic wrap and let rise at room temperature until doubled in size, 1 1/2 to 2 hours.",
-        "Brush rimmed baking sheet with 1 tbsp oil. Turn out dough onto sheet and gently press down to deflate. Divide dough into 12 equal pieces and evenly space pieces on sheet.",
-        "Using your greased hands, pat each piece of dough into 3 1/2\" disk (about 3/8\" thick). Cover sheet with plastic and let dough rise at room temperature until puffy.",
-        "Set wire rack in second rimmed baking sheet. Add remaining 2 quarts oil to large Dutch oven until it measures about 1 1/2\" deep and heat over medium-high heat to 350 degrees.",
-        "Gently drop 4 dough disks into hot oil and fry until golden brown, about 3 minutes, flipping disks halfway through fryng. Adjust burner to maintain oil temperature between 325 to 350 degrees.",
-        "Using slotted spoon or spider skimmer, transfer malasadas to prepared wire rack. Return oil to 350 degrees and repeat with remaining dough disks in two batches.",
-        "Place remaining 1 cup sugar in large bowl. Lightly toss malasadas, one at a time, in sugar to coat. Transfer to platter. Serve immediately."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/malasadas.jpg",
-    "tags": [
-        "breakfast",
-        "brunch"
-    ]
+  "title": "Malasadas",
+  "ingredients": [
+    "2 1/4 cups bread flour",
+    "1/4 cup sugar, plus 1 cup for coating",
+    "2 1/4 tsp instance or rapid rise yeast",
+    "1/2 tsp salt",
+    "3/4 cup whole milk",
+    "2 large eggs",
+    "2 tbsp unsalted butter, melted and cooled",
+    "1 tbsp plus 2 quarts vegetable oil"
+  ],
+  "directions": [
+    "Whisk flour, 1/4 cup sugar, yeast, and salt together in bowl of stand mixer. ",
+    "Whisk milk, eggs, and melted butter in separate bowl until combined.",
+    "Add Milk mixture to flour mixture. Fit mixer with dough hook and mix on low speed until dough comes together, about 2 minutes. Increase speed to medium and knead until dough is uniform, shiny, and sticky, about 8 minutes (dough will not clear bottom or sides of bowl).",
+    "Using greased rubber spatula, transfer dough to greased large bowl. Cover with plastic wrap and let rise at room temperature until doubled in size, 1 1/2 to 2 hours.",
+    "Brush rimmed baking sheet with 1 tbsp oil. Turn out dough onto sheet and gently press down to deflate. Divide dough into 12 equal pieces and evenly space pieces on sheet.",
+    "Using your greased hands, pat each piece of dough into 3 1/2\" disk (about 3/8\" thick). Cover sheet with plastic and let dough rise at room temperature until puffy.",
+    "Set wire rack in second rimmed baking sheet. Add remaining 2 quarts oil to large Dutch oven until it measures about 1 1/2\" deep and heat over medium-high heat to 350 degrees.",
+    "Gently drop 4 dough disks into hot oil and fry until golden brown, about 3 minutes, flipping disks halfway through fryng. Adjust burner to maintain oil temperature between 325 to 350 degrees.",
+    "Using slotted spoon or spider skimmer, transfer malasadas to prepared wire rack. Return oil to 350 degrees and repeat with remaining dough disks in two batches.",
+    "Place remaining 1 cup sugar in large bowl. Lightly toss malasadas, one at a time, in sugar to coat. Transfer to platter. Serve immediately."
+  ],
+  "photo": "/photos/malasadas.jpg",
+  "tags": [
+    "breakfast",
+    "brunch"
+  ]
 }

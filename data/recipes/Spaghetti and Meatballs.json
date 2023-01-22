@@ -1,28 +1,28 @@
 {
-    "title": "Spaghetti and Meatballs",
-    "ingredients": [
-        "1 (28 or 35-ounce) can whole plum tomatoes with juice",
-        "1 cup freshly grated parmesan cheese",
-        "1 egg",
-        "1 lb ground meat",
-        "1 lb spaghetti",
-        "1 onion, minced",
-        "1 tsp minced garlic",
-        "1/2 cup plain bread crumbs",
-        "1/4 cup minced fresh parsley leaves",
-        "2 tbsp olive oil",
-        "salt"
-    ],
-    "directions": [
-        "Lightly combine the meat, egg, half the parmesan, parsley, garlic, bread crumbs, and salt in a bowl. Form into balls.",
-        "Heat olive oil for about three minutes in broad, deep skillet over medium heat. Add meatballs and cook, shaking every minute or so. When they are browned all over (about 15 minutes) remove them to a plate.",
-        "Add meatballs and salt to sauce and cook about 15 minutes, until meatballs are cooked through.",
-        "Boil spaghetti.",
-        "Crush tomatoes with fork or hands and add to pan along with juice. Cook, stirring occasionally, until tomatoes begin to break, five to 10 minutes.",
-        "Mix spaghetti with sauce and meatballs. Top with remaining parmesan when serving.",
-        "Pour off all but a film of the fat that has accumnjulated in the pan. Add onion, stirring until begins to brown."
-    ],
-    "tags": [
-        "entree"
-    ]
+  "title": "Spaghetti and Meatballs",
+  "ingredients": [
+    "1 (28 or 35-ounce) can whole plum tomatoes with juice",
+    "1 cup freshly grated parmesan cheese",
+    "1 egg",
+    "1 lb ground meat",
+    "1 lb spaghetti",
+    "1 onion, minced",
+    "1 tsp minced garlic",
+    "1/2 cup plain bread crumbs",
+    "1/4 cup minced fresh parsley leaves",
+    "2 tbsp olive oil",
+    "salt"
+  ],
+  "directions": [
+    "Lightly combine the meat, egg, half the parmesan, parsley, garlic, bread crumbs, and salt in a bowl. Form into balls.",
+    "Heat olive oil for about three minutes in broad, deep skillet over medium heat. Add meatballs and cook, shaking every minute or so. When they are browned all over (about 15 minutes) remove them to a plate.",
+    "Add meatballs and salt to sauce and cook about 15 minutes, until meatballs are cooked through.",
+    "Boil spaghetti.",
+    "Crush tomatoes with fork or hands and add to pan along with juice. Cook, stirring occasionally, until tomatoes begin to break, five to 10 minutes.",
+    "Mix spaghetti with sauce and meatballs. Top with remaining parmesan when serving.",
+    "Pour off all but a film of the fat that has accumnjulated in the pan. Add onion, stirring until begins to brown."
+  ],
+  "tags": [
+    "entree"
+  ]
 }

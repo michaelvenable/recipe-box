@@ -1,31 +1,31 @@
 {
-    "title": "Cheesy Corn & Poblano Quesadillas",
-    "ingredients": [
-        "2 poblano peppers",
-        "2 shallots",
-        "2 limes",
-        "26.8 oz corn",
-        "2 tbsp southwest spice blend",
-        "4 flour tortillas",
-        "1 cup pepper jack",
-        "1 cup mexican cheese blend",
-        "8 tbsp smoky pepper crema",
-        "2 tsp hot sauce"
-    ],
-    "directions": [
-        "Heat broiler to high.",
-        "Core, deseed, and dice poblano into 1/2\" pieces. Halve, peel, and thinly lice shallot.",
-        "Drain corn. Pat dry with paper towels. Quarter lime.",
-        "Heat a drizzle of oil in a large pan over medium-high heat. Add poblano and shallot. Cook, stirring occasionally, until tender, 4 - 5 minutes.",
-        "Add corn and southwest spice. Cook, stirring occasionally, until lightly charred, 3 - 4 minutes.",
-        "Stir in a big squeeze of lime juice. Season with salt and pepper.",
-        "While the filling cooks, rub one side of each tortilla with a drizzle of oil.",
-        "Place tortillas oiled sides down on a baking sheet. Sprinkle pepper jack and mexican cheese onto one half of each tortilla in an even layer. Top with veggie mixture. Fold tortillas in half to create quesadillas.",
-        "Broil quesadillas until golden brown, 1 - 2 minutes per side. Cut into wedges.",
-        "Divide quesadillas between plates. Serve with smoky red pepper crema, hot sauce, and remaining lime wedges on side."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/cheesy-corn-and-poblano-quesadillas.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Cheesy Corn & Poblano Quesadillas",
+  "ingredients": [
+    "2 poblano peppers",
+    "2 shallots",
+    "2 limes",
+    "26.8 oz corn",
+    "2 tbsp southwest spice blend",
+    "4 flour tortillas",
+    "1 cup pepper jack",
+    "1 cup mexican cheese blend",
+    "8 tbsp smoky pepper crema",
+    "2 tsp hot sauce"
+  ],
+  "directions": [
+    "Heat broiler to high.",
+    "Core, deseed, and dice poblano into 1/2\" pieces. Halve, peel, and thinly lice shallot.",
+    "Drain corn. Pat dry with paper towels. Quarter lime.",
+    "Heat a drizzle of oil in a large pan over medium-high heat. Add poblano and shallot. Cook, stirring occasionally, until tender, 4 - 5 minutes.",
+    "Add corn and southwest spice. Cook, stirring occasionally, until lightly charred, 3 - 4 minutes.",
+    "Stir in a big squeeze of lime juice. Season with salt and pepper.",
+    "While the filling cooks, rub one side of each tortilla with a drizzle of oil.",
+    "Place tortillas oiled sides down on a baking sheet. Sprinkle pepper jack and mexican cheese onto one half of each tortilla in an even layer. Top with veggie mixture. Fold tortillas in half to create quesadillas.",
+    "Broil quesadillas until golden brown, 1 - 2 minutes per side. Cut into wedges.",
+    "Divide quesadillas between plates. Serve with smoky red pepper crema, hot sauce, and remaining lime wedges on side."
+  ],
+  "photo": "/photos/cheesy-corn-and-poblano-quesadillas.jpg",
+  "tags": [
+    "entree"
+  ]
 }

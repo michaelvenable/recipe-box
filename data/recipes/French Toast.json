@@ -1,25 +1,24 @@
 {
-    "title": "French Toast",
-    "ingredients": [
-        "6 slices sturdy French or sourdough bread, about 3/4\" thick",
-        "1 1/2 cups whole milk",
-        "4 large eggs",
-        "1 tbsp vanilla extract",
-        "1/4 cup granulated sugar",
-        "1/8 tsp fine sea salt",
-        "2 tbsp unsalted butter",
-        "Confectioner's sugar for dusting",
-        "Pure maple syrup, warmed"
-    ],
-    "directions": [
-        "In a large baking dish, place the bread slices in a single layer.",
-        "In a large glass measuring pitcher, thoroughly whisk together the milk, eggs, vanilla, granulated sugar, and salt. ",
-        "Pour evenly over the bread and let stand for one minute, then turn the bread over. Cover the dish with plastic wrap and let stand for at least 10 minutes or for up to 30 minutes.",
-        "In a large frying pan over medium heat, melt 1 tbsp of the butter. When the butter has foamed and the foam begins to subside, add as many slices of bread as will fit in the pan without overlapping. When the slices are golden brown on the bottom, after about 3 minutes, carefully turn them over and cook until golden brown on the second side, about 2 minutes longer if you like custardy French toast, or about 3 minutes longer if you prefer drier French toast. Transfer the slices to a platter. Melt the remaining 1 tbsp butter and repeat with the remaining bread slices.",
-        "Transfer the French toast to individual plates, dust with confectioners' sugar, and serve with maple syrup."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
-    "tags": [
-        "breakfast"
-    ]
+  "title": "French Toast",
+  "ingredients": [
+    "6 slices sturdy French or sourdough bread, about 3/4\" thick",
+    "1 1/2 cups whole milk",
+    "4 large eggs",
+    "1 tbsp vanilla extract",
+    "1/4 cup granulated sugar",
+    "1/8 tsp fine sea salt",
+    "2 tbsp unsalted butter",
+    "Confectioner's sugar for dusting",
+    "Pure maple syrup, warmed"
+  ],
+  "directions": [
+    "In a large baking dish, place the bread slices in a single layer.",
+    "In a large glass measuring pitcher, thoroughly whisk together the milk, eggs, vanilla, granulated sugar, and salt. ",
+    "Pour evenly over the bread and let stand for one minute, then turn the bread over. Cover the dish with plastic wrap and let stand for at least 10 minutes or for up to 30 minutes.",
+    "In a large frying pan over medium heat, melt 1 tbsp of the butter. When the butter has foamed and the foam begins to subside, add as many slices of bread as will fit in the pan without overlapping. When the slices are golden brown on the bottom, after about 3 minutes, carefully turn them over and cook until golden brown on the second side, about 2 minutes longer if you like custardy French toast, or about 3 minutes longer if you prefer drier French toast. Transfer the slices to a platter. Melt the remaining 1 tbsp butter and repeat with the remaining bread slices.",
+    "Transfer the French toast to individual plates, dust with confectioners' sugar, and serve with maple syrup."
+  ],
+  "tags": [
+    "breakfast"
+  ]
 }

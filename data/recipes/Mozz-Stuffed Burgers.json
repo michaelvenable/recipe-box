@@ -1,30 +1,29 @@
 {
-    "title": "Mozz-Stuffed Burgers",
-    "ingredients": [
-        "12 oz Yukon Gold potatoes",
-        "1 Roma tomato",
-        "1 tsp garlic powder",
-        "2 tbsp sour cream",
-        "1/2 cup mozzarella cheese",
-        "2 brioche buns",
-        "1/2 tbsp Italian seasoning",
-        "1/2 oz basil",
-        "2 tbsp mayonnaise",
-        "10 oz ground beef",
-        "1/4 cup parmesan cheese"
-    ],
-    "directions": [
-        "Slice tomato into 1/2\" thick rounds. Pick basil leaves from stems; mince leaves.",
-        "Place 1 tbsp butter and garlic powder in a small bowl; microwave until butter is softened. Season with salt and pepper and stir to combine.",
-        "In a medium bowl, combine beef, Italian seasoning, and some basil. Season generously with salt and pepper. Form mixture into two 1/2\" thick patties.",
-        "Divide mozzarella between the centers of each patty. Gently fold meat around mozzarella, shaping and sealing to create cheese-stuffed patties.",
-        "Season tomato with salt and pepper. Heat a drizzle of olive oil in a large, preferably nonstick pan over medium-high heat. Add tomato and cook until lightly browned, 1-2 minutes per side. Transfer to a plate.",
-        "Add another drizzle of olive oil to same pan. Add patties and cook to desired doneness, 3-5 minutes per side.",
-        "Halve buns. Spread cut sides with garlic butter. Place on baking sheet. Toast on middle rack until lightly browned.",
-        "Make burgers and serve."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
-    "tags": [
-        "entree"
-    ]
+  "title": "Mozz-Stuffed Burgers",
+  "ingredients": [
+    "12 oz Yukon Gold potatoes",
+    "1 Roma tomato",
+    "1 tsp garlic powder",
+    "2 tbsp sour cream",
+    "1/2 cup mozzarella cheese",
+    "2 brioche buns",
+    "1/2 tbsp Italian seasoning",
+    "1/2 oz basil",
+    "2 tbsp mayonnaise",
+    "10 oz ground beef",
+    "1/4 cup parmesan cheese"
+  ],
+  "directions": [
+    "Slice tomato into 1/2\" thick rounds. Pick basil leaves from stems; mince leaves.",
+    "Place 1 tbsp butter and garlic powder in a small bowl; microwave until butter is softened. Season with salt and pepper and stir to combine.",
+    "In a medium bowl, combine beef, Italian seasoning, and some basil. Season generously with salt and pepper. Form mixture into two 1/2\" thick patties.",
+    "Divide mozzarella between the centers of each patty. Gently fold meat around mozzarella, shaping and sealing to create cheese-stuffed patties.",
+    "Season tomato with salt and pepper. Heat a drizzle of olive oil in a large, preferably nonstick pan over medium-high heat. Add tomato and cook until lightly browned, 1-2 minutes per side. Transfer to a plate.",
+    "Add another drizzle of olive oil to same pan. Add patties and cook to desired doneness, 3-5 minutes per side.",
+    "Halve buns. Spread cut sides with garlic butter. Place on baking sheet. Toast on middle rack until lightly browned.",
+    "Make burgers and serve."
+  ],
+  "tags": [
+    "entree"
+  ]
 }

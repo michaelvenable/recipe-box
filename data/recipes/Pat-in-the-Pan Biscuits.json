@@ -1,21 +1,20 @@
 {
-    "title": "Pat-in-the-Pan Biscuits",
-    "ingredients": [
-        "12 tbsp unsalted butter, divided",
-        "4 cups cake flour, plus extra for sprinkling",
-        "2 tsp baking powder",
-        "1/2 tsp baking soda",
-        "2 tsp salt",
-        "2 cups buttermilk, chilled"
-    ],
-    "directions": [
-        "Adjust oven rack to middle position and heat oven to 450 degrees. Grease 8-inch square baking pan with 1 tbsp butter. Cut 10 tbsp butter into 1/2 inch pieces and freeze until chilled, about 15 minutes. Let remaining 1 tbsp butter sit at room temperature to soften.",
-        "Whisk flour, baking powder, baking soda, and salt together in bowl. Add chilled butter to flour mixture and smash butter between your fingertips into pea-size pieces. Gently stir in buttermilk until no dry pockets of flour remain. Using rubber spatula, transfer dough to prepared pan.",
-        "Lightly sprinkle extra flour evenly over dough to prevent sticking. Using your floured hands, pat dough into even layer and into corners of pan. Using bench scraper sprayed with vegetable oil spray, cut dough into 9 equal squares, but do not separate. Bake until golden brown on top, about 30 minutes.",
-        "Let biscuits cool in pan for 5 minutes. Brush tops with softened butter. Let cool for 10 minutes. Pull biscuits apart at cuts and serve warm."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
-    "tags": [
-        "breakfast"
-    ]
+  "title": "Pat-in-the-Pan Biscuits",
+  "ingredients": [
+    "12 tbsp unsalted butter, divided",
+    "4 cups cake flour, plus extra for sprinkling",
+    "2 tsp baking powder",
+    "1/2 tsp baking soda",
+    "2 tsp salt",
+    "2 cups buttermilk, chilled"
+  ],
+  "directions": [
+    "Adjust oven rack to middle position and heat oven to 450 degrees. Grease 8-inch square baking pan with 1 tbsp butter. Cut 10 tbsp butter into 1/2 inch pieces and freeze until chilled, about 15 minutes. Let remaining 1 tbsp butter sit at room temperature to soften.",
+    "Whisk flour, baking powder, baking soda, and salt together in bowl. Add chilled butter to flour mixture and smash butter between your fingertips into pea-size pieces. Gently stir in buttermilk until no dry pockets of flour remain. Using rubber spatula, transfer dough to prepared pan.",
+    "Lightly sprinkle extra flour evenly over dough to prevent sticking. Using your floured hands, pat dough into even layer and into corners of pan. Using bench scraper sprayed with vegetable oil spray, cut dough into 9 equal squares, but do not separate. Bake until golden brown on top, about 30 minutes.",
+    "Let biscuits cool in pan for 5 minutes. Brush tops with softened butter. Let cool for 10 minutes. Pull biscuits apart at cuts and serve warm."
+  ],
+  "tags": [
+    "breakfast"
+  ]
 }

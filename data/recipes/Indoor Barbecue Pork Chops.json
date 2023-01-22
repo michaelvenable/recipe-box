@@ -1,36 +1,36 @@
 {
-    "title": "Indoor Barbecue Pork Chops",
-    "ingredients": [
-        "3 tbsp packed brown sugar",
-        "1 tbsp paprika",
-        "1tbsp kosher salt",
-        "1 tsp pepper",
-        "1/2 tsp cayenne pepper",
-        "1tbsp cornstarch",
-        "8 (5- to 7-oz) bone-in pork rib chops, 1/2\" thick, trimmed",
-        "1 tbsp vegetable oil",
-        "4 tbsp unsalted butter",
-        "1/2 cup ketchup",
-        "1 tbsp cider vinegar",
-        "1tsp liquid smoke"
-    ],
-    "directions": [
-        "Combine 1 tbsp sugar, paprika, salt, pepper, and cayenne in a bowl.",
-        "Transfer 2 tbsp spice mixture to a second bowl and stir in the cornstarch. Reserve remaining spice mixture for the sauce.",
-        "Using kitchen shears, snip through the fat surrounding the loin muscle of each chop in two places, about 2\" apart.",
-        "Pat the chops dry with paper towels and sprinkle all over with the cornstarch mixture.",
-        "Heat oil in a 12\" nonstick skillet over medium-high heat until just smoking.",
-        "Add 4 chops to the skillet and cook until browned and meat registers 140 degrees, about 2 minutes per side.",
-        "Transfer the chops to a rimmed baking sheet and tent with aluminum foil. Repeat with the remaining four chops.",
-        "Add butter to the now empty skillet and melt over medium heat. ",
-        "Add reserved spice mixture and cook until fragrant, about 30 seconds.",
-        "Carefully whisk in ketchup, vinegar, liquid smoke, and remaining 2 tbsp of sugar. Bring to a simmer and remove from heat.",
-        "Return the chops to the skilled one at a time. Turn to coat with sauce. And transfer to a platter.",
-        "Stir any accumulated juices from the sheat into the remaining sauce.",
-        "Serve the chops, passing remaining sauce separately."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/indoor-barbecue-pork-chops.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Indoor Barbecue Pork Chops",
+  "ingredients": [
+    "3 tbsp packed brown sugar",
+    "1 tbsp paprika",
+    "1tbsp kosher salt",
+    "1 tsp pepper",
+    "1/2 tsp cayenne pepper",
+    "1tbsp cornstarch",
+    "8 (5- to 7-oz) bone-in pork rib chops, 1/2\" thick, trimmed",
+    "1 tbsp vegetable oil",
+    "4 tbsp unsalted butter",
+    "1/2 cup ketchup",
+    "1 tbsp cider vinegar",
+    "1tsp liquid smoke"
+  ],
+  "directions": [
+    "Combine 1 tbsp sugar, paprika, salt, pepper, and cayenne in a bowl.",
+    "Transfer 2 tbsp spice mixture to a second bowl and stir in the cornstarch. Reserve remaining spice mixture for the sauce.",
+    "Using kitchen shears, snip through the fat surrounding the loin muscle of each chop in two places, about 2\" apart.",
+    "Pat the chops dry with paper towels and sprinkle all over with the cornstarch mixture.",
+    "Heat oil in a 12\" nonstick skillet over medium-high heat until just smoking.",
+    "Add 4 chops to the skillet and cook until browned and meat registers 140 degrees, about 2 minutes per side.",
+    "Transfer the chops to a rimmed baking sheet and tent with aluminum foil. Repeat with the remaining four chops.",
+    "Add butter to the now empty skillet and melt over medium heat. ",
+    "Add reserved spice mixture and cook until fragrant, about 30 seconds.",
+    "Carefully whisk in ketchup, vinegar, liquid smoke, and remaining 2 tbsp of sugar. Bring to a simmer and remove from heat.",
+    "Return the chops to the skilled one at a time. Turn to coat with sauce. And transfer to a platter.",
+    "Stir any accumulated juices from the sheat into the remaining sauce.",
+    "Serve the chops, passing remaining sauce separately."
+  ],
+  "photo": "/photos/indoor-barbecue-pork-chops.jpg",
+  "tags": [
+    "entree"
+  ]
 }

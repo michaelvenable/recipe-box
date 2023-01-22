@@ -1,30 +1,30 @@
 {
-    "title": "Perfect Chocolate Chip Cookies",
-    "ingredients": [
-        "8 3/4 oz. unbleached all-purpose flour",
-        "1/2 tsp baking soda",
-        "14 tbsp unsalted butter",
-        "3 1/2 oz granulated sugar",
-        "5 1/4 oz brown sugar (light or dark)",
-        "1 tsp salt",
-        "2 tsp vanilla extract",
-        "1 large egg",
-        "1 large egg yolk",
-        "10 to 12 oz chocolate chips"
-    ],
-    "directions": [
-        "Adjust oven rack to middle position and heat oven to 375 degrees. Line 2 large (18- by 12-inch) baking sheets with parchment paper. ",
-        "Whisk flour and baking soda together in medium bowl and set aside.",
-        "Heat butter in microwave on high heat until melted, about 1 to 2 minutes. Add to the mixing bowl and add both sugars, salt, and vanilla to bowl with butter and whisk until fully incorporated. ",
-        "Add egg and yolk and whisk until mixture is smooth with no sugar lumps remaining, about 30 seconds.",
-        "Let mixture stand 3 minutes, then whisk for 30 seconds. Repeat process of resting and whisking two more times until mixture is thick, smooth, and shiny. ",
-        "Using rubber spatula or wooden spoon, stir in flour mixture until just combined, about 1 minute. Stir in chocolate chips, giving dough final stir to ensure no flour pockets remain.",
-        "Divide dough into 16 portions, each about 3 tablespoons. Arrange 2\" apart on prepared baking sheets, 8 dough balls per sheet.",
-        "Bake cookies one tray at a time until cookies are golden brown and still puffy, and edges have begun to set but centers are still soft, 10 to 14 minutes, rotating baking sheet halfway.",
-        "Transfer baking sheet to wire rack. Cool cookies completely before serving."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/perfect-chocolate-chip.jpg",
-    "tags": [
-        "dessert"
-    ]
+  "title": "Perfect Chocolate Chip Cookies",
+  "ingredients": [
+    "8 3/4 oz. unbleached all-purpose flour",
+    "1/2 tsp baking soda",
+    "14 tbsp unsalted butter",
+    "3 1/2 oz granulated sugar",
+    "5 1/4 oz brown sugar (light or dark)",
+    "1 tsp salt",
+    "2 tsp vanilla extract",
+    "1 large egg",
+    "1 large egg yolk",
+    "10 to 12 oz chocolate chips"
+  ],
+  "directions": [
+    "Adjust oven rack to middle position and heat oven to 375 degrees. Line 2 large (18- by 12-inch) baking sheets with parchment paper. ",
+    "Whisk flour and baking soda together in medium bowl and set aside.",
+    "Heat butter in microwave on high heat until melted, about 1 to 2 minutes. Add to the mixing bowl and add both sugars, salt, and vanilla to bowl with butter and whisk until fully incorporated. ",
+    "Add egg and yolk and whisk until mixture is smooth with no sugar lumps remaining, about 30 seconds.",
+    "Let mixture stand 3 minutes, then whisk for 30 seconds. Repeat process of resting and whisking two more times until mixture is thick, smooth, and shiny. ",
+    "Using rubber spatula or wooden spoon, stir in flour mixture until just combined, about 1 minute. Stir in chocolate chips, giving dough final stir to ensure no flour pockets remain.",
+    "Divide dough into 16 portions, each about 3 tablespoons. Arrange 2\" apart on prepared baking sheets, 8 dough balls per sheet.",
+    "Bake cookies one tray at a time until cookies are golden brown and still puffy, and edges have begun to set but centers are still soft, 10 to 14 minutes, rotating baking sheet halfway.",
+    "Transfer baking sheet to wire rack. Cool cookies completely before serving."
+  ],
+  "photo": "/photos/perfect-chocolate-chip.jpg",
+  "tags": [
+    "dessert"
+  ]
 }

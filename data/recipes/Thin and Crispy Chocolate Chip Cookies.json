@@ -1,26 +1,26 @@
 {
-    "title": "Thin and Crispy Chocolate Chip Cookies",
-    "ingredients": [
-        "1 1/4 cups cake flour",
-        "3/4 tsp salt",
-        "1/4 tsp baking soda",
-        "8 tbsp unsalted butter, melted and cooled",
-        "1/3 cup granulated sugar",
-        "1/3 cup packed dark brown sugar",
-        "2 large egg yolks",
-        "1 1/2 tbsp whole milk",
-        "2 tsp vanilla extract",
-        "3/4 cup mini semisweet chocolate chips"
-    ],
-    "directions": [
-        "Adjust oven rack to middle position and heat oven to 350 degrees. Line two baking sheets with parchment paper.",
-        "Whisk flour, salt, and baking soda together in a bowl.",
-        "Using stand mixer fitted with  paddle, mix melted butter, granulated sugar, and brown sugar on low speed until fully combined. Increase speed to medium-high and beat until mixture is lightened in color, about 1 minute. Reduce speed to low; add egg yolks, milk, and vanilla; and mix until combined. Slowly add flour mixture and mix until just combined, scraping down bowl as needed. Using rubber spatula, stir in chocolate chips.",
-        "Using greased 1-tbsp measure, divide dough into 16 heaping tbsp portion on prepared sheets, 8 portions per sheet. Divide any remaining dough evenly among portions. Using your moistened fingers, press press dough portions to 1/2\" thickness.",
-        "Bake cookies, 1 sheet at a time, until deep golden brown, 16 to 18 minutes, rotating sheet halfway though baking. Let cookies cool on sheet for 20 minutes. Serve. (Cookies can be stored at room temperature for up to three days)."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/thin-and-crispy-chocolate-chip-cookies.jpg",
-    "tags": [
-        "desert"
-    ]
+  "title": "Thin and Crispy Chocolate Chip Cookies",
+  "ingredients": [
+    "1 1/4 cups cake flour",
+    "3/4 tsp salt",
+    "1/4 tsp baking soda",
+    "8 tbsp unsalted butter, melted and cooled",
+    "1/3 cup granulated sugar",
+    "1/3 cup packed dark brown sugar",
+    "2 large egg yolks",
+    "1 1/2 tbsp whole milk",
+    "2 tsp vanilla extract",
+    "3/4 cup mini semisweet chocolate chips"
+  ],
+  "directions": [
+    "Adjust oven rack to middle position and heat oven to 350 degrees. Line two baking sheets with parchment paper.",
+    "Whisk flour, salt, and baking soda together in a bowl.",
+    "Using stand mixer fitted with  paddle, mix melted butter, granulated sugar, and brown sugar on low speed until fully combined. Increase speed to medium-high and beat until mixture is lightened in color, about 1 minute. Reduce speed to low; add egg yolks, milk, and vanilla; and mix until combined. Slowly add flour mixture and mix until just combined, scraping down bowl as needed. Using rubber spatula, stir in chocolate chips.",
+    "Using greased 1-tbsp measure, divide dough into 16 heaping tbsp portion on prepared sheets, 8 portions per sheet. Divide any remaining dough evenly among portions. Using your moistened fingers, press press dough portions to 1/2\" thickness.",
+    "Bake cookies, 1 sheet at a time, until deep golden brown, 16 to 18 minutes, rotating sheet halfway though baking. Let cookies cool on sheet for 20 minutes. Serve. (Cookies can be stored at room temperature for up to three days)."
+  ],
+  "photo": "/photos/thin-and-crispy-chocolate-chip-cookies.jpg",
+  "tags": [
+    "desert"
+  ]
 }

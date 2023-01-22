@@ -1,33 +1,33 @@
 {
-    "title": "Honey-Drizzled Paprika Chicken",
-    "ingredients": [
-        "10 oz chicken cutlets",
-        "1 tsp smoked paprika",
-        "1 tsp garlic powder",
-        "6 oz green beans",
-        "6 oz Pillsbury Buttermilk Southern Homestyle Biscuits",
-        "1/4 cup monterey jack cheese",
-        "2 tsp honey",
-        "kosher salt",
-        "black pepper",
-        "1 tsp olive oil",
-        "1 tbsp butter"
-    ],
-    "directions": [
-        "Adjust rack to top position and preheat oven to 425 degrees.",
-        "Bring 1tbsp butter to room temperature.",
-        "Pat chicken dry with paper towels and season all over with paprika, 3/4 tsp garlic powder, salt, and pepper. Rub al over with a drizzl eof olive oil. Place on one side of a baking sheet.",
-        "Roast on top rack for 5 minutes.",
-        "Once chicken has roasted 5 minutes, remove sheet from oven.",
-        "Open tube of biscuits. Separate biscuits and carefully place on empty side of same sheet.",
-        "Bake on top rack until biscuits are golden brown and cooked through, 8 - 11 minutes more (chicken will finish cooking in next step).",
-        "Once biscuits are golden brown, remove from oven and brush tops with softened butter. Sprinkle with remaining garlic powder and a pinch of salt. Top with monterey jack.",
-        "Return to oven until chicken is cooked through and cheese melts, 2 - 3 minutes more.",
-        "Steam green beans. Season with salt and pepper.",
-        "Divide chicken, green beans, and biscuits between plates. Drizzle chicken with honey and serve."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/honey-drizzled-paprika-chicken.jpg",
-    "tags": [
-        "entree"
-    ]
+  "title": "Honey-Drizzled Paprika Chicken",
+  "ingredients": [
+    "10 oz chicken cutlets",
+    "1 tsp smoked paprika",
+    "1 tsp garlic powder",
+    "6 oz green beans",
+    "6 oz Pillsbury Buttermilk Southern Homestyle Biscuits",
+    "1/4 cup monterey jack cheese",
+    "2 tsp honey",
+    "kosher salt",
+    "black pepper",
+    "1 tsp olive oil",
+    "1 tbsp butter"
+  ],
+  "directions": [
+    "Adjust rack to top position and preheat oven to 425 degrees.",
+    "Bring 1tbsp butter to room temperature.",
+    "Pat chicken dry with paper towels and season all over with paprika, 3/4 tsp garlic powder, salt, and pepper. Rub al over with a drizzl eof olive oil. Place on one side of a baking sheet.",
+    "Roast on top rack for 5 minutes.",
+    "Once chicken has roasted 5 minutes, remove sheet from oven.",
+    "Open tube of biscuits. Separate biscuits and carefully place on empty side of same sheet.",
+    "Bake on top rack until biscuits are golden brown and cooked through, 8 - 11 minutes more (chicken will finish cooking in next step).",
+    "Once biscuits are golden brown, remove from oven and brush tops with softened butter. Sprinkle with remaining garlic powder and a pinch of salt. Top with monterey jack.",
+    "Return to oven until chicken is cooked through and cheese melts, 2 - 3 minutes more.",
+    "Steam green beans. Season with salt and pepper.",
+    "Divide chicken, green beans, and biscuits between plates. Drizzle chicken with honey and serve."
+  ],
+  "photo": "/photos/honey-drizzled-paprika-chicken.jpg",
+  "tags": [
+    "entree"
+  ]
 }

@@ -1,30 +1,29 @@
 {
-    "title": "Oregon Blackberry Pie",
-    "ingredients": [
-        "[Pie Dough] ⅓ cup ice water, plus extra as needed",
-        "[Pie Dough] 3 tablespoons sour cream",
-        "[Pie Dough] 2 ½ cups (12 1/2 ounces) all-purpose flour",
-        "[Pie Dough] 1 tablespoon sugar",
-        "[Pie Dough] 1 teaspoon salt",
-        "[Pie Dough] 16 tablespoons unsalted butter, cut into 1/4-inch pieces and frozen for 15 minutes",
-        "[Filling] ¾ cup (5 1/4 ounces) sugar, plus 1 teaspoon for topping",
-        "[Filling] 5 tablespoons (1 1/4 ounces) cornstarch",
-        "[Filling] ¼ teaspoon salt",
-        "[Filling] 20 ounces (4 cups) blackberries",
-        "[Filling] 2 tablespoons lemon juice",
-        "[Filling] 2 tablespoons unsalted butter, cut into 1/2-inch pieces",
-        "[Filling] 1 large egg, lightly beaten"
-    ],
-    "directions": [
-        "FOR THE PIE DOUGH: Mix ice water and sour cream in bowl. Process flour, sugar, and salt in food processor until combined, about 5 seconds. Scatter butter over top and pulse until butter is size of large peas, about 10 pulses.",
-        "Pour half of sour cream mixture into bowl with flour mixture and pulse until incorporated, about 3 pulses. Scrape down bowl and repeat with remaining sour cream mixture. Pinch dough with your fingers; if dough feels dry and does not hold together, sprinkle 1 to 2 tablespoons extra ice water over mixture and pulse until dough forms large clumps and no dry flour remains, 3 to 5 pulses.",
-        "Transfer dough to lightly floured counter. Divide dough in half and form each half into 4-inch disk. Wrap disks tightly in plastic wrap and refrigerate for 1 hour. (Wrapped dough can be refrigerated for up to 2 days or frozen for up to 1 month. If frozen, let dough thaw completely on counter before rolling.)",
-        "Adjust oven rack to lower-middle position and heat oven to 400 degrees. Let chilled dough sit on counter to soften slightly, about 10 minutes, before rolling. Roll 1 disk of dough into 12-inch circle on lightly floured counter. Loosely roll dough around rolling pin and gently unroll it onto 9-inch pie plate, letting excess dough hang over edge. Ease dough into plate by gently lifting edge of dough with your hand while pressing into plate bottom with your other hand.",
-        "Wrap dough-lined plate loosely in plastic and refrigerate until dough is firm, about 30 minutes. Roll other disk of dough into 12-inch circle on lightly floured counter, then transfer to parchment paper–lined baking sheet. Using pizza cutter, cut dough into twelve 1-inch strips. Discard 4 short end pieces, then cover remaining 8 long strips with plastic and refrigerate for 30 minutes.",
-        "FOR THE FILLING: Whisk sugar, cornstarch, and salt together in large bowl. Add blackberries and toss gently to coat. Add lemon juice and toss until no dry sugar mixture remains. (Blackberries will start to exude some juice.)",
-        "Transfer blackberry mixture to dough-lined pie plate and dot with butter. Lay 4 dough strips parallel to each other across pie, about 1 inch apart. Brush strips with egg, leaving 1/2 inch at ends unbrushed. Lay remaining 4 strips perpendicular to first layer of strips, about 1 inch apart.",
-        "Pinch edges of lattice strips and bottom crust firmly together. Trim overhang to 1/2 inch beyond lip of plate. Tuck overhang under itself; folded edge should be flush with edge of plate. Crimp dough evenly around edge of plate using your fingers.",
-        "Brush lattice top and crimped edge with egg and sprinkle with remaining 1 teaspoon sugar. Set pie on parchment-lined baking sheet. Bake until golden brown and juices bubble evenly along surface, 45 to 50 minutes, rotating sheet halfway through baking. Let cool on wire rack for at least 4 hours before serving."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png"
+  "title": "Oregon Blackberry Pie",
+  "ingredients": [
+    "[Pie Dough] ⅓ cup ice water, plus extra as needed",
+    "[Pie Dough] 3 tablespoons sour cream",
+    "[Pie Dough] 2 ½ cups (12 1/2 ounces) all-purpose flour",
+    "[Pie Dough] 1 tablespoon sugar",
+    "[Pie Dough] 1 teaspoon salt",
+    "[Pie Dough] 16 tablespoons unsalted butter, cut into 1/4-inch pieces and frozen for 15 minutes",
+    "[Filling] ¾ cup (5 1/4 ounces) sugar, plus 1 teaspoon for topping",
+    "[Filling] 5 tablespoons (1 1/4 ounces) cornstarch",
+    "[Filling] ¼ teaspoon salt",
+    "[Filling] 20 ounces (4 cups) blackberries",
+    "[Filling] 2 tablespoons lemon juice",
+    "[Filling] 2 tablespoons unsalted butter, cut into 1/2-inch pieces",
+    "[Filling] 1 large egg, lightly beaten"
+  ],
+  "directions": [
+    "FOR THE PIE DOUGH: Mix ice water and sour cream in bowl. Process flour, sugar, and salt in food processor until combined, about 5 seconds. Scatter butter over top and pulse until butter is size of large peas, about 10 pulses.",
+    "Pour half of sour cream mixture into bowl with flour mixture and pulse until incorporated, about 3 pulses. Scrape down bowl and repeat with remaining sour cream mixture. Pinch dough with your fingers; if dough feels dry and does not hold together, sprinkle 1 to 2 tablespoons extra ice water over mixture and pulse until dough forms large clumps and no dry flour remains, 3 to 5 pulses.",
+    "Transfer dough to lightly floured counter. Divide dough in half and form each half into 4-inch disk. Wrap disks tightly in plastic wrap and refrigerate for 1 hour. (Wrapped dough can be refrigerated for up to 2 days or frozen for up to 1 month. If frozen, let dough thaw completely on counter before rolling.)",
+    "Adjust oven rack to lower-middle position and heat oven to 400 degrees. Let chilled dough sit on counter to soften slightly, about 10 minutes, before rolling. Roll 1 disk of dough into 12-inch circle on lightly floured counter. Loosely roll dough around rolling pin and gently unroll it onto 9-inch pie plate, letting excess dough hang over edge. Ease dough into plate by gently lifting edge of dough with your hand while pressing into plate bottom with your other hand.",
+    "Wrap dough-lined plate loosely in plastic and refrigerate until dough is firm, about 30 minutes. Roll other disk of dough into 12-inch circle on lightly floured counter, then transfer to parchment paper–lined baking sheet. Using pizza cutter, cut dough into twelve 1-inch strips. Discard 4 short end pieces, then cover remaining 8 long strips with plastic and refrigerate for 30 minutes.",
+    "FOR THE FILLING: Whisk sugar, cornstarch, and salt together in large bowl. Add blackberries and toss gently to coat. Add lemon juice and toss until no dry sugar mixture remains. (Blackberries will start to exude some juice.)",
+    "Transfer blackberry mixture to dough-lined pie plate and dot with butter. Lay 4 dough strips parallel to each other across pie, about 1 inch apart. Brush strips with egg, leaving 1/2 inch at ends unbrushed. Lay remaining 4 strips perpendicular to first layer of strips, about 1 inch apart.",
+    "Pinch edges of lattice strips and bottom crust firmly together. Trim overhang to 1/2 inch beyond lip of plate. Tuck overhang under itself; folded edge should be flush with edge of plate. Crimp dough evenly around edge of plate using your fingers.",
+    "Brush lattice top and crimped edge with egg and sprinkle with remaining 1 teaspoon sugar. Set pie on parchment-lined baking sheet. Bake until golden brown and juices bubble evenly along surface, 45 to 50 minutes, rotating sheet halfway through baking. Let cool on wire rack for at least 4 hours before serving."
+  ]
 }

@@ -1,36 +1,35 @@
 {
-    "title": "Firecracker Meatballs",
-    "ingredients": [
-        "Salt & Pepper",
-        "Vegetable oil",
-        "4 scallions",
-        "2 thumbs of ginger",
-        "4 tbsp mayonnaise",
-        "4 tbsp sour cream",
-        "4 tsp honey",
-        "4 tbsp soy sauce",
-        "2 tsp Sriracha",
-        "2 tbsp sesame seeds",
-        "1 cup jasmine rice",
-        "20 oz ground beef (1.25 lb)",
-        "1/2 cup panko breadcrumbs",
-        "12 oz green beans",
-        "1 tsp korean chili flakes"
-    ],
-    "directions": [
-        "Adjust rack to top and middle positions. Heat to 425 degrees. ",
-        "Trim and thinly slice scallions, separating whites from greens. Mince whites. Peel and mince ginger.",
-        "In a large bowl, combine mayonnaise, sour cream, honey, 4 tsp soy sauce, and sriracha to taste. Set aside.",
-        "Heat a drizzle of oil in a small pot over medium-high heat. Add half the sesame seeds. Cook, stirring, until golden brown, 1 - 2 minutes.",
-        "Add rice, 1 1/2 cups of water, and a big pinch of salt. Bring to a boil. Cover and reduce to a low simmer. Cook until rice is tender, 15- 18 minutes. Keep covered off heat until read to serve.",
-        "In a second large bowl, combine beef, panko, ginger, scallion whites, remaining soy sauce, salt (1 tsp), and pepper. Form into 10-12 1.5\" meatballs.",
-        "Place meatballs on a lightly oiled baking sheet. Toss green beans with a drizzle of oil, salt, and pepper on a second lightly oiled baking sheet. Cook green beans on top rack and meatballs on bottom rack for 14 - 16 minutes.",
-        "Fluff rice with a fork. Season with salt and pepper.",
-        "Carefully add meatballs to bowl with sauce and toss to coat. ",
-        "Divide between bowls or plates. Top rice with meatballs. Drizzle with any remaining sauce. Serve green beans to the side. Garnish with scallion greens, remaining sesame seeds, and chili flakes."
-    ],
-    "photo": "https://orbital-recipe-box-photos.s3.us-east-2.amazonaws.com/missing-photo.png",
-    "tags": [
-        "entree"
-    ]
+  "title": "Firecracker Meatballs",
+  "ingredients": [
+    "Salt & Pepper",
+    "Vegetable oil",
+    "4 scallions",
+    "2 thumbs of ginger",
+    "4 tbsp mayonnaise",
+    "4 tbsp sour cream",
+    "4 tsp honey",
+    "4 tbsp soy sauce",
+    "2 tsp Sriracha",
+    "2 tbsp sesame seeds",
+    "1 cup jasmine rice",
+    "20 oz ground beef (1.25 lb)",
+    "1/2 cup panko breadcrumbs",
+    "12 oz green beans",
+    "1 tsp korean chili flakes"
+  ],
+  "directions": [
+    "Adjust rack to top and middle positions. Heat to 425 degrees. ",
+    "Trim and thinly slice scallions, separating whites from greens. Mince whites. Peel and mince ginger.",
+    "In a large bowl, combine mayonnaise, sour cream, honey, 4 tsp soy sauce, and sriracha to taste. Set aside.",
+    "Heat a drizzle of oil in a small pot over medium-high heat. Add half the sesame seeds. Cook, stirring, until golden brown, 1 - 2 minutes.",
+    "Add rice, 1 1/2 cups of water, and a big pinch of salt. Bring to a boil. Cover and reduce to a low simmer. Cook until rice is tender, 15- 18 minutes. Keep covered off heat until read to serve.",
+    "In a second large bowl, combine beef, panko, ginger, scallion whites, remaining soy sauce, salt (1 tsp), and pepper. Form into 10-12 1.5\" meatballs.",
+    "Place meatballs on a lightly oiled baking sheet. Toss green beans with a drizzle of oil, salt, and pepper on a second lightly oiled baking sheet. Cook green beans on top rack and meatballs on bottom rack for 14 - 16 minutes.",
+    "Fluff rice with a fork. Season with salt and pepper.",
+    "Carefully add meatballs to bowl with sauce and toss to coat. ",
+    "Divide between bowls or plates. Top rice with meatballs. Drizzle with any remaining sauce. Serve green beans to the side. Garnish with scallion greens, remaining sesame seeds, and chili flakes."
+  ],
+  "tags": [
+    "entree"
+  ]
 }
