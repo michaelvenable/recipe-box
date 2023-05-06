@@ -155,3 +155,8 @@
   counter-increment:li-counter;
   cursor:default
 }
+
+.recipe-photo {
+  max-width: 350px;
+  max-height: 225px;
+}
