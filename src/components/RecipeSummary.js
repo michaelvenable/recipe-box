@@ -40,7 +40,7 @@ class RecipeSummary extends React.Component {
         <div className="box grid recipes">
           <Link to={`/recipes/${this.props.recipe.title}`}>
             <img className="recipe-photo" src={this.props.recipe.photo || '/photos/missing-photo.png'}
-                 alt="{this.props.recipe.title}." />
+                 alt={this.props.recipe.title} />
           </Link>
 
           <h2><Link to={`/recipes/${this.props.recipe.title}`}>{this.props.recipe.title}</Link></h2>
