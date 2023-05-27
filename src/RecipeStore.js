@@ -175,7 +175,7 @@ class RecipeStore {
         localRecipe.ingredients = remoteRecipe.ingredients;
         localRecipe.directions = remoteRecipe.directions;
         localRecipe.photo = remoteRecipe.photo;
-        localRecipe.tags = remoteRecipe.tags;
+        localRecipe.tags = remoteRecipe.tags || [];
       }
     }
 
